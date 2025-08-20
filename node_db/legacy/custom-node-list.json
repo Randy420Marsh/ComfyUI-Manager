@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "shinich39",
+            "title": "comfyui-textarea-is-shit [REMOVED]",
+            "reference": "https://github.com/shinich39/comfyui-textarea-is-shit",
+            "files": [
+               "https://github.com/shinich39/comfyui-textarea-is-shit"
+            ],
+            "description": "HTML gives me a textarea like piece of shit.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "shinich39",
+            "title": "comfyui-poor-textarea [REMOVED]",
+            "reference": "https://github.com/shinich39/comfyui-poor-textarea",
+            "files": [
+                "https://github.com/shinich39/comfyui-poor-textarea"
+            ],
+            "install_type": "git-clone",
+            "description": "Add commentify, indentation, auto-close brackets in textarea."
+        },
+        {
+            "author": "InfiniNode",
+            "title": "Comfyui-InfiniNode-Model-Suite [UNSAFE/REMOVED]",
+            "reference": "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite",
+            "files": [
+                "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite"
+            ],
+            "install_type": "git-clone",
+            "description": "Welcome to the InfiniNode Model Suite, a custom node pack for ComfyUI that transforms the process of manipulating generative AI models. Our suite is a direct implementation of the 'GUI-Based Key Converter Development Plan,' designed to remove technical barriers for advanced AI practitioners and integrate seamlessly with existing image generation pipelines.[w/This node pack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "Avalre",
+            "title": "ComfyUI-avaNodes [REMOVED]",
+            "reference": "https://github.com/Avalre/ComfyUI-avaNodes",
+            "files": [
+                "https://github.com/Avalre/ComfyUI-avaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "These nodes were created to personalize/optimize several ComfyUI nodes for my own use. You can replicate the functionality of most of my nodes by some combination of default ComfyUI nodes and custom nodes from other developers."
+        },
+        {
+            "author": "Alectriciti",
+            "title": "comfyui-creativeprompts [REMOVED]",
+            "reference": "https://github.com/Alectriciti/comfyui-creativeprompts",
+            "files": [
+                "https://github.com/Alectriciti/comfyui-creativeprompts"
+            ],
+            "install_type": "git-clone",
+            "description": "A creative alternative to dynamicprompts"
+        },
+        {
+            "author": "flybirdxx",
+            "title": "ComfyUI Sliding Window [REMOVED]",
+            "reference": "https://github.com/PixWizardry/ComfyUI_Sliding_Window",
+            "files": [
+                "https://github.com/PixWizardry/ComfyUI_Sliding_Window"
+            ],
+            "install_type": "git-clone",
+            "description": "This set of nodes provides a powerful sliding window or 'tiling' technique for processing long videos and animations in ComfyUI. It allows you to work on animations that are longer than your VRAM would typically allow by breaking the job into smaller, overlapping chunks and seamlessly blending them back together."
+        },
+        {
             "author": "SykkoAtHome",
             "title": "Sykko Tools for ComfyUI [REMOVED]",
             "reference": "https://github.com/SykkoAtHome/ComfyUI_SykkoTools",

@@ -1,14 +1,114 @@
 {
     "custom_nodes": [
         {
-            "author": "InfiniNode",
-            "title": "Comfyui-InfiniNode-Model-Suite [UNSAFE]",
-            "reference": "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite",
+            "author": "viik420",
+            "title": "Model Copy Node for ComfyUI [UNSAFE]",
+            "reference": "https://github.com/apeirography/ModelCopyNode",
             "files": [
-                "https://github.com/InfiniNode/Comfyui-InfiniNode-Model-Suite"
+                "https://github.com/apeirography/ModelCopyNode"
             ],
             "install_type": "git-clone",
-            "description": "Welcome to the InfiniNode Model Suite, a custom node pack for ComfyUI that transforms the process of manipulating generative AI models. Our suite is a direct implementation of the 'GUI-Based Key Converter Development Plan,' designed to remove technical barriers for advanced AI practitioners and integrate seamlessly with existing image generation pipelines.[w/This node pack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+            "description": "A simple ComfyUI custom node that copies model files from the models/ folder to the output/ folder.[w/This node pack has a vulnerability that allows writing files to arbitrary paths.]"
+        },
+        {
+            "author": "Maff3u",
+            "title": "MattiaNodes - Points Editor On Cropped [WIP]",
+            "reference": "https://github.com/Maff3u/MattiaNodes",
+            "files": [
+                "https://github.com/Maff3u/MattiaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A standalone ComfyUI custom node for interactive coordinate editing with crop factor correction.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "viik420",
+            "title": "AdvancedModelDownloader [UNSAFE]",
+            "reference": "https://github.com/viik420/AdvancedModelDownloader",
+            "files": [
+                "https://github.com/viik420/AdvancedModelDownloader"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that adds a powerful, integrated downloader to the main menu, complete with an automatic update checker.[w/This nodepack provides functionality to access files through an endpoint.]"
+        },
+        {
+            "author": "DenRakEiw",
+            "title": "Comfyui-Aspect-Ratio-Processor [WIP]",
+            "reference": "https://github.com/DenRakEiw/Comfyui-Aspect-Ratio-Processor",
+            "files": [
+                "https://github.com/DenRakEiw/Comfyui-Aspect-Ratio-Processor"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfyui Aspect Ratio Processor 2:3 / 3:2\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "yuvraj108c",
+            "title": "ComfyUI HYPIR [NAME CONFLICT]",
+            "reference": "https://github.com/yuvraj108c/ComfyUI-HYPIR",
+            "files": [
+                "https://github.com/yuvraj108c/ComfyUI-HYPIR"
+            ],
+            "install_type": "git-clone",
+            "description": "This project is a ComfyUI wrapper for [a/HYPIR](https://github.com/XPixelGroup/HYPIR) (Harnessing Diffusion-Yielded Score Priors for Image Restoration)"
+        },
+        {
+            "author": "miabrahams",
+            "title": "ComfyUI-WebAutomation [UNSAFE]",
+            "reference": "https://github.com/miabrahams/ComfyUI-WebAutomation",
+            "files": [
+                "https://github.com/miabrahams/ComfyUI-WebAutomation"
+            ],
+            "install_type": "git-clone",
+            "description": "Automation for ComfyUI Web UI [w/This nodepack provides functionality to access files through an endpoint.]"
+        },
+        {
+            "author": "kblueleaf",
+            "title": "HDM [WIP]",
+            "reference": "https://github.com/KohakuBlueleaf/HDM-ext",
+            "files": [
+                "https://github.com/KohakuBlueleaf/HDM-ext"
+            ],
+            "install_type": "git-clone",
+            "description": "HDM(HomeDiffusionModel) Extension"
+        },
+        {
+            "author": "Rizzlord",
+            "title": "ComfyUI-SeqTex",
+            "reference": "https://github.com/Rizzlord/ComfyUI-SeqTex",
+            "files": [
+                "https://github.com/Rizzlord/ComfyUI-SeqTex"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: SeqTex Load Mesh, SeqTex Loader, SeqTex Step 1: Process Mesh, SeqTex Step 2: Generate Condition, SeqTex Step 3: Generate Texture, SeqTex Step 4: Apply Texture to Trimesh"
+        },
+        {
+            "author": "BiodigitalJaz",
+            "title": "ComfyUI-Dafaja-Nodes [WIP]",
+            "reference": "https://github.com/BiodigitalJaz/ComfyUI-Dafaja-Nodes",
+            "files": [
+                "https://github.com/BiodigitalJaz/ComfyUI-Dafaja-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for 3D mesh processing and STL export\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "ervinne13",
+            "title": "ComfyUI-Metadata-Hub",
+            "reference": "https://github.com/ervinne13/ComfyUI-Metadata-Hub",
+            "files": [
+                "https://github.com/ervinne13/ComfyUI-Metadata-Hub"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Metadata Hub, Save Image With Metadata"
+        },
+        {
+            "author": "mico-world",
+            "title": "comfyui_mico_node",
+            "reference": "https://github.com/mico-world/comfyui_mico_node",
+            "files": [
+                "https://github.com/mico-world/comfyui_mico_node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: HF UNET Loader"
         },
         {
             "author": "GuusF",
@@ -31,16 +131,6 @@
             "description": "HDM(HomeDiffusionModel) Extension"
         },
         {
-            "author": "flybirdxx",
-            "title": "ComfyUI Sliding Window [WIP]",
-            "reference": "https://github.com/PixWizardry/ComfyUI_Sliding_Window",
-            "files": [
-                "https://github.com/PixWizardry/ComfyUI_Sliding_Window"
-            ],
-            "install_type": "git-clone",
-            "description": "This set of nodes provides a powerful sliding window or 'tiling' technique for processing long videos and animations in ComfyUI. It allows you to work on animations that are longer than your VRAM would typically allow by breaking the job into smaller, overlapping chunks and seamlessly blending them back together."
-        },
-        {
             "author": "TimothyCMeehan",
             "title": "ComfyUI CK3 Presets",
             "reference": "https://github.com/TimothyCMeehan/comfyui-ck3-presets",
@@ -59,16 +149,6 @@
             ],
             "install_type": "git-clone",
             "description": "AspectSize and 100 more nodes\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "apeirography",
-            "title": "DaimalyadNodes",
-            "reference": "https://github.com/apeirography/DaimalyadNodes",
-            "files": [
-                "https://github.com/apeirography/DaimalyadNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Model Downloader by DaimAlYad"
         },
         {
             "author": "tnil25",
@@ -240,16 +320,6 @@
             ],
             "install_type": "git-clone",
             "description": "A ComfyUI custom node that randomly selects LoRA files by category and automatically applies corresponding trigger words.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "AcademiaSD",
-            "title": "comfyui_AcademiaSD",
-            "reference": "https://github.com/AcademiaSD/comfyui_AcademiaSD",
-            "files": [
-                "https://github.com/AcademiaSD/comfyui_AcademiaSD"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Counter (from file), Reset Counter (to file), Padded File Name, Prompt Batch Selector (by line)"
         },
         {
             "author": "idoru",
@@ -2651,16 +2721,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI implementation of the partfield nvidea segmentation models\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "shinich39",
-            "title": "comfyui-textarea-is-shit",
-            "reference": "https://github.com/shinich39/comfyui-textarea-is-shit",
-            "files": [
-               "https://github.com/shinich39/comfyui-textarea-is-shit"
-            ],
-            "description": "HTML gives me a textarea like piece of shit.",
-            "install_type": "git-clone"
         },
         {
             "author": "shinich39",
