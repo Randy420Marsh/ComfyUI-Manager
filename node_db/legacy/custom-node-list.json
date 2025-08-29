@@ -1,6 +1,57 @@
 {
     "custom_nodes": [
         {
+            "author": "takoyaki1118",
+            "title": "ComfyUI-MangaTools [REMOVED]",
+            "reference": "https://github.com/takoyaki1118/ComfyUI-MangaTools",
+            "files": [
+                "https://github.com/takoyaki1118/ComfyUI-MangaTools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Manga Panel Detector, Manga Panel Dispatcher, GateImage, MangaPageAssembler"
+        },
+        {
+            "author": "lucasgattas",
+            "title": "comfyui-egregora-regional [REMOVED]",
+            "reference": "https://github.com/lucasgattas/comfyui-egregora-regional",
+            "files": [
+                "https://github.com/lucasgattas/comfyui-egregora-regional"
+            ],
+            "install_type": "git-clone",
+            "description": "Image Tile Split with Region-Aware Prompting for ComfyUI"
+        },
+        {
+            "author": "lucasgattas",
+            "title": "comfyui-egregora-tiled [REMOVED]",
+            "reference": "https://github.com/lucasgattas/comfyui-egregora-tiled",
+            "files": [
+                "https://github.com/lucasgattas/comfyui-egregora-tiled"
+            ],
+            "install_type": "git-clone",
+            "description": "Tiled regional prompting + tiled VAE decode with seam-free blending for ComfyUI"
+        },
+        {
+            "author": "Seedsa",
+            "title": "ComfyUI Fooocus Nodes [REMOVED]",
+            "id": "fooocus-nodes",
+            "reference": "https://github.com/Seedsa/Fooocus_Nodes",
+            "files": [
+                "https://github.com/Seedsa/Fooocus_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension provides image generation features based on Fooocus."
+        },
+        {
+            "author": "zhilemann",
+            "title": "ComfyUI-moondream2 [REMOVED]",
+            "reference": "https://github.com/zhilemann/ComfyUI-moondream2",
+            "files": [
+                "https://github.com/zhilemann/ComfyUI-moondream2"
+            ],
+            "install_type": "git-clone",
+            "description": "nodes for nightly moondream2 VLM inference\nsupports only captioning and visual queries at the moment"
+        },
+        {
             "author": "shinich39",
             "title": "comfyui-textarea-is-shit [REMOVED]",
             "reference": "https://github.com/shinich39/comfyui-textarea-is-shit",
@@ -89,16 +140,6 @@
             ],
             "install_type": "git-clone",
             "description": "This custom node is a ComfyUI node for generating speech from text using the Gemini 2.5 Flash Preview TTS API."
-        },
-        {
-            "author": "alFrame",
-            "title": "AF - Edit Generated Prompt [REMOVED]",
-            "reference": "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt",
-            "files": [
-                "https://github.com/alFrame/ComfyUI-AF-EditGeneratedPrompt"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node that allows you to pipe a generated prompt and either pass it as is, or copy and edit it manually. Or you can use the lower input field like any regular text input filed. The content of the lower text field will always dominate the output of the node."
         },
         {
             "author": "squirrel765",
