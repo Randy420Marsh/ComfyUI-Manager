@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "Gaotian",
+            "title": "KLComfyUI-Nodes [REMOVED]",
+            "reference": "https://github.com/Gaotian-cpu/KLComfyUI-Nodes",
+            "files": [
+                "https://github.com/Gaotian-cpu/KLComfyUI-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Single Video_Img Callback"
+        },
+        {
+            "author": "geltz",
+            "title": "Momentum Guidance for ComfyUI [REMOVED]",
+            "reference": "https://github.com/geltz/ComfyUI-MomentumGuidance",
+            "files": [
+                "https://github.com/geltz/ComfyUI-MomentumGuidance"
+            ],
+            "install_type": "git-clone",
+            "description": "Momentum Guidance (MG) is a training-free guidance method that reduces computational cost by 40% compared to standard guidance techniques like CFG or PAG."
+        },
+        {
+            "author": "GeekyGhost",
+            "title": "Studio42 Image, Audio, and Video Editing Suite for ComfyUI [REMOVED]",
+            "reference": "https://github.com/GeekyGhost/24oiduts-ComfyUI",
+            "files": [
+                "https://github.com/GeekyGhost/24oiduts-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "Studio42 is a comprehensive suite of advanced custom nodes that brings professional-grade image and video editing capabilities to ComfyUI. Designed for efficiency, quality, and creative flexibility, this suite provides cutting-edge background removal, layer composition, and patch manipulation tools used in modern VFX and content creation workflows."
+        },
+        {
+            "author": "rvage",
+            "title": "ComfyUI-RvTools-X [REMOVED]",
+            "reference": "https://github.com/r-vage/ComfyUI-RvTools-X",
+            "files": [
+                "https://github.com/r-vage/ComfyUI-RvTools-X"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities."
+        },
+        {
+            "author": "heyburns",
+            "title": "LinxUtil [REMOVED]",
+            "reference": "https://github.com/heyburns/LinxUtil",
+            "files": [
+                "https://github.com/heyburns/LinxUtil"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes for ComfyUI. Created solely for my own use case, shared as a courtesy only.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "fcanfora",
+            "title": "comfyui-camera-tools [REMOVED]",
+            "reference": "https://github.com/fcanfora/comfyui-camera-tools",
+            "files": [
+                "https://github.com/fcanfora/comfyui-camera-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Load Camera From File, Load 3D, Load 3D - Animation, Preview 3D, Preview 3D - Animation"
+        },
+        {
             "author": "ziwang-com",
             "title": "comfyui-deepseek-r1 [REMOVED]",
             "reference": "https://github.com/ziwang-com/comfyui-deepseek-r1",

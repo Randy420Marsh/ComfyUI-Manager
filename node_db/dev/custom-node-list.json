@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "comfyui-wiki",
+            "title": "ComfyUI-SelectionFocus [WIP]",
+            "reference": "https://github.com/comfyui-wiki/ComfyUI-SelectionFocus",
+            "files": [
+                "https://github.com/comfyui-wiki/ComfyUI-SelectionFocus"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI extension that helps you focus on selected nodes by highlighting their connections while dimming or hiding unrelated links\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "pizurny",
+            "title": "ComfyUI-Just-DWPose [WIP]",
+            "reference": "https://github.com/pizurny/ComfyUI-Just-DWPose",
+            "files": [
+                "https://github.com/pizurny/ComfyUI-Just-DWPose"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced DWPose annotator for ComfyUI with TorchScript and ONNX backends, featuring comprehensive pose detection, bone validation, temporal smoothing, and custom visualization tools."
+        },
+        {
+            "author": "pizurny",
+            "title": "ComfyUI Feedback Sampler [WIP]",
+            "reference": "https://github.com/pizurny/Comfyui-FeedbackSampler",
+            "files": [
+                "https://github.com/pizurny/Comfyui-FeedbackSampler"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI sampler for creating Deforum-style zoom animations through iterative feedback loop."
+        },
+        {
+            "author": "FlowX Team",
+            "title": "FlowX Preprocess [UNSAFE]",
+            "reference": "https://github.com/cgf120/comfyui-flowx-preprocess",
+            "files": [
+                "https://github.com/cgf120/comfyui-flowx-preprocess"
+            ],
+            "install_type": "git-clone",
+            "description": "FlowX Preprocess Node for ComfyUI - Export workflow configurations with input parameters[w/This node pack includes an endpoint that deletes files from arbitrary paths.]"
+        },
+        {
+            "author": "jpwgad",
+            "title": "jpwgad",
+            "reference": "https://github.com/jpwgad/jpwgad-comfy",
+            "files": [
+                "https://github.com/jpwgad/jpwgad-comfy"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Image Size Input, Date/Time based output path"
+        },
+        {
+            "author": "octapus8085",
+            "title": "OpenAI-comfyui-O",
+            "reference": "https://github.com/Spicely/Comfyui-File-Utils",
+            "files": [
+                "https://github.com/Spicely/Comfyui-File-Utils"
+            ],
+            "install_type": "git-clone",
+            "description": "This plugin provides multiple file-handling and utility nodes for ComfyUI, including: image saving, audio saving, video saving, video composition, audio-to-subtitle conversion, and random number generation nodes. These nodes not only process files but also return their absolute file paths.\nNOTE: The files in the repo are not organized.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "octapus8085",
+            "title": "OpenAI-comfyui-O",
+            "reference": "https://github.com/octapus8085/OpenAI-comfyui-O",
+            "files": [
+                "https://github.com/octapus8085/OpenAI-comfyui-O"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: AI API → Image"
+        },
+        {
             "author": "Immac",
             "title": "Immac's Tools",
             "reference": "https://github.com/Immac/ComfyUI-ImmacTools",
@@ -149,16 +219,6 @@
             ],
             "install_type": "git-clone",
             "description": "This repository provides practical ComfyUI nodes for fast, planar face overlay without non-linear warping, plus flexible region masks to transfer the full head (face + hair + eyebrows + eyes + nose + mouth) or any combination of regions. It also includes optional color matching and JSON diagnostics to integrate with downstream logic.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "Gaotian",
-            "title": "KLComfyUI-Nodes",
-            "reference": "https://github.com/Gaotian-cpu/KLComfyUI-Nodes",
-            "files": [
-                "https://github.com/Gaotian-cpu/KLComfyUI-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Single Video_Img Callback"
         },
         {
             "author": "adamdavidcole",
@@ -361,16 +421,6 @@
             "description": "ComfyUI nodes for WanAnimate model input preprocessing"
         },
         {
-            "author": "heyburns",
-            "title": "LinxUtil",
-            "reference": "https://github.com/heyburns/LinxUtil",
-            "files": [
-                "https://github.com/heyburns/LinxUtil"
-            ],
-            "install_type": "git-clone",
-            "description": "Utility nodes for ComfyUI. Created solely for my own use case, shared as a courtesy only.\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "charlie-otoy",
             "title": "ComfyUI-otoySKW-SystemMetrics",
             "reference": "https://github.com/charlie-otoy/ComfyUI-otoySKW-SystemMetrics",
@@ -519,16 +569,6 @@
             ],
             "install_type": "git-clone",
             "description": "Opinionated custom nodes and ready-to-use workflows for dataset prep and portrait/headshot pipelines in ComfyUI.\nNOTE: The files in the repo are not organized.[w/This extension has a vulnerability that allows arbitrary access to local files from remote.]"
-        },
-        {
-            "author": "GeekyGhost",
-            "title": "Studio42 Image, Audio, and Video Editing Suite for ComfyUI [WIP]",
-            "reference": "https://github.com/GeekyGhost/24oiduts-ComfyUI",
-            "files": [
-                "https://github.com/GeekyGhost/24oiduts-ComfyUI"
-            ],
-            "install_type": "git-clone",
-            "description": "Studio42 is a comprehensive suite of advanced custom nodes that brings professional-grade image and video editing capabilities to ComfyUI. Designed for efficiency, quality, and creative flexibility, this suite provides cutting-edge background removal, layer composition, and patch manipulation tools used in modern VFX and content creation workflows."
         },
         {
             "author": "ches2010",
@@ -2872,16 +2912,6 @@
             ],
             "install_type": "git-clone",
             "description": "A general-purpose, dependency-free File and Folder Browser API for ComfyUI custom nodes.[w/path traversal vulnerability]"
-        },
-        {
-            "author": "moonwhaler",
-            "title": "comfyui-moonpack",
-            "reference": "https://github.com/moonwhaler/comfyui-moonpack",
-            "files": [
-                "https://github.com/moonwhaler/comfyui-moonpack"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Proportional Dimension, Simple String Replace, Regex String Replace, VACE Looper Frame Scheduler"
         },
         {
             "author": "DreamsInAutumn",

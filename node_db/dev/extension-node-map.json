@@ -1895,36 +1895,12 @@
             "title_aux": "ComfyUI-FileBrowserAPI [UNSAFE]"
         }
     ],
-    "https://github.com/Gaotian-cpu/KLComfyUI-Nodes": [
-        [
-            "Prompt ID Fetcher",
-            "singleVideoImgCallback"
-        ],
-        {
-            "title_aux": "KLComfyUI-Nodes"
-        }
-    ],
     "https://github.com/GeekatplayStudio/ComfyUI_Toolbox": [
         [
             "ModelAspectRatioSelector"
         ],
         {
             "title_aux": "PMSnodes [WIP]"
-        }
-    ],
-    "https://github.com/GeekyGhost/24oiduts-ComfyUI": [
-        [
-            "Studio42AudioLoader",
-            "Studio42AudioMixer",
-            "Studio42BackgroundRemoverEnhanced",
-            "Studio42LayerComposer",
-            "Studio42PatchDrop",
-            "Studio42PatchLiftLoader",
-            "Studio42VideoPatchDrop",
-            "Studio42VideoPatchLiftLoader"
-        ],
-        {
-            "title_aux": "Studio42 Image, Audio, and Video Editing Suite for ComfyUI [WIP]"
         }
     ],
     "https://github.com/GentlemanHu/ComfyUI-Notifier": [
@@ -3729,6 +3705,19 @@
         ],
         {
             "title_aux": "ComfyUI_Remaker_FaceSwap"
+        }
+    ],
+    "https://github.com/Spicely/Comfyui-File-Utils": [
+        [
+            "AudioToSubtitle",
+            "RandomFloat",
+            "SaveAudioWithPath",
+            "SaveImageWithPath",
+            "SaveVideoWithPath",
+            "VideoCompose"
+        ],
+        {
+            "title_aux": "OpenAI-comfyui-O"
         }
     ],
     "https://github.com/Stable-X/ComfyUI-Hi3DGen": [
@@ -5707,7 +5696,6 @@
             "CLIPSave",
             "CLIPSetLastLayer",
             "CLIPTextEncode",
-            "CLIPTextEncodeHunyuanDiT",
             "CLIPVisionEncode",
             "CLIPVisionLoader",
             "CheckpointLoader",
@@ -5735,8 +5723,6 @@
             "DualCFGGuider",
             "DualCLIPLoader",
             "EmptyAudio",
-            "EmptyHunyuanImageLatent",
-            "EmptyHunyuanLatentVideo",
             "EmptyImage",
             "EmptyLatentAudio",
             "EmptyLatentHunyuan3Dv2",
@@ -5756,8 +5742,6 @@
             "GrowMask",
             "Hunyuan3Dv2Conditioning",
             "Hunyuan3Dv2ConditioningMultiView",
-            "HunyuanImageToVideo",
-            "HunyuanRefinerLatent",
             "HypernetworkLoader",
             "ImageAddNoise",
             "ImageBatch",
@@ -5958,7 +5942,6 @@
             "TestVariadicAverage",
             "TestWhileLoopClose",
             "TestWhileLoopOpen",
-            "TextEncodeHunyuanVideo_ImageToVideo",
             "ThresholdMask",
             "TrainLoraNode",
             "TrimAudioDuration",
@@ -7048,23 +7031,6 @@
             "title_aux": "comfyui_EvoSearch [WIP]"
         }
     ],
-    "https://github.com/heyburns/LinxUtil": [
-        [
-            "AutoCropBorders",
-            "AutoWBColorMatch",
-            "CropImageByMargins",
-            "CropMaskByMargins",
-            "FilenameAppendSuffix",
-            "ImageFilenameSwitch2",
-            "LevelsMatch",
-            "Multipurpose Configuration",
-            "StitchByMaskFeathered",
-            "StripExtensionNode"
-        ],
-        {
-            "title_aux": "LinxUtil"
-        }
-    ],
     "https://github.com/hiusdev/ComfyUI_Lah_Toffee": [
         [
             "LoadVideoRandom"
@@ -7254,15 +7220,18 @@
     ],
     "https://github.com/husw725/comfyui_alta_nodes": [
         [
+            "Alta:API_ProcessVideo",
+            "Alta:API_TranscribeAudio",
+            "Alta:BuildFilePath",
+            "Alta:FileDownloader",
             "Alta:GetFaceMask",
             "Alta:GetFilenameNoExt",
             "Alta:GetImageAndPath",
             "Alta:GetImageByIndex",
             "Alta:GetStringByIndex",
-            "Alta:GptImageMerge",
-            "Alta:JiMengImage2Video",
-            "Alta:JiMengImage2VideoQuery",
-            "Alta:JimengText2Image",
+            "Alta:ListAllFiles",
+            "Alta:ListFilesByExt",
+            "Alta:LoadFilesFromFolder",
             "Alta:LoadImage",
             "Alta:LoadImageFromPath",
             "Alta:LoadImageWithPath",
@@ -7272,13 +7241,18 @@
             "Alta:LoadVideosFromFolder",
             "Alta:MergeNodes",
             "Alta:MultiRoute",
+            "Alta:OpenAIImages2Image",
             "Alta:ReadImageFromFile",
             "Alta:ReadStringFromFile",
             "Alta:SaveImage",
             "Alta:SaveImagePlus",
             "Alta:SaveStringToFile",
             "Alta:VideoCombine",
-            "Alta:YOLOFaceModelCore"
+            "Alta:YOLOFaceModelCore",
+            "Alta:\u5373\u68a6API\u56fe\u751f\u89c6\u9891",
+            "Alta:\u5373\u68a6API\u56fe\u751f\u89c6\u9891\u7ed3\u679c\u67e5\u8be2",
+            "Alta:\u5373\u68a6API\u6587\u751f\u56fe",
+            "Alta:\u5373\u68a6Web\u56fe\u751f\u89c6\u9891"
         ],
         {
             "title_aux": "comfyui_alta_nodes"
@@ -7652,6 +7626,15 @@
             "title_aux": "ComfyUI_HelpfulNodes"
         }
     ],
+    "https://github.com/jpwgad/jpwgad-comfy": [
+        [
+            "OutputPath",
+            "SizeInput"
+        ],
+        {
+            "title_aux": "jpwgad"
+        }
+    ],
     "https://github.com/jschoormans/Comfy-InterestingPixels": [
         [
             "Random Palette",
@@ -7771,6 +7754,7 @@
             "KesslerDev_AlwaysSeed",
             "KesslerDev_EnvironmentVariableGetter",
             "KesslerDev_LoadImageAndFilename",
+            "KesslerDev_LoadImagesFromFolder",
             "KesslerDev_MultilineTextChoice"
         ],
         {
@@ -8606,6 +8590,7 @@
             "LF_SaveImageForCivitAI",
             "LF_SaveJSON",
             "LF_SaveMarkdown",
+            "LF_SaveSVG",
             "LF_SaveText",
             "LF_SchedulerSelector",
             "LF_Sepia",
@@ -8948,20 +8933,6 @@
             "title_aux": "comfy-url-fetcher [WIP]"
         }
     ],
-    "https://github.com/moonwhaler/comfyui-moonpack": [
-        [
-            "DynamicLoraStack",
-            "DynamicStringConcat",
-            "FastNodeBypasser",
-            "ProportionalDimension",
-            "RegexStringReplace",
-            "SimpleStringReplace",
-            "VACELooperFrameMaskCreator"
-        ],
-        {
-            "title_aux": "comfyui-moonpack"
-        }
-    ],
     "https://github.com/mr-krak3n/ComfyUI-Qwen": [
         [
             "Qwen2_Chat_Zho",
@@ -9223,6 +9194,15 @@
         ],
         {
             "title_aux": "FSampler for ComfyUI \u2014 Fast Skips via Epsilon Extrapolation [WIP]"
+        }
+    ],
+    "https://github.com/octapus8085/OpenAI-comfyui-O": [
+        [
+            "AIImageNode",
+            "APIImageNode"
+        ],
+        {
+            "title_aux": "OpenAI-comfyui-O"
         }
     ],
     "https://github.com/odedgranot/comfyui-ffmpeg-node": [
@@ -9514,6 +9494,23 @@
         ],
         {
             "title_aux": "ComfyUI-PixuAI"
+        }
+    ],
+    "https://github.com/pizurny/ComfyUI-Just-DWPose": [
+        [
+            "DWPoseAnnotator",
+            "DWPoseJSONToImage"
+        ],
+        {
+            "title_aux": "ComfyUI-Just-DWPose [WIP]"
+        }
+    ],
+    "https://github.com/pizurny/Comfyui-FeedbackSampler": [
+        [
+            "FeedbackSampler"
+        ],
+        {
+            "title_aux": "ComfyUI Feedback Sampler [WIP]"
         }
     ],
     "https://github.com/pmarmotte2/Comfyui-VibeVoiceSelector": [
@@ -9863,7 +9860,7 @@
             "Batch Keyframes",
             "Canny Edge",
             "Get Image Dimensions",
-            "Integer Min/Max",
+            "Image Grayscale",
             "Load Image Folder",
             "Load Images",
             "Load Images From List",
@@ -10989,10 +10986,12 @@
     "https://github.com/wTechArtist/ComfyUI-VVL-Tools": [
         [
             "ApplyUrlsToJson",
+            "BlenderModelAligner",
             "BlenderSmartModelScalerBatch",
             "DimensionReorderAndScale",
             "DynamicBatchAnything",
             "Enhanced3DRenderer",
+            "IndexOffsetAdjuster",
             "IndexUrlPairDeduplicator",
             "JsonArrayElementFieldExtractor",
             "JsonCompressor",
@@ -11000,6 +10999,7 @@
             "JsonMarkdownCleaner",
             "JsonObjectDeduplicator",
             "JsonObjectMerger",
+            "JsonObjectSplitter",
             "JsonRotationScaleAdjuster",
             "JsonScaleMaxAdjuster",
             "ModelTransformParameters",
