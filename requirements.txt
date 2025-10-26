@@ -2,10 +2,14 @@ GitPython
 PyGithub
 matrix-nio
 transformers
-huggingface-hub
+huggingface-hub>0.33.4
 typer
 rich
 typing-extensions
 toml
 uv
 chardet
+
+#Both pyyaml and tqdm are required dependencies for huggingface-hub as of version 0.33.4.
+pyyaml
+tqdm
