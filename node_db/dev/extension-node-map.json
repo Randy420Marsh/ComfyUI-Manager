@@ -8014,6 +8014,7 @@
             "LoadImageWithFilename",
             "LoadVideoWithFilename",
             "PairSwitchNode",
+            "PreviewImageLimited",
             "StringSplitSelect",
             "Unbroken-Video-Handler"
         ],
@@ -11018,26 +11019,6 @@
             "title_aux": "my-useful-comfyui-custom-nodes"
         }
     ],
-    "https://github.com/tmode-1960/comfyui-ta-nodes-pack": [
-        [
-            "TAClearPrompt",
-            "TADescriptionToPrompt",
-            "TAEbuLMStudioLoadModel",
-            "TAEbuLMStudioUnload",
-            "TAEbuLMStudioVisionRequest",
-            "TALMStudioAutoLoad",
-            "TALMStudioLoadOnRun",
-            "TALMStudioLoadedModels",
-            "TALMStudioModelSelector",
-            "TALoadCheckpointModelWithName",
-            "TALoadDiffusionModelWithName",
-            "TALoadGGUFModelWithName",
-            "TAPromptEnhancer"
-        ],
-        {
-            "title_aux": "comfyui-ta-nodes-pack"
-        }
-    ],
     "https://github.com/tnil25/ComfyUI-TJNodes": [
         [
             "ExpandMaskDir",
@@ -11530,6 +11511,15 @@
             "title_aux": "Comfyui-zZzZz [UNSAFE]"
         }
     ],
+    "https://github.com/woitec/ComfyUI_ImageDimensions": [
+        [
+            "ImageDimensionsExtractorFloat",
+            "ImageDimensionsExtractorInt"
+        ],
+        {
+            "title_aux": "ComfyUI_ImageDimensions [WIP]"
+        }
+    ],
     "https://github.com/wordbrew/comfyui-wan-control-nodes": [
         [
             "WanWeightedControlToVideo"
@@ -11589,31 +11579,6 @@
         ],
         {
             "title_aux": "CombineMasksNode"
-        }
-    ],
-    "https://github.com/xl0/q_tools": [
-        [
-            "PreviewModelMetadata",
-            "QBlendLatent",
-            "QConcatLatentBatch",
-            "QGaussianLatent",
-            "QImageSizeSetter",
-            "QKSampler",
-            "QLatentOp",
-            "QLatentToShape",
-            "QLinearScheduler",
-            "QLoadLatent",
-            "QLoadLatentTimeline",
-            "QParamRandomizerRange",
-            "QParamaRandomizerList",
-            "QPreviewLatent",
-            "QReshapeLatent",
-            "QSamplerCustom",
-            "QSamplerEulerAncestral",
-            "QUniformLatent"
-        ],
-        {
-            "title_aux": "q_tools"
         }
     ],
     "https://github.com/xqqe/honey_nodes": [
@@ -11907,6 +11872,7 @@
             "YC Color Match",
             "YCFaceAlignToCanvas",
             "YCFaceAlignToCanvasV2",
+            "YCFaceAlignToReference",
             "YCFaceAnalysisModels"
         ],
         {

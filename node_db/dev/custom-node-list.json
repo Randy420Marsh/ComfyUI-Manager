@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Beinsezii",
+            "title": "DEET: Diffusion Entropy Equalization Transform [WIP]",
+            "reference": "https://github.com/Beinsezii/DEET",
+            "files": [
+                "https://github.com/Beinsezii/DEET"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple transform to regulate the noise as it flows in and out of a diffusion model. Currently implemented as a nn.Module forward hook for Diffusers and as a node for ComfyUI"
+        },
+        {
+            "author": "woitec",
+            "title": "ComfyUI_ImageDimensions [WIP]",
+            "reference": "https://github.com/woitec/ComfyUI_ImageDimensions",
+            "files": [
+                "https://github.com/woitec/ComfyUI_ImageDimensions"
+            ],
+            "install_type": "git-clone",
+            "description": "Node for extraction of dimensions from an upstream-loaded tensor image.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "PopeyesBiscuit",
             "title": "ComfyUI-WebSocketLoRAExporter",
             "reference": "https://github.com/PopeyesBiscuit/ComfyUI-WebSocketLoRAExporter",
@@ -239,16 +259,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Qwen Image, ..."
-        },
-        {
-            "author": "tmode-1960",
-            "title": "comfyui-ta-nodes-pack",
-            "reference": "https://github.com/tmode-1960/comfyui-ta-nodes-pack",
-            "files": [
-                "https://github.com/tmode-1960/comfyui-ta-nodes-pack"
-            ],
-            "install_type": "git-clone",
-            "description": "Model loaders with an additional model name output"
         },
         {
             "author": "A1rCHAN",
@@ -3953,16 +3963,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Face Detector Selector, YC Human Parts Ultra(Advance), Color Match (YC)"
-        },
-        {
-            "author": "xl0",
-            "title": "q_tools",
-            "reference": "https://github.com/xl0/q_tools",
-            "files": [
-                "https://github.com/xl0/q_tools"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: QLoadLatent, QLinearScheduler, QPreviewLatent, QGaussianLatent, QUniformLatent, QKSampler"
         },
         {
             "author": "virallover",

@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "xl0",
+            "title": "q_tools [REMOVED]",
+            "reference": "https://github.com/xl0/q_tools",
+            "files": [
+                "https://github.com/xl0/q_tools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: QLoadLatent, QLinearScheduler, QPreviewLatent, QGaussianLatent, QUniformLatent, QKSampler"
+        },
+        {
+            "author": "tmode-1960",
+            "title": "comfyui-ta-nodes-pack [REMOVED]",
+            "reference": "https://github.com/tmode-1960/comfyui-ta-nodes-pack",
+            "files": [
+                "https://github.com/tmode-1960/comfyui-ta-nodes-pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Model loaders with an additional model name output"
+        },
+        {
             "author": "Shadetail",
             "title": "Eagleshadow Custom Nodes [REMOVED]",
             "id": "eagleshadow",
