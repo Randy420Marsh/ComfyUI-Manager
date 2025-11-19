@@ -1,6 +1,217 @@
 {
     "custom_nodes": [
         {
+            "author": "fredconex",
+            "title": "Sync Edit [REMOVED]",
+            "reference": "https://github.com/fredconex/ComfyUI-SyncEdit",
+            "files": [
+                "https://github.com/fredconex/ComfyUI-SyncEdit"
+            ],
+            "install_type": "git-clone",
+            "description": "This node allow to intercept changes on the input string and choose between use the current one or sync with incoming new one."
+        },
+        {
+            "author": "fredconex",
+            "title": "ComfyUI-SoundFlow [REMOVED]",
+            "reference": "https://github.com/fredconex/ComfyUI-SoundFlow",
+            "files": [
+                "https://github.com/fredconex/ComfyUI-SoundFlow"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a bunch of nodes for ComfyUI to help with sound work."
+        },
+        {
+            "author": "fredconex",
+            "title": "SongBloom [REMOVED]",
+            "reference": "https://github.com/fredconex/ComfyUI-SongBloom",
+            "files": [
+                "https://github.com/fredconex/ComfyUI-SongBloom"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Nodes for SongBloom"
+        },
+        {
+            "author": "EQXai",
+            "title": "ComfyUI_EQX [REMOVED]",
+            "reference": "https://github.com/EQXai/ComfyUI_EQX",
+            "files": [
+                "https://github.com/EQXai/ComfyUI_EQX"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: SaveImage_EQX, File Image Selector, Load Prompt From File - EQX, LoraStackEQX_random, Extract Filename - EQX, Extract LORA name - EQX, NSFW Detector EQX, NSFW Detector Advanced EQX"
+        },
+        {
+            "author": "wizdroid",
+            "title": "Wizdroid ComfyUI Outfit Selection [REMOVED]",
+            "reference": "https://github.com/wizdroid/wizdroid-fashionista",
+            "files": [
+                "https://github.com/wizdroid/wizdroid-fashionista"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive outfit generation system for ComfyUI with AI-powered prompt enhancement and dynamic outfit composition."
+        },
+        {
+            "author": "enternalsaga",
+            "title": "NBA-ComfyUINode [REMOVED]",
+            "reference": "https://github.com/enternalsaga/NBA-ComfyUINode-public",
+            "files": [
+                "https://github.com/enternalsaga/NBA-ComfyUINode-public"
+            ],
+            "install_type": "git-clone",
+            "description": "Version 1.2.1 - Dependency cleanup and archived LineSelector node\nA comprehensive collection of custom nodes for ComfyUI, providing advanced image processing, workflow control, and utility functions to enhance your AI image generation workflows."
+        },
+        {
+            "author": "sselpah",
+            "title": "ComfyUI-sselpah-nodes [REMOVED]",
+            "reference": "https://github.com/sselpah/ComfyUI-sselpah-nodes",
+            "files": [
+                "https://github.com/sselpah/ComfyUI-sselpah-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Extension of IPAdapter implementation by cubiq and whoever contributed to that repository"
+        },
+        {
+            "author": "vsaan212",
+            "title": "ComfyUI Text Split Node [REMOVED]",
+            "reference": "https://github.com/vsaan212/Comfy-ui-textsplit",
+            "files": [
+                "https://github.com/vsaan212/Comfy-ui-textsplit"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that splits text into multiple outputs for feeding complex multi-scene renders. This node allows you to dynamically control the number of splits and use custom separators."
+        },
+        {
+            "author": "EnragedAntelope",
+            "title": "ComfyUI-Doubutsu-Describer [DEPRECATED]",
+            "reference": "https://github.com/EnragedAntelope/ComfyUI-Doubutsu-Describer",
+            "files": [
+                "https://github.com/EnragedAntelope/ComfyUI-Doubutsu-Describer"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node for ComfyUI allows you to use the Doubutsu small VLM model to describe images. Credit and further information on Doubutsu: [a/https://huggingface.co/qresearch/doubutsu-2b-pt-756](https://huggingface.co/qresearch/doubutsu-2b-pt-756)"
+        },
+        {
+            "author": "vsaan212",
+            "title": "ComfyUI Subject Selector [DEPRECATED]",
+            "reference": "https://github.com/vsaan212/ComfyUI_subjectselector",
+            "files": [
+                "https://github.com/vsaan212/ComfyUI_subjectselector"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI_subjectselector is a custom ComfyUI node that allows you to manage and select text-based subject descriptions directly from the workflow UI. This node was designed to pair seamlessly with [a/ComfyUI-textsplit](https://github.com/vsaan212/Comfy-ui-textsplit), providing a clean, modular way to feed descriptive text prompts into your generation pipeline."
+        },
+        {
+            "author": "agxagi",
+            "title": "Autoregressive Transformer and Rolling Diffusion Sampler for ComfyUI [REMOVED]",
+            "reference": "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV",
+            "files": [
+                "https://github.com/agxagi/ComfyUI-GPT4o-Image-Gen-FLUX-DEV"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that implements an Autoregressive Transformer and Rolling Diffusion-like Decoder using Black Forest Lab's Flux-Dev model for accurate text-to-image generation, similar to GPT-4o's image generation approach.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "walke2019",
+            "title": "ComfyUI-GGUF-VisionLM [REMOVED]",
+            "reference": "https://github.com/walke2019/ComfyUI-GGUF-VisionLM",
+            "files": [
+                "https://github.com/walke2019/ComfyUI-GGUF-VisionLM"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for running GGUF quantized Qwen2.5-VL models using llama.cpp"
+        },
+        {
+            "author": "neocrz",
+            "title": "comfyui-tinyae [REMOVED]",
+            "reference": "https://github.com/neocrz/comfyui-tinyae",
+            "files": [
+                "https://github.com/neocrz/comfyui-tinyae"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: TinyAE Encode (Image/Video), TinyAE Decode (Image/Video), TinyAE Encode Tiled (Image), TinyAE Decode Tiled (Image)"
+        },
+        {
+            "author": "Laser-one",
+            "title": "ComfyUI-align-pose [REMOVED]",
+            "reference": "https://github.com/Laser-one/ComfyUI-align-pose",
+            "files": [
+                "https://github.com/Laser-one/ComfyUI-align-pose"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:align pose"
+        },
+        {
+            "author": "nomadoor",
+            "title": "ComfyUI Video Stabilizer",
+            "reference": "https://github.com/nomadoor/ComfyUI-Video-Stabilizer",
+            "files": [
+                "https://github.com/nomadoor/ComfyUI-Video-Stabilizer"
+            ],
+            "install_type": "git-clone",
+            "description": "Two complementary stabiliser nodes for ComfyUI: Video Stabilizer (Classic), Video Stabilizer (Flow)"
+        },
+        {
+            "author": "0xhappydev",
+            "title": "comfyui-qwen-image-tools",
+            "reference": "https://github.com/0xhappydev/comfyui-qwen-image-tools",
+            "files": [
+                "https://github.com/0xhappydev/comfyui-qwen-image-tools"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for Qwen-Image-Edit with multi-image support, more flexibility around the vision transformer (qwen2.5-vl), custom system prompts, and some other experimental things to come."
+        },
+        {
+            "author": "Rathius-Saranoth",
+            "title": "Rathius ComfyUI Nodes",
+            "reference": "https://github.com/Rathius-Saranoth/rathius-comfyui-nodes",
+            "files": [
+                "https://github.com/Rathius-Saranoth/rathius-comfyui-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI by Rathius"
+        },
+        {
+            "author": "Hiero207",
+            "title": "Hiero-Nodes [REMOVED]",
+            "id": "hiero",
+            "reference": "https://github.com/Hiero207/ComfyUI-Hiero-Nodes",
+            "files": [
+                "https://github.com/Hiero207/ComfyUI-Hiero-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes:Post to Discord w/ Webhook"
+        },
+        {
+            "author": "NeoDroleDeGueule",
+            "title": "comfyui-image-mixer",
+            "reference": "https://github.com/NeoDroleDeGueule/comfyui-image-mixer [REMOVED]",
+            "files": [
+                "https://github.com/NeoDroleDeGueule/comfyui-image-mixer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that blends two images in latent space using a mix factor slider."
+        },
+        {
+            "author": "Glarus-akash",
+            "title": "ComfyUI_Image_Upscaler [REMOVED]",
+            "reference": "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler",
+            "files": [
+                "https://github.com/Glarus-akash/ComfyUI_Image_Upscaler"
+            ],
+            "install_type": "git-clone",
+            "description": "Welcome to the Image Upscaler & Restorer project! This tool utilizes the [a/GFPGAN](https://github.com/TencentARC/GFPGAN) algorithm to enhance and restore images, providing a seamless way to improve image quality."
+        },
+        {
+            "author": "styletransfer",
+            "title": "Sequential Group Controller for ComfyUI [REMOVED]",
+            "reference": "https://github.com/styletransfer/ComfyUI_SequentialGroupController",
+            "files": [
+                "https://github.com/styletransfer/ComfyUI_SequentialGroupController"
+            ],
+            "install_type": "git-clone",
+            "description": "Control which groups execute based on iteration ranges - a simplified alternative to complex conditional branching workflows."
+        },
+        {
             "author": "xl0",
             "title": "q_tools [REMOVED]",
             "reference": "https://github.com/xl0/q_tools",
@@ -1065,16 +1276,6 @@
             ],
             "install_type": "git-clone",
             "description": "This node provides advanced text-to-speech functionality powered by KokoroTTS. Follow the instructions below to install, configure, and use the node within your portable ComfyUI installation."
-        },
-        {
-            "author": "MushroomFleet",
-            "title": "DJZ-Pedalboard [REMOVED]",
-            "reference": "https://github.com/MushroomFleet/DJZ-Pedalboard",
-            "files": [
-                "https://github.com/MushroomFleet/DJZ-Pedalboard"
-            ],
-            "install_type": "git-clone",
-            "description": "This project provides a collection of custom nodes designed for enhanced audio effects in ComfyUI. With an intuitive pedalboard interface, users can easily integrate and manipulate various audio effects within their workflows."
         },
         {
             "author": "MushroomFleet",
