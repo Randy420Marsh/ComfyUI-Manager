@@ -1,6 +1,126 @@
 {
     "custom_nodes": [
         {
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-CameraAnalysis [REMOVED]",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-CameraAnalysis",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-CameraAnalysis"
+            ],
+            "install_type": "git-clone",
+            "description": "Extracts camera intrinsic parameters from image EXIF data."
+        },
+        {
+            "author": "fuzr0dah",
+            "title": "comfyui-sceneassembly [REMOVED]",
+            "reference": "https://github.com/fuzr0dah/comfyui-sceneassembly",
+            "files": [
+                "https://github.com/fuzr0dah/comfyui-sceneassembly"
+            ],
+            "install_type": "git-clone",
+            "description": "A bunch of nodes I created that I also find useful."
+        },
+        {
+            "author": "rslosch",
+            "title": "ComfyUI-EZ_Prompts [REMOVED]",
+            "reference": "https://github.com/rslosch/ComfyUI-EZ_Prompts",
+            "files": [
+                "https://github.com/rslosch/ComfyUI-EZ_Prompts"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node extension that provides easy-to-use prompt templates and wildcards for AI image generation."
+        },
+        {
+            "author": "hvppycoding",
+            "title": "hvppyflow [REMOVED]",
+            "reference": "https://github.com/hvppycoding/hvppyflow",
+            "files": [
+                "https://github.com/hvppycoding/hvppyflow"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for Automated Workflow"
+        },        
+        {
+            "author": "cedarconnor",
+            "title": "ComfyUI-GEN3C-Gsplat [REMOVED]",
+            "reference": "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat",
+            "files": [
+                "https://github.com/cedarconnor/ComfyUI-GEN3C-Gsplat"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node pack that bridges Cosmos/GEN3C video generation with in-graph Gaussian Splat (3DGS) training. It adds camera/trajectory tooling, dataset exporters, and two training backends (Nerfstudio CLI wrapper and an in-process gsplat optimizer) so artists can go from prompt to splat entirely inside ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "dowa-git",
+            "title": "comfyui-dowa [REMOVED]",
+            "reference": "https://github.com/dowa-git/comfyui-dowa",
+            "files": [
+                "https://github.com/dowa-git/comfyui-dowa"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional navigation bar widget for ComfyUI with JWT-based user authentication, workflow templates, and team collaboration features in a purple gradient design."
+        },
+        {
+            "author": "Fablestarexpanse",
+            "title": "Timer-Node-Comfyui [REMOVED]",
+            "reference": "https://github.com/Fablestarexpanse/Timer-Node-Comfyui",
+            "files": [
+                "https://github.com/Fablestarexpanse/Timer-Node-Comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that displays live processing time in a red digital countdown clock format, perfect for monitoring image generation times and tracking performance between workflow nodes."
+        },
+        {
+            "author": "cedarconnor",
+            "title": "ComfyUI-OmniX [REMOVED]",
+            "reference": "https://github.com/cedarconnor/ComfyUI-OmniX",
+            "files": [
+                "https://github.com/cedarconnor/ComfyUI-OmniX"
+            ],
+            "install_type": "git-clone",
+            "description": "Extract comprehensive scene properties from 360-degree equirectangular panoramas, including depth, normals, and PBR materials, using OmniX adapters with Flux."
+        },
+        {
+            "author": "cedarconnor",
+            "title": "ComfyUI-DiT360 [REMOVED]",
+            "reference": "https://github.com/cedarconnor/ComfyUI-DiT360",
+            "files": [
+                "https://github.com/cedarconnor/ComfyUI-DiT360"
+            ],
+            "install_type": "git-clone",
+            "description": "Generate high-fidelity 360-degree panoramic images using the DiT360 diffusion transformer model in ComfyUI."
+        },
+        {
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-AnyTop [REMOVED]",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-AnyTop",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-AnyTop"
+            ],
+            "install_type": "git-clone",
+            "description": "Standalone ComfyUI custom nodes for AnyTop - Universal Motion Generation for Any Skeleton Topology."
+        },
+        {
+            "author": "penposs",
+            "title": "ComfyUI-Banana-Node [REMOVED]",
+            "reference": "https://github.com/penposs/ComfyUI-Banana-Node",
+            "files": [
+                "https://github.com/penposs/ComfyUI-Banana-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that generates images using Google’s Gemini 2.5 Flash Image Preview API."
+        },
+        {
+            "author": "spiralmountain",
+            "title": "ComfyUI_HDNodes [REMOVED]",
+            "reference": "https://github.com/spiralmountain/ComfyUI_HDNodes",
+            "files": [
+                "https://github.com/spiralmountain/ComfyUI_HDNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI that enable video generation using ByteDance's Seedance model via [a/Fal.ai](https://fal.ai/)."
+        },
+        {
             "author": "fredconex",
             "title": "Sync Edit [REMOVED]",
             "reference": "https://github.com/fredconex/ComfyUI-SyncEdit",
