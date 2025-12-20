@@ -1,6 +1,107 @@
 {
     "custom_nodes": [
         {
+            "author": "jkhayiying",
+            "title": "ImageLoadFromLocalOrUrl Node for ComfyUI [REMOVED]",
+            "id": "JkhaImageLoaderPathOrUrl",
+            "reference": "https://gitee.com/yyh915/jkha-load-img",
+            "files": [
+                "https://gitee.com/yyh915/jkha-load-img"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a node to load an image from local path or url."
+        },
+        {
+            "author": "pizurny",
+            "title": "ComfyUI-Just-DWPose [REMOVED]",
+            "reference": "https://github.com/pizurny/ComfyUI-Just-DWPose",
+            "files": [
+                "https://github.com/pizurny/ComfyUI-Just-DWPose"
+            ],
+            "install_type": "git-clone",
+            "description": "An advanced DWPose annotator for ComfyUI with TorchScript and ONNX backends, featuring comprehensive pose detection, bone validation, temporal smoothing, and custom visualization tools."
+        },
+        {
+            "author": "lfelipegg",
+            "title": "lfgg_custom_nodes [REMOVED]",
+            "reference": "https://github.com/lfelipegg/lfgg_custom_nodes",
+            "files": [
+                "https://github.com/lfelipegg/lfgg_custom_nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: ModelMergeCombos\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "AndSni",
+            "title": "Comfy-FL-Nodes [REMOVED]",
+            "reference": "https://github.com/AndSni/Comfy-FL-Nodes",
+            "files": [
+                "https://github.com/AndSni/Comfy-FL-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates human characters for commerce applications in ComfyUI. (Description by CC)"
+        },
+        {
+            "author": "neeltheninja",
+            "title": "ComfyUI-ControlNeXt [REMOVED]",
+            "reference": "https://github.com/neverbiasu/ComfyUI-ControlNeXt",
+            "files": [
+                "https://github.com/neverbiasu/ComfyUI-ControlNeXt"
+            ],
+            "install_type": "git-clone",
+            "description": "In progress🚧"
+        },
+        {
+            "author": "TheArtOfficial",
+            "title": "ComfyUI-Nitra [REMOVED]",
+            "reference": "https://github.com/TheArtOfficial/ComfyUI-Nitra",
+            "files": [
+                "https://github.com/TheArtOfficial/ComfyUI-Nitra"
+            ],
+            "install_type": "git-clone",
+            "description": "Nitra custom node for ComfyUI"
+        },        
+        {
+            "author": "AngelCookies",
+            "title": "ComfyUI-Seed-Tracker [REMOVED]",
+            "reference": "https://github.com/AngelCookies/ComfyUI-Seed-Tracker",
+            "files": [
+                "https://github.com/AngelCookies/ComfyUI-Seed-Tracker"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension that tracks random seeds throughout your image generation workflows"
+        },
+        {
+            "author": "shinich39",
+            "title": "comfyui-nothing-happened [REMOVED]",
+            "reference": "httphttps://github.com/shinich39/comfyui-nothing-happened",
+            "files": [
+               "https://github.com/shinich39/comfyui-nothing-happened"
+            ],
+            "description": "Save image and keep metadata.",
+            "install_type": "git-clone"
+        },
+        {
+            "author": "ashtar1984",
+            "title": "comfyui-switch-bypass-mute-by-group [REMOVED]",
+            "reference": "https://github.com/ashtar1984/comfyui-switch-bypass-mute-by-group",
+            "files": [
+                "https://github.com/ashtar1984/comfyui-switch-bypass-mute-by-group"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for group-based node switching, bypassing, and muting control. (Description by CC)"
+        },
+        {
+            "author": "wallen0322",
+            "title": "ComfyUI-TTM-WAN22 [REMOVED]",
+            "reference": "https://github.com/wallen0322/ComfyUI-TTM-WAN22",
+            "files": [
+                "https://github.com/wallen0322/ComfyUI-TTM-WAN22"
+            ],
+            "install_type": "git-clone",
+            "description": "TTM (Time-to-Move) node for ComfyUI enabling motion-controlled video generation with Wan2.2 models using dual-clock denoising for independent background and object animation control."
+        },
+        {
             "author": "cdanielp",
             "title": "COMFYUI_PROMPTMODELS [REMOVED]",
             "reference": "https://github.com/cdanielp/COMFYUI_PROMPTMODELS",
