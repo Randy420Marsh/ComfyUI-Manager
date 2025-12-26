@@ -1,6 +1,98 @@
 {
     "custom_nodes": [
         {
+            "author": "AhBumm",
+            "title": "ComfyUI_MangaLineExtraction [REMOVED]",
+            "reference": "https://github.com/AhBumm/ComfyUI_MangaLineExtraction-hf",
+            "files": [
+               "https://github.com/AhBumm/ComfyUI_MangaLineExtraction-hf"
+            ],
+            "description": "p1atdev/MangaLineExtraction-hf as a node in comfyui",
+            "install_type": "git-clone"
+        },        
+        {
+            "author": "danieljanata",
+            "title": "ComfyUI-QwenVL-Override [REMOVED]",
+            "reference": "https://github.com/danieljanata/ComfyUI-QwenVL-Override",
+            "files": [
+                "https://github.com/danieljanata/ComfyUI-QwenVL-Override"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds two nodes that reuse upstream ComfyUI-QwenVL presets but add a runtime override that can be wired/unwired without getting stuck."
+        },        
+        {
+            "author": "Futureversecom",
+            "title": "ComfyUI-JEN [REMOVED]",
+            "reference": "https://github.com/futureversecom/ComfyUI-JEN",
+            "files": [
+                "https://github.com/futureversecom/ComfyUI-JEN"
+            ],
+            "install_type": "git-clone",
+            "description": "Comfy UI custom nodes for JEN music generation powered by Futureverse"
+        },
+        {
+            "author": "TheBill2001",
+            "title": "comfyui-upscale-by-model [REMOVED]",
+            "reference": "https://github.com/TheBill2001/comfyui-upscale-by-model",
+            "files": [
+                "https://github.com/TheBill2001/comfyui-upscale-by-model"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node allow upscaling an image by a factor using a model."
+        },
+        {
+            "author": "XYMikky12138",
+            "title": "ComfyUI-NanoBanana-inpaint [REMOVED]",
+            "reference": "https://github.com/XYMikky12138/ComfyUI-NanoBanana-inpaint",
+            "files": [
+                "https://github.com/XYMikky12138/ComfyUI-NanoBanana-inpaint"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for API-based inpainting (Gemini, Imagen) with aspect ratio constraints, smart cropping, resize fitting, intelligent paste-back with transparency support. (Description by CC)"
+        },
+        {
+            "author": "Blonicx",
+            "title": "ComfyUI-Rework-X [REMOVED]",
+            "id": "rework-x",
+            "reference": "https://github.com/Blonicx/ComfyUI-X-Rework",
+            "files": [
+                "https://github.com/Blonicx/ComfyUI-X-Rework"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a plugin for ComfyUI that adds new Util Nodes and Nodes for easier image creation and sharing."
+        },
+        {
+            "author": "scott-createplay",
+            "title": "ComfyUI_video_essentials [REMOVED]",
+            "reference": "https://github.com/scott-createplay/ComfyUI_video_essentials",
+            "files": [
+                "https://github.com/scott-createplay/ComfyUI_video_essentials"
+            ],
+            "install_type": "git-clone",
+            "description": "Essential video processing nodes for ComfyUI"
+        },
+        {
+            "author": "thnikk",
+            "title": "comfyui-thnikk-utils [REMOVED]",
+            "reference": "https://github.com/thnikk/comfyui-thnikk-utils",
+            "files": [
+                "https://github.com/thnikk/comfyui-thnikk-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes to clean up your workflow."
+        },
+        {
+            "author": "Tr1dae",
+            "title": "LoRA Matcher Nodes for ComfyUI [REMOVED]",
+            "reference": "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher",
+            "files": [
+                "https://github.com/Tr1dae/ComfyUI-LoraPromptMatcher"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node provides two different approaches to automatically match text prompts with LoRA models using their descriptions."
+        },
+
+        {
             "author": "jkhayiying",
             "title": "ImageLoadFromLocalOrUrl Node for ComfyUI [REMOVED]",
             "id": "JkhaImageLoaderPathOrUrl",
