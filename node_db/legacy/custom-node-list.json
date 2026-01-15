@@ -1,6 +1,176 @@
 {
     "custom_nodes": [
         {
+            "author": "Wladimir Palant",
+            "title": "image-resize-comfyui [REMOVED]",
+            "reference": "https://github.com/ussoewwin/image_resize_comfyui",
+            "files": [
+                "https://github.com/ussoewwin/image_resize_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced image resizing node for ComfyUI with aspect ratio preservation and mask support"
+        },
+        {
+            "author": "umisetokikaze",
+            "title": "comfyui_mergekit [REMOVED]",
+            "reference": "https://github.com/umisetokikaze/comfyui_mergekit",
+            "files": [
+                "https://github.com/umisetokikaze/comfyui_mergekit"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes:DefineSaveName, SetModels, get_skip, LoadLR, LoadTarget, SetTokenizer, Merge, SetLayer, SetModels"
+        },
+        {
+            "author": "LSDJesus",
+            "title": "ComfyUI-Luna-Collection [REMOVED]",
+            "reference": "https://github.com/LSDJesus/ComfyUI-Luna-Collection",
+            "files": [
+                "https://github.com/LSDJesus/ComfyUI-Luna-Collection"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of finetuned and custom nodes for Pyrite and I\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "r3dial",
+            "title": "Redial Discomphy - Discord Integration for ComfyUI [REMOVED]",
+            "reference": "https://github.com/r3dial/redial-discomphy",
+            "files": [
+                "https://github.com/r3dial/redial-discomphy"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that enables direct posting of images, videos, and messages to Discord channels. This node seamlessly integrates your ComfyUI workflows with Discord communication, allowing you to automatically share your generated content."
+        },
+        {
+            "author": "EricRorich",
+            "title": "ComfyUI-Parametric-Face-Canvas [REMOVED]",
+            "reference": "https://github.com/EricRorich/ComfyUI-Parametric-Face-Canvas",
+            "files": [
+                "https://github.com/EricRorich/ComfyUI-Parametric-Face-Canvas"
+            ],
+            "install_type": "git-clone",
+            "description": "Generates a parametric 3D face wireframe and renders it as a 2D image with adjustable facial proportions and camera orientation for use in AI pipelines.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "pixixai",
+            "title": "ComfyUI_Pixix-Tools [UNSAFE/REMOVED]",
+            "reference": "https://github.com/pixixai/ComfyUI_pixixTools",
+            "files": [
+                "https://github.com/pixixai/ComfyUI_pixixTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Load Text (from folder)\nNOTE: The files in the repo are not organized.[w/The contents of files from arbitrary paths can be read remotely through this node.]"
+        },
+        {
+            "author": "fllywaay",
+            "title": "Comfyui-TextLine-counter [REMOVED]",
+            "reference": "https://github.com/zpengcom/Comfyui-TextLine-counter",
+            "files": [
+                "https://github.com/zpengcom/Comfyui-TextLine-counter"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple multi-line text processing tool, such as line count statistics, ignoring blank lines, etc."
+        },
+        {
+            "author": "daveand",
+            "title": "ComfyUI-daveand-utils [REMOVED]",
+            "reference": "https://github.com/daveand/ComfyUI-daveand-utils",
+            "files": [
+                "https://github.com/daveand/ComfyUI-daveand-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes including ModelConfigSelector for saving checkpoint configurations and managing manual sampler overrides. (Description by CC)"
+        },
+        {
+            "author": "tristanvdb",
+            "title": "ComfyUI-toolset [REMOVED]",
+            "reference": "https://github.com/tristanvdb/ComfyUI-toolset",
+            "files": [
+                "https://github.com/tristanvdb/ComfyUI-toolset"
+            ],
+            "install_type": "git-clone",
+            "description": "Human-in-the-loop image selection tool for ComfyUI workflows using a Flask web server, enabling users to pause workflows and interactively select images via a web browser interface."
+        },
+        {
+            "author": "chuchu114514",
+            "title": "comfyui_proportion_solver [REMOVED]",
+            "reference": "https://github.com/chuchu114514/comfyui_proportion_solver",
+            "files": [
+                "https://github.com/chuchu114514/comfyui_proportion_solver"
+            ],
+            "install_type": "git-clone",
+            "description": "This plugin includes two core nodes designed to handle proportion optimization tasks of varying complexity"
+        },
+        {
+            "author": "chuchu114514",
+            "title": "comfyui_text_list_stepper [REMOVED]",
+            "reference": "https://github.com/chuchu114514/comfyui_text_list_stepper",
+            "files": [
+                "https://github.com/chuchu114514/comfyui_text_list_stepper"
+            ],
+            "install_type": "git-clone",
+            "description": "Used for batch extraction of prompt words."
+        },
+        {
+            "author": "balu112121",
+            "title": "ComfyUI URL Image Loader [REMOVED]",
+            "reference": "https://github.com/balu112121/comfyui-LoadImageFromURL",
+            "files": [
+                "https://github.com/balu112121/comfyui-LoadImageFromURL"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node for loading images directly from URLs for AI image generation workflows."
+        },
+        {
+            "author": "huyl3-cpu",
+            "title": "ComfyUI_A100_Ultimate_Optimizer [REMOVED]",
+            "reference": "https://github.com/huyl3-cpu/ComfyUI_A100_Ultimate_Optimizer",
+            "files": [
+                "https://github.com/huyl3-cpu/ComfyUI_A100_Ultimate_Optimizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A100 GPU batch processing and optimization node for ComfyUI. (Description by CC)"
+        },
+        {
+            "author": "BlackVortexAI",
+            "title": "BV Nodes [DEPRECATED]",
+            "reference": "https://github.com/BlackVortexAI/ComfyUI-BVortexNodes",
+            "files": [
+                "https://github.com/BlackVortexAI/ComfyUI-BVortexNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This repository contains a user-defined node for ComfyUI, currently there are nodes for capturing captions. But will be expanded in the future."
+        },        
+        {
+            "author": "scott-createplay",
+            "title": "ComfyUI_frontend_tools [REMOVED]",
+            "reference": "https://github.com/scott-createplay/ComfyUI_frontend_tools",
+            "files": [
+                "https://github.com/scott-createplay/ComfyUI_frontend_tools"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive utility suite for ComfyUI that helps maintain clean, organized workflows with node cleaner, layout tools, HUD projection, and wireless connection management.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "yutrodimitri-ship-it",
+            "title": "ComfyUI-YUTRO-CastingStudio-v2 [REMOVED]",
+            "reference": "https://github.com/yutrodimitri-ship-it/ComfyUI-YUTRO-CastingStudio-v2",
+            "files": [
+                "https://github.com/yutrodimitri-ship-it/ComfyUI-YUTRO-CastingStudio-v2"
+            ],
+            "install_type": "git-clone",
+            "description": "A professional modular suite of nodes for ComfyUI designed for virtual casting agencies, professional photographers, and content creators to generate high-quality model portfolios efficiently. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "amamisonlyuser",
+            "title": "MixvtonComfyui [REMOVED]",
+            "reference": "https://github.com/amamisonlyuser/MixvtonComfyui",
+            "files": [
+                "https://github.com/amamisonlyuser/MixvtonComfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: CXH_Leffa_Viton_Load, CXH_Leffa_Viton_Run\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "AhBumm",
             "title": "ComfyUI_MangaLineExtraction [REMOVED]",
             "reference": "https://github.com/AhBumm/ComfyUI_MangaLineExtraction-hf",
