@@ -274,6 +274,7 @@
             "SimpleIntMathHandle",
             "SimpleJsonArrayHandle",
             "SimpleJsonObjectHandle",
+            "TestExtendComfyNode",
             "VideoFrameSize",
             "VideoSizeAndFps",
             "VideoTimeAndFPS",
@@ -1523,6 +1524,14 @@
             "title_aux": "ComfyUI-VideoStream"
         }
     ],
+    "https://github.com/DailyMok/ComfyUI-PromptMixerNode": [
+        [
+            "PromptMixerDaily"
+        ],
+        {
+            "title_aux": "ComfyUI-PromptMixerNode"
+        }
+    ],
     "https://github.com/DataCTE/ComfyUI-DataVoid-nodes": [
         [
             "IPAAdapterFaceIDBatch",
@@ -2528,7 +2537,8 @@
             "DigbyWanMoeKSamplerBasic",
             "DigbyWanVACEVideoBridge",
             "DigbyWanVACEVideoExtend",
-            "DigbyWanVACEVideoSmooth"
+            "DigbyWanVACEVideoSmooth",
+            "LTX2_AVLatent"
         ],
         {
             "title_aux": "ComfyUI-DigbyWan"
@@ -2671,6 +2681,7 @@
             "RK_Excel_File_State_Looper",
             "RK_ImageViewer",
             "RK_Read_Excel_Row",
+            "RK_Ultra",
             "RK_Write_Text",
             "RK_seed",
             "rk_save_image",
@@ -2816,6 +2827,17 @@
             "title_aux": "ComfyUI-ModelUnloader"
         }
     ],
+    "https://github.com/Leecoahs/ComfyUI_LeeNodes": [
+        [
+            "CombineGrayscaleMRH",
+            "ImageOverlaySimple",
+            "TextureInpaintingPrep",
+            "TextureInpaintingRestore"
+        ],
+        {
+            "title_aux": "ComfyUI_LeeNodes"
+        }
+    ],
     "https://github.com/Letz-AI/ComfyUI-LetzAI": [
         [
             "LetzAI Generator"
@@ -2830,19 +2852,6 @@
         ],
         {
             "title_aux": "Comfyui_Latent_Interpolation [WIP]"
-        }
-    ],
-    "https://github.com/Linsoo/ComfyUI-Linsoo-Custom-Nodes": [
-        [
-            "LinsooAnyToText",
-            "LinsooEmptyLatentImage",
-            "LinsooLoadImage",
-            "LinsooMultiInputs",
-            "LinsooMultiOutputs",
-            "LinsooSaveImage"
-        ],
-        {
-            "title_aux": "ComfyUI-Linsoo-Custom-Nodes"
         }
     ],
     "https://github.com/LittleTechPomp/comfyui-pixxio": [
@@ -3459,77 +3468,44 @@
     ],
     "https://github.com/NEZHA625/ComfyUI-tools-by-dong": [
         [
-            "A1111_FLUX_DATA_NODE",
-            "AudioDurationNode",
-            "AudioPathToAudioNode",
-            "CategorizeNode",
-            "CountFilesFromFolderNode",
-            "Data_handle_Node",
-            "DeepSeek_Node",
-            "Delay_node",
-            "Delete_folder_Node",
-            "Dong_Pixelate_Node",
-            "Dong_Text_Node",
-            "DownloadNode",
-            "Downloader",
-            "FileMoveNode",
-            "FolderIteratorNODE",
-            "GLM_Node",
-            "GetImageListFromFloderNode",
-            "GetImageListFromFloderNode2",
-            "GetRefModelImageListNode",
-            "Get_cookies_Node",
-            "Get_json_value_Node",
-            "Get_video_Node",
-            "HashCalculationsNode",
-            "HuggingFaceUploadNode",
-            "IFEXISTTEXTNODE",
-            "IMG2URLNode",
-            "INTNODE",
-            "Image2GIFNode",
-            "ImageDownloader",
-            "ImageResizeNode",
-            "LibLib_upload_Node",
-            "LogicToolsNode",
-            "LoraIterator",
-            "PromptConcatNode",
-            "Qwen3VL_235_Node",
-            "Qwen3VL_30_Node",
-            "QwenVL_Node",
-            "RandomNumbersNode",
-            "RenameNode",
-            "ResolutionNode",
-            "SaveTXTNode",
-            "SetAppidNode",
-            "TextToJsonNode",
-            "TranslateAPINode",
-            "Wan21_get_Node",
-            "Wan21_post_Node",
-            "ZIPwith7zNode",
-            "bailian_model_select_Node",
-            "checkvram_node",
-            "cogvideox_flash_get_Node",
-            "cogvideox_flash_post_Node",
-            "cogview_3_flash_Node",
-            "doubaoNode",
-            "file_analysis_Node",
-            "file_extract_Node",
-            "find_files_by_extension_Node",
-            "get_text_from_list_Node",
-            "get_video_from_url_Node",
-            "image_iterator",
-            "img2url_v2_Node",
-            "img_understanding_Node",
-            "klingai_video_Node",
-            "liblib_auto_video_node",
-            "nano_banana_node",
-            "path_join_Node",
-            "save_img_NODE",
-            "save_img_v2_NODE",
-            "set_api_Node",
-            "sora2",
-            "sora2_suchuang_node",
-            "text_replace_node"
+            "Banana\u8282\u70b9",
+            "DeepSeek\u8282\u70b9",
+            "JSON\u5355\u952e\u503c\u6784\u5efa\u8282\u70b9",
+            "JSON\u53d6\u503c\u8282\u70b9",
+            "JSON\u5408\u5e76\u8282\u70b9",
+            "JSON\u591a\u952e\u503c\u6784\u5efa\u8282\u70b9",
+            "QwenVL\u8282\u70b9",
+            "Sora2\u8282\u70b9",
+            "\u4ece\u6587\u672c\u5217\u8868\u83b7\u53d6\u6587\u672c\u8282\u70b9",
+            "\u4ed9\u5bab\u4e91\u73af\u5883\u53d8\u91cf\u8282\u70b9",
+            "\u4fdd\u5b58\u56fe\u50cf\u8282\u70b9",
+            "\u4fdd\u5b58\u6587\u672c\u8282\u70b9",
+            "\u5206\u8fa8\u7387\u8282\u70b9",
+            "\u5220\u9664\u6587\u4ef6\u8282\u70b9",
+            "\u538b\u7f29\u8282\u70b9",
+            "\u53d6\u6574\u51fd\u6570\u8282\u70b9",
+            "\u56fe\u50cf\u8fed\u4ee3\u8282\u70b9",
+            "\u5916\u8865\u753b\u677f\u8282\u70b9",
+            "\u5b57\u7b26\u5b58\u5728\u6027\u68c0\u6d4b\u8282\u70b9",
+            "\u5bab\u683c\u56fe\u5207\u5206\u8282\u70b9",
+            "\u5c0f\u663e\u5b58\u68c0\u6d4b\u8282\u70b9",
+            "\u6570\u636e\u5b58\u5728\u6027\u68c0\u6d4b\u8282\u70b9",
+            "\u6587\u4ef6\u4e0b\u8f7d\u8282\u70b9",
+            "\u6587\u4ef6\u5939\u8fed\u4ee3\u8282\u70b9",
+            "\u6587\u672c\u8f93\u5165\u8282\u70b9",
+            "\u6a21\u578b\u4e0b\u8f7d\u8282\u70b9",
+            "\u6bb5\u843d\u6570\u8ba1\u7b97\u8282\u70b9",
+            "\u79fb\u52a8\u6587\u4ef6\u8282\u70b9",
+            "\u7ffb\u8bd1\u8282\u70b9",
+            "\u83b7\u53d6\u56fe\u50cf\u5217\u8868\u8282\u70b9",
+            "\u83b7\u53d6\u89c6\u9891\u8def\u5f84\u8282\u70b9",
+            "\u8ba1\u7b97\u6587\u4ef6\u6570\u91cf\u8282\u70b9",
+            "\u8def\u5f84\u52a0\u5165\u8282\u70b9",
+            "\u901a\u7528API\u8282\u70b9",
+            "\u903b\u8f91\u8282\u70b9",
+            "\u91cd\u547d\u540d\u8282\u70b9",
+            "\u968f\u673a\u6570\u8282\u70b9",
+            "\u97f3\u9891\u65f6\u957f\u8ba1\u7b97\u8282\u70b9"
         ],
         {
             "title_aux": "ComfyUI-tools-by-dong [UNSAFE]"
@@ -3750,16 +3726,6 @@
             "title_aux": "ComfyUI-HFTransformers"
         }
     ],
-    "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini": [
-        [
-            "ConcatImagesToAPIGeminiMPOnly",
-            "ConcatTwoImagesRaw",
-            "GridCollageARCols"
-        ],
-        {
-            "title_aux": "ComfyUI-concat_images_to_api_gemini"
-        }
-    ],
     "https://github.com/PauldeLavallaz/comfyui_morpheus_NanoBanana_Mask": [
         [
             "MorpheusBatchImagesCropV25Fix",
@@ -3767,7 +3733,7 @@
             "MorpheusNanoBananaMaskGeminiV25Fix"
         ],
         {
-            "title_aux": "ComfyUI-concat_images_to_api_gemini [WIP]"
+            "title_aux": "comfyui_morpheus_NanoBanana_Mask [WIP]"
         }
     ],
     "https://github.com/PeterMikhai/Doom_Flux_NodePack": [
@@ -3781,6 +3747,14 @@
         ],
         {
             "title_aux": "DoomFLUX Nodes [WIP]"
+        }
+    ],
+    "https://github.com/PladsElsker/comfyui-krita": [
+        [
+            "KritaSaveImage"
+        ],
+        {
+            "title_aux": "comfyui-krita [WIP]"
         }
     ],
     "https://github.com/Polygoningenieur/ComfyUI-Diffusion-SDXL-Video": [
@@ -4008,13 +3982,16 @@
             "MIALoadModel",
             "UniRigApplyAnimation",
             "UniRigAutoRig",
+            "UniRigCompareSkeletons",
+            "UniRigDebugSkeleton",
             "UniRigExportPosedFBX",
             "UniRigLoadMesh",
             "UniRigLoadModel",
             "UniRigLoadRiggedMesh",
+            "UniRigOrientationCheck",
             "UniRigPreviewRiggedMesh",
             "UniRigSaveMesh",
-            "UniRigSaveSkeleton"
+            "UniRigViewRigging"
         ],
         {
             "title_aux": "ComfyUI-UniRig [WIP]"
@@ -4740,6 +4717,9 @@
         [
             "AddVideoTextWatermark",
             "GetDeviceType",
+            "LoadAudioByUrl",
+            "LoadImageByUrl",
+            "LoadVideoByUrl",
             "SeparateVideoAudio",
             "Wav2Srt"
         ],
@@ -4776,6 +4756,7 @@
             "SDVN Boolean",
             "SDVN CLIP Download",
             "SDVN CLIP Text Encode",
+            "SDVN CLIP Text Encode Simple",
             "SDVN CLIPVision Download",
             "SDVN Checkpoint Download",
             "SDVN Checkpoint Download List",
@@ -5036,17 +5017,29 @@
     "https://github.com/ThatGlennD/ComfyUI-Image-Analysis-Tools": [
         [
             "Blur Detection",
+            "BlurDetection",
             "Clipping Analysis",
+            "ClippingAnalysis",
             "Color Cast Detector",
             "Color Harmony Analyzer",
             "Color Temperature Estimator",
+            "ColorCastDetector",
+            "ColorHarmonyAnalyzer",
+            "ColorTemperatureEstimator",
             "Contrast Analysis",
+            "ContrastAnalysis",
             "Defocus Analysis",
+            "DefocusAnalysis",
             "Edge Density Analysis",
+            "EdgeDensityAnalysis",
             "Entropy Analysis",
+            "EntropyAnalysis",
             "Noise Estimation",
+            "NoiseEstimation",
             "RGB Histogram Renderer",
-            "Sharpness / Focus Score"
+            "RGBHistogramRenderer",
+            "Sharpness / Focus Score",
+            "SharpnessFocusScore"
         ],
         {
             "title_aux": "ComfyUI Image Analysis Toolkit [WIP]"
@@ -5156,6 +5149,14 @@
             "title_aux": "ComfyUI-CustomNodes-MVM"
         }
     ],
+    "https://github.com/Tr1dae/ComfyUI-MobileSAM": [
+        [
+            "EasyMobileSAM"
+        ],
+        {
+            "title_aux": "[WIP] ComfyUI-MobileSAM"
+        }
+    ],
     "https://github.com/UltraNoob-NazoGiken/ComfyUI-TOML-Tools": [
         [
             "CreateTomlData",
@@ -5251,6 +5252,23 @@
         ],
         {
             "title_aux": "ComfyUI Custom Nodes: OpenRouter & Ollama [UNSAFE]"
+        }
+    ],
+    "https://github.com/Vov1ch/ComfyUI_GLMImage": [
+        [
+            "GLMImageGenerate",
+            "GLMImageImageToImage",
+            "GLMImageSDNQ_FlexibleInput",
+            "GLMImageSDNQ_Generate",
+            "GLMImageSDNQ_I2I_Standalone",
+            "GLMImageSDNQ_ImageToImage",
+            "GLMImageSDNQ_LoadPipe",
+            "GLMImageSDNQ_MultiI2I_Standalone",
+            "GLMImageSDNQ_MultiImageToImage",
+            "GLMImageSDNQ_T2I_Standalone"
+        ],
+        {
+            "title_aux": "ComfyUI_GLMImage"
         }
     ],
     "https://github.com/Vsolon/ComfyUI-CBZ-Pack": [
@@ -5747,18 +5765,6 @@
         ],
         {
             "title_aux": "etm_comfyui_nodes"
-        }
-    ],
-    "https://github.com/aistudynow/comfyui-wilddragon-nodes": [
-        [
-            "WD_FaceRestoreBlend",
-            "WD_ImageFaceCrop2025",
-            "WD_PersonBBoxTracker",
-            "WD_PersonSelector",
-            "WD_PoseFaceFilter"
-        ],
-        {
-            "title_aux": "comfyui-wilddragon-nodes [WIP]"
         }
     ],
     "https://github.com/ajcampbell1333/BudgetGuard_Artists": [
@@ -6825,6 +6831,7 @@
         [
             "AliyunDriveCloudUploadNode",
             "AliyunDriveOptimizedUploadNode",
+            "AliyunDriveUploadNode",
             "SimpleUploadToAliyunDrive",
             "UploadTo115",
             "UploadToAliyunDrive",
@@ -6944,6 +6951,7 @@
             "BatchLatentsNode",
             "BatchMasksNode",
             "BetaSamplingScheduler",
+            "BriaImageEditNode",
             "ByteDanceFirstLastFrameNode",
             "ByteDanceImageEditNode",
             "ByteDanceImageNode",
@@ -7034,11 +7042,13 @@
             "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
+            "Flux2ProImageNode",
             "Flux2Scheduler",
             "FluxDisableGuidance",
             "FluxGuidance",
             "FluxKontextImageScale",
             "FluxKontextMultiReferenceLatentMethod",
+            "FluxKontextProImageNode",
             "FluxProExpandNode",
             "FluxProFillNode",
             "FluxProUltraImageNode",
@@ -7082,6 +7092,7 @@
             "ImageOnlyCheckpointLoader",
             "ImageOnlyCheckpointSave",
             "ImagePadForOutpaint",
+            "ImageProcessingNode",
             "ImageQuantize",
             "ImageRGBToYUV",
             "ImageRotate",
@@ -7443,6 +7454,8 @@
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
+            "TextEncodeZImageOmni",
+            "TextProcessingNode",
             "ThresholdMask",
             "TomePatchModel",
             "TopazImageEnhance",
@@ -8307,6 +8320,14 @@
             "title_aux": "comfyui-cem-tools"
         }
     ],
+    "https://github.com/fogyisland/Comfy_Show_StringText": [
+        [
+            "ComfyUIShowText"
+        ],
+        {
+            "title_aux": "Comfy_Show_StringText [WIP]"
+        }
+    ],
     "https://github.com/franklydegenerate/ComfyUI-WAN-Resolution-Helper": [
         [
             "WANResolutionHelperV2"
@@ -8346,6 +8367,43 @@
         ],
         {
             "title_aux": "ComfyUI-LLM-Utils [WIP]"
+        }
+    ],
+    "https://github.com/frost-byte/fbTools": [
+        [
+            "FBTextEncodeQwenImageEditPlus",
+            "LibberApply",
+            "LibberManager",
+            "MaskProcessor",
+            "NodeInputSelect",
+            "OpaqueAlpha",
+            "PromptComposer",
+            "QwenAspectRatio",
+            "SAMPreprocessNHWC",
+            "SceneCreate",
+            "SceneInput",
+            "SceneOutput",
+            "ScenePromptManager",
+            "SceneSave",
+            "SceneSelect",
+            "SceneUpdate",
+            "SceneView",
+            "SceneWanVideoLoraMultiSave",
+            "StoryCreate",
+            "StoryEdit",
+            "StoryLoad",
+            "StorySave",
+            "StorySceneBatch",
+            "StorySceneImageSave",
+            "StoryScenePick",
+            "StoryVideoBatch",
+            "StoryView",
+            "SubdirLister",
+            "TailEnhancePro",
+            "TailSplit"
+        ],
+        {
+            "title_aux": "fb-tools"
         }
     ],
     "https://github.com/ftechmax/ComfyUI-NovaKit-Pack": [
@@ -8610,6 +8668,7 @@
     ],
     "https://github.com/grinlau18/ComfyUI_XISER_Nodes": [
         [
+            "BaseFromListGetOneV3",
             "XISER_Canvas",
             "XIS_BooleanSwitch",
             "XIS_CanvasConfig",
@@ -8660,7 +8719,8 @@
             "XIS_ShapeData",
             "XIS_StringListMerger",
             "XIS_StringSwitch",
-            "XIS_UnpackImages"
+            "XIS_UnpackImages",
+            "XIS_VGMOrchestrator"
         ],
         {
             "title_aux": "Xiser_Nodes [WIP]"
@@ -10503,6 +10563,8 @@
     ],
     "https://github.com/lrzjason/Comfyui-DiffusersUtils": [
         [
+            "DiffusersGenPriorTokens",
+            "DiffusersGenPriorTokensDebug",
             "DiffusersImageEditGenerator",
             "DiffusersImageGenerator",
             "DiffusersLoadLoraOnly",
@@ -11350,6 +11412,7 @@
             "CutieLoader",
             "CutieProcess",
             "FrameSelector",
+            "ImageSequencePackager",
             "MODNetInference",
             "MODNetLoader",
             "PreviewSlider",
@@ -11358,6 +11421,7 @@
             "RVMInference",
             "RVMLoader",
             "TrimapVisualize",
+            "TwoPassBlend",
             "U2NetInference",
             "U2NetLoader",
             "ViTMatteLoader",
@@ -12446,6 +12510,15 @@
             "title_aux": "ComfyUI-JsonViewer [WIP]"
         }
     ],
+    "https://github.com/shin131002/ComfyUI-Prompt-Preset-Selector": [
+        [
+            "PromptPresetSelector",
+            "PromptPresetSelectorWithWildcard"
+        ],
+        {
+            "title_aux": "[WIP] ComfyUI-Prompt-Preset-Selector"
+        }
+    ],
     "https://github.com/shinich39/comfyui-run-js": [
         [
             "RunJS"
@@ -12579,6 +12652,8 @@
             "SamplingParameters",
             "SystemMessagePresets",
             "TextEncodeFlux2SystemPrompt",
+            "TextEncodeKleinSystemPrompt",
+            "TextEncodeSystemPrompt",
             "TextEncodeZITSystemPrompt",
             "UnFrakturPad"
         ],
@@ -12732,6 +12807,7 @@
     ],
     "https://github.com/sprited-ai/sprited-comfyui-nodes": [
         [
+            "BiRefNetBackgroundRemoval",
             "FlattenImageList",
             "LoopExtractorNodeV2",
             "LoopExtractorNodeV3",
@@ -12759,6 +12835,8 @@
             "FloatToStr",
             "Gallery",
             "InputText",
+            "OneMScale",
+            "ResFinder",
             "SSchlTextEncoder",
             "ShowText",
             "TextAppender"
@@ -14037,7 +14115,7 @@
             "FirstLastFrameXZ",
             "ImageResizeKJ",
             "ImageResizeXZ",
-            "SelfGuidance",
+            "SelfGuidanceXZ",
             "TextEncodeQwenImageEditSimpleXZ",
             "TextEncodeQwenImageEditXZ",
             "TripleCLIPLoaderXZ",

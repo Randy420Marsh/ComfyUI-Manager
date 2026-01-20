@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "pollockjj",
+            "title": "ComfyUI-StabilityTest",
+            "reference": "https://github.com/pollockjj/ComfyUI-StabilityTest",
+            "files": [
+                "https://github.com/pollockjj/ComfyUI-StabilityTest"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI stability testing node. (Description by CC)"
+        },
+        {
+            "author": "Tr1dae",
+            "title": "[WIP] ComfyUI-MobileSAM",
+            "reference": "https://github.com/Tr1dae/ComfyUI-MobileSAM",
+            "files": [
+                "https://github.com/Tr1dae/ComfyUI-MobileSAM"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for text-guided image segmentation using GroundingDINO and MobileSAM to segment objects in images using natural language prompts.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Vov1ch",
+            "title": "ComfyUI_GLMImage",
+            "reference": "https://github.com/Vov1ch/ComfyUI_GLMImage",
+            "files": [
+                "https://github.com/Vov1ch/ComfyUI_GLMImage"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for GLM image generation, image-to-image translation, and flexible input handling. (Description by CC)"
+        },
+        {
+            "author": "DailyMok",
+            "title": "ComfyUI-PromptMixerNode",
+            "reference": "https://github.com/DailyMok/ComfyUI-PromptMixerNode",
+            "files": [
+                "https://github.com/DailyMok/ComfyUI-PromptMixerNode"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for prompt mixing with PromptMixerDaily node. (Description by CC)"
+        },
+        {
+            "author": "shin131002",
+            "title": "[WIP] ComfyUI-Prompt-Preset-Selector",
+            "reference": "https://github.com/shin131002/ComfyUI-Prompt-Preset-Selector",
+            "files": [
+                "https://github.com/shin131002/ComfyUI-Prompt-Preset-Selector"
+            ],
+            "install_type": "git-clone",
+            "description": "Flexible preset selector with YAML support, advanced keyword filtering, and hierarchical key search\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "fogyisland",
+            "title": "Comfy_Show_StringText [WIP]",
+            "reference": "https://github.com/fogyisland/Comfy_Show_StringText",
+            "files": [
+                "https://github.com/fogyisland/Comfy_Show_StringText"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for text display that implements string data output. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Leecoahs",
+            "title": "ComfyUI_LeeNodes",
+            "reference": "https://github.com/Leecoahs/ComfyUI_LeeNodes",
+            "files": [
+                "https://github.com/Leecoahs/ComfyUI_LeeNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for image processing including grayscale combining, overlaying, texture inpainting. (Description by CC)"
+        },
+        {
             "author": "cosmicbuffalo",
             "title": "comfyui-mobile-frontend",
             "reference": "https://github.com/cosmicbuffalo/comfyui-mobile-frontend",
@@ -2247,23 +2317,13 @@
         },
         {
             "author": "PauldeLavallaz",
-            "title": "ComfyUI-concat_images_to_api_gemini [WIP]",
+            "title": "comfyui_morpheus_NanoBanana_Mask [WIP]",
             "reference": "https://github.com/PauldeLavallaz/comfyui_morpheus_NanoBanana_Mask",
             "files": [
                 "https://github.com/PauldeLavallaz/comfyui_morpheus_NanoBanana_Mask"
             ],
             "install_type": "git-clone",
             "description": "NODES: Morpheus · Batch Images + crop image, Morpheus · NanoBanana Mask, Morpheus · Image Editing Prompt, ...\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "PauldeLavallaz",
-            "title": "ComfyUI-concat_images_to_api_gemini",
-            "reference": "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini",
-            "files": [
-                "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Concat Images → Gemini (MP only), Concat Two Images (RAW passthrough), Grid Collage AR Cols, ..."
         },
         {
             "author": "silveroxides",
@@ -2414,16 +2474,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI node that outputs WAN 2.2-ready sizes by preserving aspect ratio, capping the long side, and rounding both dimensions to multiples of 16 pixels to reduce artifacts.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "aistudynow",
-            "title": "comfyui-wilddragon-nodes [WIP]",
-            "reference": "https://github.com/aistudynow/comfyui-wilddragon-nodes",
-            "files": [
-                "https://github.com/aistudynow/comfyui-wilddragon-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Image Face Crop (2025), Person Selector, Pose Face Filter, Person BBox Tracker, Face Restore & Blend, ...\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "RM2-0",
@@ -6168,16 +6218,6 @@
             ],
             "install_type": "git-clone",
             "description": "Ecological extension of comfyui using Rust language."
-        },
-        {
-            "author": "Linsoo",
-            "title": "ComfyUI-Linsoo-Custom-Nodes",
-            "reference": "https://github.com/Linsoo/ComfyUI-Linsoo-Custom-Nodes",
-            "files": [
-                "https://github.com/Linsoo/ComfyUI-Linsoo-Custom-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Linsoo Save Image, Linsoo Load Image (In development.. not working), Linsoo Empty Latent Image, Linsoo Multi Inputs, Linsoo Multi Outputs"
         },
         {
             "author": "EricRollei",

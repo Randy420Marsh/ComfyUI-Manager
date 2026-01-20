@@ -1,6 +1,66 @@
 {
     "custom_nodes": [
         {
+            "author": "huyl3-cpu",
+            "title": "comfyui_segment_anything_a100 [REMOVED]",
+            "reference": "https://github.com/huyl3-cpu/comfyui_segment_anything_a100",
+            "files": [
+                "https://github.com/huyl3-cpu/comfyui_segment_anything_a100"
+            ],
+            "install_type": "git-clone",
+            "description": "Heavily optimized A100 GPU fork of ComfyUI Segment Anything using BF16 precision, VRAM Locking, and Zero-Copy GPU processing for massive batch processing."
+        },
+        {
+            "author": "PauldeLavallaz",
+            "title": "comfyui_morpheus_model_management [REMOVED]",
+            "reference": "https://github.com/PauldeLavallaz/comfyui_morpheus_model_management",
+            "files": [
+                "https://github.com/PauldeLavallaz/comfyui_morpheus_model_management"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodo personalizzato per ComfyUI che consente di sfogliare una libreria locale di immagini di talent con interfaccia gallery, filtri avanzati e output multipli. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "laboratoiresonore",
+            "title": "ComfyUI_PerformanceLab [REMOVED]",
+            "reference": "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab",
+            "files": [
+                "https://github.com/laboratoiresonore/ComfyUI_PerformanceLab"
+            ],
+            "install_type": "git-clone",
+            "description": "Make any ComfyUI workflow faster, use less VRAM, or produce better quality - with AI assistance"
+        },
+        {
+            "author": "Linsoo",
+            "title": "ComfyUI-Linsoo-Custom-Nodes [REMOVED]",
+            "reference": "https://github.com/Linsoo/ComfyUI-Linsoo-Custom-Nodes",
+            "files": [
+                "https://github.com/Linsoo/ComfyUI-Linsoo-Custom-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Linsoo Save Image, Linsoo Load Image (In development.. not working), Linsoo Empty Latent Image, Linsoo Multi Inputs, Linsoo Multi Outputs"
+        },
+        {
+            "author": "PauldeLavallaz",
+            "title": "ComfyUI-concat_images_to_api_gemini [REMOVED]",
+            "reference": "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini",
+            "files": [
+                "https://github.com/PauldeLavallaz/ComfyUI-concat_images_to_api_gemini"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Concat Images → Gemini (MP only), Concat Two Images (RAW passthrough), Grid Collage AR Cols, ..."
+        },
+        {
+            "author": "aistudynow",
+            "title": "comfyui-wilddragon-nodes [REMOVED]",
+            "reference": "https://github.com/aistudynow/comfyui-wilddragon-nodes",
+            "files": [
+                "https://github.com/aistudynow/comfyui-wilddragon-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Image Face Crop (2025), Person Selector, Pose Face Filter, Person BBox Tracker, Face Restore & Blend, ...\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "Wladimir Palant",
             "title": "image-resize-comfyui [REMOVED]",
             "reference": "https://github.com/ussoewwin/image_resize_comfyui",
