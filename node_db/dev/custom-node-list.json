@@ -1,6 +1,48 @@
 {
     "custom_nodes": [
         {
+            "author": "ncky",
+            "title": "ComfyUI-Qwen3-TTS [NAME CONFLICT]",
+            "reference": "https://github.com/ncky/ComfyUI-Qwen3-TTS",
+            "files": [
+                "https://github.com/ncky/ComfyUI-Qwen3-TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node that wraps Qwen3-TTS voice cloning for synthesizing speech in a cloned voice. (Description by CC)"
+        },
+        {
+            "author": "starsFriday",
+            "title": "ComfyUI-Qwen3-TTS [NAME CONFLICT/WIP]",
+            "reference": "https://github.com/starsFriday/ComfyUI-Qwen3-TTS",
+            "files": [
+                "https://github.com/starsFriday/ComfyUI-Qwen3-TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Sound-related nodes for the Qwen3-TTS project\nNOTE: The files in the repo are not organized."
+        },        
+
+        {
+            "author": "RicoMeng",
+            "title": "CartoonGenComfyui-PromtGenerator",
+            "reference": "https://github.com/RicoMeng/CartoonGenComfyui-PromtGenerator",
+            "files": [
+                "https://github.com/RicoMeng/CartoonGenComfyui-PromtGenerator"
+            ],
+            "install_type": "git-clone",
+            "description": "Istanbul 80s Prompt Generator Node for ComfyUI. (Description by CC)"
+        },
+        {
+            "author": "N3uR0TiCV0iD",
+            "title": "ComfyUI-ModelListTools",
+            "reference": "https://github.com/N3uR0TiCV0iD/ComfyUI-ModelListTools",
+            "files": [
+                "https://github.com/N3uR0TiCV0iD/ComfyUI-ModelListTools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: CLIPModelSelectionNode, CLIPVisionModelSelectionNode, CheckpointSelectionNode, DiffusionModelSelectionNode, FilteredCLIPModelsNode, ... (13 total)"
+        },
+
+        {
             "author": "pollockjj",
             "title": "ComfyUI-StabilityTest",
             "reference": "https://github.com/pollockjj/ComfyUI-StabilityTest",
@@ -2054,16 +2096,6 @@
             ],
             "install_type": "git-clone",
             "description": "A custom node designed for ComfyUI that integrates the **Qwen3-VL-4B-Instruct-FP8** vision-language model for efficient image understanding and description. It supports flexible prompt-combination features to enhance the accuracy and diversity of image descriptions.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "90cube",
-            "title": "CBCanvas Node for ComfyUI [WIP]",
-            "reference": "https://github.com/90cube/Comfyui-CBcanvas",
-            "files": [
-                "https://github.com/90cube/Comfyui-CBcanvas"
-            ],
-            "install_type": "git-clone",
-            "description": "Canvas node with intelligent aspect ratio control - 13 preset aspect ratios from ultra-wide (21:9) to ultra-tall (9:21).\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "r-vage",

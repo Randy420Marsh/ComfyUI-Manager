@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "90cube",
+            "title": "CBCanvas Node for ComfyUI [REMOVED]",
+            "reference": "https://github.com/90cube/Comfyui-CBcanvas",
+            "files": [
+                "https://github.com/90cube/Comfyui-CBcanvas"
+            ],
+            "install_type": "git-clone",
+            "description": "Canvas node with intelligent aspect ratio control - 13 preset aspect ratios from ultra-wide (21:9) to ultra-tall (9:21).\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "inflamously",
+            "title": "comfyui-prompt-enhancer [DEPRECATED]",
+            "reference": "https://github.com/inflamously/comfyui-prompt-enhancer",
+            "files": [
+                "https://github.com/inflamously/comfyui-prompt-enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "A crazy node that pragmatically just enhances a given prompt with various descriptions in the hope that the image quality just increase and prompting just gets easier."
+        },
+        {
+            "author": "tudal",
+            "title": "Hakkun-ComfyUI-nodes [REMOVED]",
+            "reference": "https://github.com/tudal/Hakkun-ComfyUI-nodes",
+            "files": [
+                "https://raw.githubusercontent.com/tudal/Hakkun-ComfyUI-nodes/main/hakkun_nodes.py"
+            ],
+            "install_type": "copy",
+            "description": "Mainly its prompt generating by custom syntax. Prompt Parser, Prompt tags, Random Line, Calculate Upscale, Image size to string, Type Converter, Image Resize To Height/Width, Load Random Image, Load Text"
+        },
+        {
             "author": "huyl3-cpu",
             "title": "comfyui_segment_anything_a100 [REMOVED]",
             "reference": "https://github.com/huyl3-cpu/comfyui_segment_anything_a100",
