@@ -128,7 +128,7 @@
                 "https://github.com/teskor-hub/comfyui-teskors-utils"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI utility nodes for pose smoothing and rendering. (Description by CC)\nNOTE: The files in the repo are not organized."
+            "description": "DWpose smoothing and rendering node (body, face, hands)\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "Omega-L",
@@ -282,16 +282,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for image processing including grayscale combining, overlaying, texture inpainting. (Description by CC)"
-        },
-        {
-            "author": "cosmicbuffalo",
-            "title": "comfyui-mobile-frontend",
-            "reference": "https://github.com/cosmicbuffalo/comfyui-mobile-frontend",
-            "files": [
-                "https://github.com/cosmicbuffalo/comfyui-mobile-frontend"
-            ],
-            "install_type": "git-clone",
-            "description": "An experimental dedicated mobile-first frontend for ComfyUI."
         },
         {
             "author": "tdrminglin",

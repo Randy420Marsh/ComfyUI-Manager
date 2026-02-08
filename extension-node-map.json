@@ -6117,6 +6117,7 @@
             "DiffusionModelSelectorNode",
             "ImageResizeNode",
             "LORASelectorNode",
+            "LoadImageWithMetadataNode",
             "MaskDebugNode",
             "ModelGeneratorNode",
             "OptionalCondMergeNode",
@@ -6625,6 +6626,7 @@
             "BoyoVACEInjector",
             "BoyoVACEViewer",
             "BoyoVAEDecode",
+            "BoyoVideoClipper",
             "BoyoVideoCutter",
             "BoyoVideoLengthCalculator",
             "BoyoVideoPairedSaver",
@@ -8476,6 +8478,7 @@
         [
             "SF_ActionAnimator",
             "SF_AssetLoader",
+            "SF_DirectorEngine",
             "SF_FuryPromptEngine",
             "SF_FurySampler",
             "SF_ProjectManager",
@@ -12186,9 +12189,15 @@
             "ImageListRepeater",
             "ImageListSplitter",
             "LG_AccumulatePreview",
+            "LG_ClearAccumulatedValues",
+            "LG_ConcatVideoFiles",
+            "LG_CreateAndSaveVideo",
             "LG_FastPreview",
             "LG_ImageReceiver",
             "LG_ImageSender",
+            "LG_SaveAudioGetPath",
+            "LG_ValueReceiver",
+            "LG_ValueSender",
             "MaskListRepeater",
             "MaskListSplitter"
         ],
@@ -16765,7 +16774,9 @@
             "RizzExtractAllFrames",
             "RizzExtractFrames",
             "RizzGDSPatcher",
+            "RizzImageEffects",
             "RizzLoadAudio",
+            "RizzLoadImage",
             "RizzLoadLatestImage",
             "RizzLoadLatestMesh",
             "RizzLoadVideo",
@@ -16773,9 +16784,11 @@
             "RizzModelBatchLoader",
             "RizzPasteAndUnscale",
             "RizzPreviewAudio",
+            "RizzPreviewImage",
             "RizzPreviewTiling",
             "RizzPreviewVideo",
             "RizzSaveAudio",
+            "RizzSaveImage",
             "RizzSaveVideo",
             "RizzSeparateVideoAudio",
             "RizzTextcombine",
@@ -18101,9 +18114,9 @@
     "https://github.com/Shiba-2-shiba/ComfyUI-HSWQ-Quantizer": [
         [
             "HSWQAdvancedBenchmark",
-            "HSWQFP8ConverterNode",
             "HSWQFP8ConverterNodeLegacy",
-            "SDXLHSWQCalibrationNode"
+            "SDXLHSWQCalibrationNode",
+            "SDXLHSWQFP8QuantizerNode"
         ],
         {
             "title_aux": "ComfyUI-HSWQ-Quantizer"
@@ -18121,9 +18134,9 @@
     "https://github.com/Shiba-2-shiba/ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer": [
         [
             "HSWQAdvancedBenchmark",
-            "HSWQFP8ConverterNode",
             "HSWQFP8ConverterNodeLegacy",
-            "SDXLHSWQCalibrationNode"
+            "SDXLHSWQCalibrationNode",
+            "SDXLHSWQFP8QuantizerNode"
         ],
         {
             "title_aux": "ComfyUI-Unofficial-HSWQ-QuantizerHSWQ-Quantizer"
@@ -20940,7 +20953,9 @@
             "easy_latent_sanitize",
             "easy_mask_sanitize",
             "easy_smartbypass",
-            "easy_vae_hard_reset"
+            "easy_vae_hard_reset",
+            "save_image_with_latent_and_metadata_webp",
+            "webp_latent_loader"
         ],
         {
             "title_aux": "ComfyUI-EasyFilePaths"
@@ -25437,7 +25452,9 @@
             "Sage_DualCLIPTextEncode",
             "Sage_DualCLIPTextEncodeLumina2",
             "Sage_DualCLIPTextEncodeQwen",
+            "Sage_DynamicComboTest",
             "Sage_EmptyLatentImagePassthrough",
+            "Sage_FlexibleCLIPSelector",
             "Sage_FloatToStr",
             "Sage_FreeMemory",
             "Sage_FreeU2",
@@ -26814,7 +26831,7 @@
             "HALOVAEEncode"
         ],
         {
-            "title_aux": "halo_pack"
+            "title_aux": "HALO Debug Pack"
         }
     ],
     "https://github.com/black-forest-labs/bfl-comfy-nodes": [
@@ -30444,6 +30461,7 @@
             "ConvertStringToComboNode",
             "CosmosImageToVideoLatent",
             "CosmosPredict2ImageToVideoLatent",
+            "CreateList",
             "CreateVideo",
             "CropMask",
             "CustomCombo",
@@ -30933,6 +30951,7 @@
             "UpscaleModelLoader",
             "VAEDecode",
             "VAEDecodeAudio",
+            "VAEDecodeAudioTiled",
             "VAEDecodeHunyuan3D",
             "VAEDecodeTiled",
             "VAEEncode",
@@ -31022,6 +31041,15 @@
         {
             "title_aux": "ComfyUI_experiments"
         }
+    ],
+    "https://github.com/comfyui/snacknodes": [
+        [
+            "ImageInfo",
+            "ImageScaler",
+            "TextBox",
+            "TextProcessor"
+        ],
+        {}
     ],
     "https://github.com/comfyuistudio/ComfyUI-Studio-nodes": [
         [
@@ -42371,17 +42399,6 @@
             "title_aux": "DeepSeek Chat Node for ComfyUI"
         }
     ],
-    "https://github.com/linksluckytime/comfyui_snacknodes": [
-        [
-            "ImageInfo",
-            "ImageScaler",
-            "TextBox",
-            "TextProcessor"
-        ],
-        {
-            "title_aux": "comfyui_snacknodes"
-        }
-    ],
     "https://github.com/linshier/comfyui-remote-tools": [
         [
             "LoadBase64(js)",
@@ -49797,7 +49814,7 @@
             "ReferenceChainConditioningBase64"
         ],
         {
-            "title_aux": "ComfyUI-ReferenceChain"
+            "title_aux": "Reference Chain Conditioning"
         }
     ],
     "https://github.com/revirevy/Comfyui_saveimage_imgbb": [
