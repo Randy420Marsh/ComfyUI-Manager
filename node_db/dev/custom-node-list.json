@@ -4151,16 +4151,6 @@
             "description": "A Simple NODE for a Standbybutton in ComyUi. It works also with the webinterface."
         },
         {
-            "author": "brandonkish",
-            "title": "comfyUI-extractable-text [WIP]",
-            "reference": "https://github.com/brandonkish/comfyUI-extractable-text",
-            "files": [
-                "https://github.com/brandonkish/comfyUI-extractable-text"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Save Image With Description, Save Image To Folder, Load Image With Description, LoRA Testing Node, Get Smaller Of Two Numbers, Get Larger Of Two Numbers\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "Dream-Pixels-Forge",
             "title": "ComfyUI-Mzikart-Vocal [WIP]",
             "reference": "https://github.com/Dream-Pixels-Forge/ComfyUI-Mzikart-Vocal",
@@ -8666,16 +8656,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComyUI wrapper for Intel OIDN image denoising\nWARNING! : this is a development repo, usage in production environments is not advised! Bugs are to be expected."
-        },
-        {
-            "author": "techzuhaib",
-            "title": "ComfyUI-CacheImageNode",
-            "reference": "https://github.com/techzuhaib/ComfyUI-CacheImageNode",
-            "files": [
-                "https://github.com/techzuhaib/ComfyUI-CacheImageNode"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: CacheImageNode"
         },
         {
             "author": "hay86",
