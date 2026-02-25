@@ -1560,6 +1560,14 @@
             "title_aux": "comfyui-djb-utils"
         }
     ],
+    "https://github.com/DazzleNodes/ComfyUI-DazzleSwitch": [
+        [
+            "DazzleSwitch"
+        ],
+        {
+            "title_aux": "ComfyUI-DazzleSwitch"
+        }
+    ],
     "https://github.com/DeTK/ComfyUI-Switch": [
         [
             "NodeSwitch"
@@ -2342,7 +2350,9 @@
             "ForwardAnyImmacTools",
             "ForwardConditioningImmacTools",
             "ForwardModelImmacTools",
+            "MatchContrastImmacTools",
             "ResampleSigmasImmacTools",
+            "SkipEveryNthImagesImmacTools",
             "SpliceSigmasAtImmacTools"
         ],
         {
@@ -2831,6 +2841,15 @@
             "title_aux": "ComfyUI-LetzAI [UNSAFE]"
         }
     ],
+    "https://github.com/LiJT/ComfyUI-JT_Tools": [
+        [
+            "IsSolidColorImage",
+            "JTPromptPresetOutput"
+        ],
+        {
+            "title_aux": "ComfyUI-JT_Tools"
+        }
+    ],
     "https://github.com/Lilien86/Comfyui_Latent_Interpolation": [
         [
             "Latent Interpolator Multi"
@@ -2931,6 +2950,14 @@
         ],
         {
             "title_aux": "ComfyUI-invAIder-Nodes"
+        }
+    ],
+    "https://github.com/Lumiyumi/comfyui_stringcombineX": [
+        [
+            "StringCombine10"
+        ],
+        {
+            "title_aux": "comfyui_stringcombineX"
         }
     ],
     "https://github.com/LvyuanW/ComfyUI-6yuan": [
@@ -3834,7 +3861,6 @@
     ],
     "https://github.com/PozzettiAndrea/ComfyUI-CADabra": [
         [
-            "BGPSegSegmentation",
             "BrepGeneration",
             "CADAnalysisViewer",
             "CADBoundingBox",
@@ -3853,63 +3879,27 @@
             "CADHierarchyTree",
             "CADMergeVertices",
             "CADPrimitiveReconstruction",
-            "CADProjectFacesXY",
+            "CADProjectFaces2D",
             "CADROISelector",
             "CADRaytracerBVH",
-            "CADRecodeInference",
             "CADSave",
             "CADSewFaces",
             "CADSplineViewer",
             "CADSplitComponents",
             "CADTransform",
-            "CAD_Convert_Format",
             "CAD_Load",
-            "CAD_Load_From_Folder",
-            "CAD_Mesh_Gmsh",
-            "CAD_Mesh_Gmsh_Advanced",
+            "CAD_Load_From_Glob",
+            "CAD_Mesh",
             "CAD_Quality_Metrics",
-            "CAD_Remesh_OCC",
-            "CAD_Remesh_OCC_Advanced",
-            "CadQueryExecute",
-            "CadrilleImageInference",
-            "CadrilleInference",
-            "CadrilleTextInference",
             "FloatMath",
-            "LoadBGPSegModels",
-            "LoadCADRecodeModel",
-            "LoadCadrilleModel",
-            "LoadNeurCADReconModel",
-            "LoadPoint2CADModel",
             "LoadPointCloudXYZ",
-            "LoadSECADNetModel",
-            "LoadSurfaceParams",
-            "ML_FeatureDetection",
-            "ML_SurfaceRecon",
-            "MaskAnalyzer",
-            "MaskNormalizer",
-            "MasksToRGB",
             "MeshFaceSegmentation",
             "MeshSegmentToPointCloud",
-            "MeshToVoxel",
-            "NeurCADReconInference",
-            "NeurCADReconLoadCheckpoint",
-            "NeurCADReconTrain",
-            "Point2CADExportBrep",
-            "Point2CADSegmentation",
-            "Point2CADSurfaceFitting",
-            "Point2CADSurfaceFittingOCC",
-            "Point2CADToWireframeInfo",
-            "Point2CADTopologyExtraction",
             "PointCloudSegmentation",
             "PreviewCADBatch",
             "PreviewCADOCC",
             "PrimitiveFitting",
-            "QuadRemesh",
-            "SECADNetFinetune",
-            "SECADNetInference",
-            "SECADNetLatentToMesh",
-            "SaveSurfaceParams",
-            "ScrambleFaceIDMask"
+            "QuadRemesh"
         ],
         {
             "title_aux": "CADabra [WIP]"
@@ -3920,15 +3910,12 @@
             "ClearAllModelCaches",
             "ComputeMeshFeatures",
             "ExplodedMeshViewer",
-            "Hunyuan3DLoadMesh",
             "Hunyuan3DPreviewBoundingBoxes",
-            "Hunyuan3DSaveMesh",
             "LoadBoundingBoxes",
             "LoadP3SAMSegmentor",
+            "LoadSonataEncoder",
             "LoadXPartModels",
-            "OffloadModelToCPU",
             "P3SAMSegmentMesh",
-            "ReloadModelToGPU",
             "SaveBoundingBoxes",
             "XPartGenerateParts"
         ],
@@ -3971,13 +3958,13 @@
             "SMPLCameraViewer",
             "SMPLRetargetToSMPL",
             "SMPLToFBX",
+            "SMPLToGLB",
             "SMPLToMixamo",
             "SMPLViewer",
             "SMPLtoBVH",
             "SaveSMPL"
         ],
         {
-            "author": "gpastal",
             "title_aux": "MotionCapture [UNSAFE]"
         }
     ],
@@ -4004,14 +3991,19 @@
     "https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2": [
         [
             "LoadTrellis2Models",
+            "Trellis2ApplyGuidanceInterval",
+            "Trellis2DecodeSSLatent",
+            "Trellis2Empty3DLatent",
             "Trellis2ExportGLB",
             "Trellis2ExportTrimesh",
             "Trellis2GetConditioning",
             "Trellis2ImageToShape",
+            "Trellis2LoadSSFlowModel",
             "Trellis2RasterizePBR",
             "Trellis2RemoveBackground",
             "Trellis2RenderPreview",
             "Trellis2RenderVideo",
+            "Trellis2SSConditioning",
             "Trellis2ShapeToTexturedMesh",
             "Trellis2Simplify",
             "Trellis2UVUnwrap"
@@ -4030,7 +4022,6 @@
             "UniRigCompareSkeletons",
             "UniRigDebugSkeleton",
             "UniRigExportPosedFBX",
-            "UniRigExtractRestPose",
             "UniRigExtractSkeletonNew",
             "UniRigLoadMesh",
             "UniRigLoadModel",
@@ -4280,6 +4271,14 @@
         ],
         {
             "title_aux": "ComfyUI-Groudingdino-Sam"
+        }
+    ],
+    "https://github.com/Ronnasayd/comfyui-nodes": [
+        [
+            "PixelatedBorderNode"
+        ],
+        {
+            "title_aux": "comfyui-nodes"
         }
     ],
     "https://github.com/Rosegun007/ComfyUI-Pandora": [
@@ -4655,32 +4654,33 @@
     ],
     "https://github.com/SlackinJack/multigpu_diffusion_comfyui": [
         [
-            "AdvancedFMSchedulerSelector",
             "AdvancedSchedulerSelector",
             "ApplyPipeline",
             "AsyncDiffConfig",
-            "BNBQuantizationConfig",
             "BalancedConfig",
+            "BitsAndBytesQuantizationConfig",
             "CheckpointSelector",
             "CloseHost",
             "CompileConfig",
             "CreateHost",
             "EncodePromptWithCompel",
+            "FMEulerScheduler",
+            "FluxSampler",
             "GroupOffloadConfig",
             "LoraSelector",
             "ModelSelector",
             "MultiLoraJoiner",
             "OffloadConfig",
             "OffloadPipeline",
-            "QTOQuantizationConfig",
             "QuantizationConfig",
+            "QuantoQuantizationConfig",
+            "SDNQQuantizationConfig",
             "SDSampler",
             "SDSamplerPrompt",
             "SDUpscaleSampler",
-            "SNQQuantizationConfig",
             "SVDSampler",
             "SchedulerSelector",
-            "TAOQuantizationConfig",
+            "TorchAOQuantizationConfig",
             "TorchConfig",
             "UnsafeModelSelector",
             "WanSampler",
@@ -5008,22 +5008,6 @@
             "title_aux": "comfyui-tools"
         }
     ],
-    "https://github.com/StoryWalker/comfyui_flux_collection_advanced": [
-        [
-            "FluxControlNetApply",
-            "FluxControlNetApplyPreview",
-            "FluxControlNetLoader",
-            "FluxGGUFLoader",
-            "FluxImagePreview",
-            "FluxImageUpscaler",
-            "FluxLoader",
-            "FluxSamplerParameters",
-            "FluxTextPrompt"
-        ],
-        {
-            "title_aux": "comfyui_flux_collection_advanced [WIP]"
-        }
-    ],
     "https://github.com/SushantSingh-23-01/comfyui_flowrider_nodes": [
         [
             "FilmGrainVFX",
@@ -5079,6 +5063,14 @@
         ],
         {
             "title_aux": "TWanVideoSigmaSampler: EXPERIMENTAL [WIP]"
+        }
+    ],
+    "https://github.com/ThanaritKanjanametawatAU/comfyui_runninghub_nanobanana": [
+        [
+            "RH_NanoBananaPro"
+        ],
+        {
+            "title_aux": "comfyui_runninghub_nanobanana"
         }
     ],
     "https://github.com/ThatGlennD/ComfyUI-Image-Analysis-Tools": [
@@ -6185,6 +6177,14 @@
             "title_aux": "ComfyUI-KLUT-DeepSeek-API [WIP]"
         }
     ],
+    "https://github.com/ayylmao1773/ComfyUI-switch-aspect": [
+        [
+            "CustomizableAspectRatioSwap"
+        ],
+        {
+            "title_aux": "ComfyUI-switch-aspect"
+        }
+    ],
     "https://github.com/babydjac/comfyui-grok-ponyxl": [
         [
             "GrokPonyXLPrompter"
@@ -7122,6 +7122,7 @@
             "ImageFlip",
             "ImageFromBatch",
             "ImageInvert",
+            "ImageMergeTileList",
             "ImageOnlyCheckpointLoader",
             "ImageOnlyCheckpointSave",
             "ImagePadForOutpaint",
@@ -7149,6 +7150,7 @@
             "KSamplerSelect",
             "Kandinsky5ImageToVideo",
             "KarrasScheduler",
+            "KlingAvatarNode",
             "KlingCameraControlI2VNode",
             "KlingCameraControlT2VNode",
             "KlingCameraControls",
@@ -7417,6 +7419,7 @@
             "SkipLayerGuidanceSD3",
             "SolidMask",
             "SplitAudioChannels",
+            "SplitImageToTileList",
             "SplitImageWithAlpha",
             "SplitSigmas",
             "SplitSigmasDenoise",
@@ -7939,6 +7942,24 @@
             "title_aux": "Duck_Nodes [UNSAFE]"
         }
     ],
+    "https://github.com/easelhub/ComfyUI_EaselHub_Nodes": [
+        [
+            "EHN_BiRefNet",
+            "EHN_ColorMatch",
+            "EHN_Florence2Tagger",
+            "EHN_GroupManager",
+            "EHN_ImageAssembly",
+            "EHN_ImageComparer",
+            "EHN_ImageResize",
+            "EHN_ImageTileBatch",
+            "EHN_ModelBus",
+            "EHN_PromptProcess",
+            "EHN_Seed"
+        ],
+        {
+            "title_aux": "ComfyUI_EaselHub_Nodes"
+        }
+    ],
     "https://github.com/eddiehavila/comfyui-nachoman": [
         [
             "NACHOMAN_AudioCropTime",
@@ -8452,6 +8473,7 @@
             "LibberApply",
             "LibberManager",
             "MaskProcessor",
+            "MultiLoraLoader",
             "NodeInputSelect",
             "OpaqueAlpha",
             "PromptComposer",
@@ -8612,8 +8634,12 @@
     ],
     "https://github.com/gaonprime-labs/ComfyUI_Nordy": [
         [
+            "DetailInjectAfterUpscale",
             "MemoryTest",
-            "SaveImageS3PresignedUrlNordy"
+            "SaveImageS3PresignedUrlNordy",
+            "TileMergeByMeta",
+            "TileMergeByMetaWOMaskBlending",
+            "TileSplitByFactor"
         ],
         {
             "title_aux": "ComfyUI_Nordy"
@@ -10433,6 +10459,7 @@
     ],
     "https://github.com/lihaoyun6/ComfyUI-lhyNodes": [
         [
+            "AnyToAny",
             "BlockifyMask_lhy",
             "CLIPName",
             "CLIPVisionName",
@@ -10442,6 +10469,7 @@
             "ControlNetName",
             "CudaDevicePatcher",
             "DrawMaskOnImage_lhy",
+            "DrawViTPose_lhy",
             "GrowMask_lhy",
             "ImageBatchtoImageList",
             "ImageBatchtoImages",
@@ -13101,6 +13129,7 @@
             "ConsoleLog",
             "CreateProjectStructure",
             "DebugConditioningStructure",
+            "FixJson",
             "FormatDatePath",
             "ImageBatchCrop",
             "ImageGridCropper",
@@ -13118,6 +13147,7 @@
             "JsonPromptToTextPromptConverter",
             "JsonRootListExtractor",
             "JsonSerializeObject",
+            "JsonToPromptNode",
             "JsonToString",
             "ListItemExtractor",
             "LoadImageWithMetadata",
@@ -13538,6 +13568,14 @@
         ],
         {
             "title_aux": "ComfyUI-Dreambooth"
+        }
+    ],
+    "https://github.com/tester4488/mc_audio": [
+        [
+            "MCAudioInfo"
+        ],
+        {
+            "title_aux": "mc_audio"
         }
     ],
     "https://github.com/tfernd/ComfyUI-AutoCPUOffload": [
