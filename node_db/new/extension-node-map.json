@@ -2806,7 +2806,6 @@
             "QwenOfflinePrompt"
         ],
         {
-            "nodename_pattern": "QwenOfflinePrompt",
             "title_aux": "ComfyUI Qwen Prompt Expander"
         }
     ],
@@ -3333,8 +3332,8 @@
             "BitwiseRS",
             "BitwiseXOR",
             "BooleanOutputter",
-            "ByteslikeDecoder",
-            "ByteslikeEncoder",
+            "ByteslikeDecode",
+            "ByteslikeEncode",
             "Caesar",
             "CaesarProg",
             "CaesarProgressive",
@@ -3375,6 +3374,8 @@
             "Playfair",
             "Polybius",
             "Porta",
+            "ReedSolomonDecode",
+            "ReedSolomonEncode",
             "Rot13",
             "Rot18",
             "Rot47",
@@ -8129,14 +8130,6 @@
             "title_aux": "feidorian-ComfyNodes"
         }
     ],
-    "https://github.com/FemReiyaDev/ComfyUI-ReiyaNodes": [
-        [
-            "ReiImageStitch"
-        ],
-        {
-            "title_aux": "ComfyUI-ReiyaNodes"
-        }
-    ],
     "https://github.com/Ferocit/comfyui-feroccustomnodes": [
         [
             "LoadDescriptionNode",
@@ -8396,6 +8389,7 @@
             "FossielDenoisePrecisionKSampler",
             "FossielLevelMatcher",
             "FossielResolutionWrangler",
+            "FossielResolutionWranglerXP",
             "FossielSequenceWrangler",
             "FossielVideoDeflicker",
             "FossielWebPWrangler",
@@ -17177,10 +17171,12 @@
             "Runware Alibaba Provider Settings",
             "Runware Audio Inference",
             "Runware Audio Inference Inputs",
+            "Runware Audio Inference Settings",
+            "Runware Audio Inference Settings Voice Modify",
+            "Runware Audio Inference Speech",
             "Runware Audio Inputs Combine",
             "Runware Audio Model Search",
             "Runware Audio Sections",
-            "Runware Audio Settings",
             "Runware Background Removal",
             "Runware BlackForest Labs Provider Settings",
             "Runware Bria Provider Mask",
@@ -17248,6 +17244,7 @@
             "Runware Video Inference",
             "Runware Video Inference Inputs",
             "Runware Video Inference Outputs",
+            "Runware Video Inference Settings",
             "Runware Video Inputs Frame Images",
             "Runware Video Inputs References",
             "Runware Video Model Search",
@@ -17265,9 +17262,11 @@
             "Runware3DInferenceSettingsTexSlat",
             "RunwareAlibabaProviderSettings",
             "RunwareAudioInferenceInputs",
+            "RunwareAudioInferenceSpeech",
             "RunwareAudioInput",
             "RunwareAudioInputCombine",
             "RunwareAudioSettings",
+            "RunwareAudioSettingsVoiceModify",
             "RunwareBlackForestProviderSettings",
             "RunwareBriaProviderMask",
             "RunwareBriaProviderSettings",
@@ -17305,6 +17304,7 @@
             "RunwareVideoInferenceOutputs",
             "RunwareVideoInputsFrameImages",
             "RunwareVideoInputsReferences",
+            "RunwareVideoSettings",
             "RunwareVideoUpscaler",
             "RunwareWanAnimateAdvancedFeatureSettings",
             "RunwareXAIProviderSettings",
@@ -21415,6 +21415,41 @@
             "title_aux": "ComfyUI_YoloSegment_Mask"
         }
     ],
+    "https://github.com/TripleHeadedMonkey/ComfyUI-Zlycoris": [
+        [
+            "CLIPLoaderGGUF",
+            "DualCLIPLoaderGGUF",
+            "GetImageSizePlus+",
+            "KeywordMatchGate",
+            "PrimitiveWidgetToString",
+            "QuadrupleCLIPLoaderGGUF",
+            "TripleCLIPLoaderGGUF",
+            "UnetLoaderGGUF",
+            "UnetLoaderGGUFAdvanced",
+            "ZImageAITKLoRALoader",
+            "ZImageAdvancedConditioning",
+            "ZImageComfyInjector",
+            "ZImageComfyUninjector",
+            "ZImageConditioningContrast",
+            "ZImageDiffSynthLoader",
+            "ZImageDiffusersLoader",
+            "ZImageGGUFInjector",
+            "ZImageGGUFStandaloneLoader",
+            "ZImageLoaderAndPatcher",
+            "ZImageLycorisStacker",
+            "ZImageQwenTELoRALoader",
+            "ZImageRawClipMerge",
+            "ZImageRawModelMerge",
+            "ZImageSaveTextEncoder",
+            "ZImageSaveTransformer",
+            "ZImageTIESMerge",
+            "ZImageUniversalLoRALoader",
+            "ZImageVectorMerge"
+        ],
+        {
+            "title_aux": "ComfyUI-Zlycoris"
+        }
+    ],
     "https://github.com/TripleHeadedMonkey/ComfyUI_MileHighStyler": [
         [
             "PerfectionBetaStyler"
@@ -23584,6 +23619,7 @@
             "TriggerWordMerger",
             "TypeDesigner",
             "USMSharpen",
+            "VideoFrameExtractor",
             "VideoLoader",
             "WanPromptGenerator"
         ],
@@ -25268,6 +25304,7 @@
             "Image Saver Simple",
             "Input Parameters (Image Saver)",
             "Int Literal (Image Saver)",
+            "Random Tag Picker (Image Saver)",
             "RandomShapeGenerator",
             "Sampler Selector (Image Saver)",
             "Scheduler Selector (Eff.) (Image Saver)",
@@ -25827,14 +25864,6 @@
         ],
         {
             "title_aux": "Placeholder-Replacer-By-ID"
-        }
-    ],
-    "https://github.com/anilstream/ComfyUI-Ideogram-Character": [
-        [
-            "SD_IdeogramCharacter"
-        ],
-        {
-            "title_aux": "ComfyUI-Ideogram-Character"
         }
     ],
     "https://github.com/annewj023/Comfyui_google_nano": [
@@ -33646,6 +33675,10 @@
     ],
     "https://github.com/eRepublik-Labs/comfyui-nodes-erpk": [
         [
+            "BEN2RemoveBackground",
+            "BiRefNetGetMask",
+            "BiRefNetRemoveBackground",
+            "BlurFusionForegroundEstimation",
             "ClaudeAPIClient",
             "ClaudeConversation",
             "ClaudeConversationInfo",
@@ -33656,15 +33689,6 @@
             "ClaudeToolDefinition",
             "ClaudeUsageStats",
             "ClaudeVisionAnalysis",
-            "ERPK Foreground Refinement (BlurFusion)",
-            "ERPK Get Mask (BiRefNet)",
-            "ERPK Remove Background (BEN2)",
-            "ERPK Remove Background (BiRefNet)",
-            "ERPK Remove Background (InSPyReNet)",
-            "ERPK Remove Background (rembg)",
-            "ERPK SHARP Predict",
-            "ERPK SHARP Render Video",
-            "ERPK SHARP Render Views",
             "ERPK_ConcatenateStrings",
             "GeminiAPIConfig",
             "GeminiChat",
@@ -33674,6 +33698,7 @@
             "GeminiSystemInstruction",
             "GeminiTextGeneration",
             "GeminiVision",
+            "InSPyReNetRemoveBackground",
             "OpenAIAPIConfig",
             "OpenAIChat",
             "OpenAIImageEdit",
@@ -33681,23 +33706,30 @@
             "OpenAISystemInstruction",
             "OpenAITextGeneration",
             "OpenAIVision",
+            "PreviewVideo",
+            "QwenImageEditNode",
+            "QwenImageEditPlusNode",
+            "QwenImageLayeredNode",
+            "QwenImageLoraNode",
+            "QwenImageMultipleAnglesNode",
+            "QwenImageTextToImageNode",
+            "RembgRemoveBackground",
+            "SHARPPredict",
+            "SHARPRenderVideo",
+            "SHARPRenderViews",
+            "SaveAudio",
+            "SeedreamV4EditNode",
+            "SeedreamV4EditSequentialNode",
+            "SeedreamV4Node",
+            "SeedreamV4SequentialNode",
+            "SeedreamV4_5EditNode",
+            "SeedreamV4_5EditSequentialNode",
+            "SeedreamV4_5Node",
+            "SeedreamV4_5SequentialNode",
+            "UploadImage",
             "VeoImageToVideo",
             "VeoTextToVideo",
-            "WaveSpeed Custom Client",
-            "WaveSpeed Custom Preview Video",
-            "WaveSpeed Custom QwenImageEdit",
-            "WaveSpeed Custom QwenImageEditPlus",
-            "WaveSpeed Custom QwenImageT2I",
-            "WaveSpeed Custom Save Audio",
-            "WaveSpeed Custom SeedreamV4",
-            "WaveSpeed Custom SeedreamV4Edit",
-            "WaveSpeed Custom SeedreamV4EditSequential",
-            "WaveSpeed Custom SeedreamV4Sequential",
-            "WaveSpeed Custom SeedreamV4_5",
-            "WaveSpeed Custom SeedreamV4_5Edit",
-            "WaveSpeed Custom SeedreamV4_5EditSequential",
-            "WaveSpeed Custom SeedreamV4_5Sequential",
-            "WaveSpeed Custom Upload Image"
+            "WaveSpeedAIAPIClient"
         ],
         {
             "title_aux": "ERPK Collection"
@@ -34049,6 +34081,14 @@
             "title_aux": "Comfyui-ColorMatchNodes"
         }
     ],
+    "https://github.com/emniko/ComfyUI-CLIPScore": [
+        [
+            "CLIPScoreNode"
+        ],
+        {
+            "title_aux": "ComfyUI-CLIPScore"
+        }
+    ],
     "https://github.com/emojiiii/ComfyUI_Emojiiii_Custom_Nodes": [
         [
             "BatchImageProcessor",
@@ -34178,7 +34218,6 @@
     ],
     "https://github.com/ethanfel/ComfyUI-Sharp-Selector": [
         [
-            "FastAbsoluteSaver",
             "ParallelSharpnessLoader",
             "SharpFrameSelector",
             "SharpnessAnalyzer"
@@ -35456,6 +35495,7 @@
     ],
     "https://github.com/fpgaminer/joycaption_comfyui": [
         [
+            "JJC_DownloadAndLoadJoyCaptionModel",
             "JJC_JoyCaption",
             "JJC_JoyCaption_Custom"
         ],
@@ -45166,6 +45206,15 @@
             "title_aux": "ComfyUI-Unwatermark"
         }
     ],
+    "https://github.com/magicoli/comfyui-oli-prompt-tools": [
+        [
+            "OliPromptLinePick",
+            "OliVideoFrameLimit"
+        ],
+        {
+            "title_aux": "comfyui-oli-prompt-tools"
+        }
+    ],
     "https://github.com/maikgreubel/comfyui-loaddds": [
         [
             "Load DDS File"
@@ -45579,6 +45628,7 @@
             "StylePromptEncoder2",
             "StyleStringInjector",
             "StyleStringInjector2",
+            "VAEEncodeSoftInpainting",
             "ZSamplerTurbo",
             "ZSamplerTurboAdvanced"
         ],
@@ -46706,6 +46756,14 @@
             "title_aux": "ComfyUI-Actual-Denoise"
         }
     ],
+    "https://github.com/mr-september/comfyui-pad-to-multiple": [
+        [
+            "ImagePadToMultiple"
+        ],
+        {
+            "title_aux": "ComfyUI Pad to Multiple"
+        }
+    ],
     "https://github.com/mr7thing/circle_pattern_processor": [
         [
             "CirclePatternProcessor",
@@ -46894,6 +46952,15 @@
         {
             "author": "Konie",
             "title_aux": "ComfyUI-Fooocus"
+        }
+    ],
+    "https://github.com/mrlonglegland/ComfyUI-LuminaXStudio": [
+        [
+            "LuminaXOFMNode",
+            "LuminaXPromptsNode"
+        ],
+        {
+            "title_aux": "ComfyUI-LuminaXStudio"
         }
     ],
     "https://github.com/mrm987/ComfyUI_Multi_Prompt_Generator": [
@@ -49210,7 +49277,6 @@
             "DallE3_PoP",
             "EfficientAttention",
             "LoadImageResizer_PoP",
-            "LoraStackLoader10",
             "LoraStackLoader10_PoP",
             "LoraStackLoader_PoP",
             "VAEDecoderPoP",
@@ -54672,6 +54738,14 @@
         ],
         {
             "title_aux": "ComfyUI_AspectRatioToSize"
+        }
+    ],
+    "https://github.com/sugarkwork/comfyui-auto-mosaic": [
+        [
+            "AutoMosaic"
+        ],
+        {
+            "title_aux": "comfyui-auto-mosaic"
         }
     ],
     "https://github.com/sugarkwork/comfyui-trtupscaler": [

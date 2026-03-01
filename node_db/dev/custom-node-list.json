@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "MTheUnexpected-1",
+            "title": "ModuSnap-ComfyUI-Manager",
+            "reference": "https://github.com/MTheUnexpected-1/ModuSnap-ComfyUI-Manager",
+            "files": [
+                "https://github.com/MTheUnexpected-1/ModuSnap-ComfyUI-Manager"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom-node bridge between ComfyUI and Modusnap Engine manager APIs"
+        },
+        {
             "author": "Lumiyumi",
             "title": "comfyui_stringcombineX",
             "reference": "https://github.com/Lumiyumi/comfyui_stringcombineX",
@@ -422,16 +432,6 @@
             ],
             "install_type": "git-clone",
             "description": "Utility nodes for tensor manipulation including squeeze, unsqueeze, and shape operations. (Description by CC)\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "CarlMarkswx",
-            "title": "ComfyUI-Mirror-Download [UNSAFE]",
-            "reference": "https://github.com/CarlMarkswx/ComfyUI-Mirror-Download",
-            "files": [
-                "https://github.com/CarlMarkswx/ComfyUI-Mirror-Download"
-            ],
-            "install_type": "git-clone",
-            "description": "Plugin that adds a mirror download button for accessing Hugging Face models via Chinese mirror, with automatic detection and progress tracking. (Description by CC)[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
         },
         {
             "author": "nekotxt",
@@ -1483,16 +1483,6 @@
             ],
             "install_type": "git-clone",
             "description": "A set of nodes which provide flexible inference using diffusers in comfyui env. (Description by CC)"
-        },
-        {
-            "author": "anilstream",
-            "title": "ComfyUI-NanoBananaPro",
-            "reference": "https://github.com/anilstream/ComfyUI-NanoBananaPro",
-            "files": [
-                "https://github.com/anilstream/ComfyUI-NanoBananaPro"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node implementing basic functionality with NanoBananaBasicNode. (Description by CC)"
         },
         {
             "author": "Toxic1228",

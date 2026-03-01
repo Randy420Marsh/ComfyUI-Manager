@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "CarlMarkswx",
+            "title": "ComfyUI-Mirror-Download [UNSAFE/REMOVED]",
+            "reference": "https://github.com/CarlMarkswx/ComfyUI-Mirror-Download",
+            "files": [
+                "https://github.com/CarlMarkswx/ComfyUI-Mirror-Download"
+            ],
+            "install_type": "git-clone",
+            "description": "Plugin that adds a mirror download button for accessing Hugging Face models via Chinese mirror, with automatic detection and progress tracking. (Description by CC)[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
+        },
+        {
+            "author": "anilstream",
+            "title": "ComfyUI-NanoBananaPro [REMOVED]",
+            "reference": "https://github.com/anilstream/ComfyUI-NanoBananaPro",
+            "files": [
+                "https://github.com/anilstream/ComfyUI-NanoBananaPro"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node implementing basic functionality with NanoBananaBasicNode. (Description by CC)"
+        },
+        {
+            "author": "anilstream",
+            "title": "ComfyUI-Ideogram-Character [REMOVED]",
+            "reference": "https://github.com/anilstream/ComfyUI-Ideogram-Character",
+            "files": [
+                "https://github.com/anilstream/ComfyUI-Ideogram-Character"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node for generating consistent character images using Ideogram API v3's character reference feature. (Description by CC)"
+        },
+        {
+            "author": "FemReiyaDev",
+            "title": "ComfyUI-ReiyaNodes [REMOVED]",
+            "reference": "https://github.com/FemReiyaDev/ComfyUI-ReiyaNodes",
+            "files": [
+                "https://github.com/FemReiyaDev/ComfyUI-ReiyaNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for image stitching"
+        },
+        {
             "author": "ncky",
             "title": "ComfyUI-Qwen3-TTS [REMOVED]",
             "reference": "https://github.com/ncky/ComfyUI-Qwen3-TTS",

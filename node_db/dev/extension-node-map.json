@@ -831,6 +831,7 @@
             "TS_BGRM_BiRefNet",
             "TS_BatchPromptLoader",
             "TS_Color_Grade",
+            "TS_Color_Match",
             "TS_DeflickerNode",
             "TS_FileBrowser",
             "TS_FilePathLoader",
@@ -854,7 +855,6 @@
             "TS_ModelConverterAdvanced",
             "TS_ModelConverterAdvancedDirect",
             "TS_MusicStems",
-            "TS_Qwen3",
             "TS_Qwen3_VL",
             "TS_Qwen3_VL_V3",
             "TS_QwenCanvas",
@@ -2879,6 +2879,7 @@
             "WanVideoATITracks",
             "WanVideoATITracksVisualize",
             "WanVideoATI_comfy",
+            "WanVideoContextSelector",
             "WanVideoControlnet",
             "WanVideoControlnetLoader",
             "WanVideoDiffusionForcingSampler",
@@ -3088,6 +3089,16 @@
         ],
         {
             "title_aux": "comfy-tif-support"
+        }
+    ],
+    "https://github.com/MTheUnexpected-1/ModuSnap-ComfyUI-Manager": [
+        [
+            "ModusnapManagerBatchInstall",
+            "ModusnapManagerCatalog",
+            "ModusnapManagerStatus"
+        ],
+        {
+            "title_aux": "ModuSnap-ComfyUI-Manager"
         }
     ],
     "https://github.com/MadPonyInteractive/ComfyUi-MpiNodes": [
@@ -5995,14 +6006,6 @@
             "title_aux": "ComfyUI-Legendary-Nodes"
         }
     ],
-    "https://github.com/anilstream/ComfyUI-NanoBananaPro": [
-        [
-            "NanoBananaBasicNode"
-        ],
-        {
-            "title_aux": "ComfyUI-NanoBananaPro"
-        }
-    ],
     "https://github.com/animEEEmpire/ComfyUI-Animemory-Loader": [
         [
             "AnimemoryNode"
@@ -8635,6 +8638,7 @@
     "https://github.com/gaonprime-labs/ComfyUI_Nordy": [
         [
             "DetailInjectAfterUpscale",
+            "LaplacianVarianceScore",
             "MemoryTest",
             "SaveImageS3PresignedUrlNordy",
             "TileMergeByMeta",
@@ -12102,6 +12106,7 @@
             "Any Passer Purge [Eclipse]",
             "Any Passer [Eclipse]",
             "Boolean [Eclipse]",
+            "CLIPLoaderGGUF",
             "Checkpoint Loader Small (Pipe) [Eclipse]",
             "Checkpoint Loader Small [Eclipse]",
             "Combine Video Clips [Eclipse]",
@@ -12115,6 +12120,7 @@
             "Convert to List [Eclipse]",
             "Custom Size [Eclipse]",
             "Detection to Bboxes [Eclipse]",
+            "DualCLIPLoaderGGUF",
             "Fast Bypasser [Eclipse]",
             "Fast Groups Bypasser [Eclipse]",
             "Fast Groups Muter [Eclipse]",
@@ -12152,6 +12158,7 @@
             "Preview Image [Eclipse]",
             "Preview Mask [Eclipse]",
             "Prompt Styler [Eclipse]",
+            "QuadrupleCLIPLoaderGGUF",
             "RAM Cleanup [Eclipse]",
             "Read Prompt Files [Eclipse]",
             "Replace String [Eclipse]",
@@ -12179,6 +12186,9 @@
             "String Multiline [Eclipse]",
             "String [Eclipse]",
             "String from List [Eclipse]",
+            "TripleCLIPLoaderGGUF",
+            "UnetLoaderGGUF",
+            "UnetLoaderGGUFAdvanced",
             "VC-Filename Generator I [Eclipse]",
             "VC-Filename Generator II [Eclipse]",
             "VRAM Cleanup [Eclipse]",
