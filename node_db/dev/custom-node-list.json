@@ -82,16 +82,6 @@
             "description": "Collection of ComfyUI nodes for image processing, model management, and prompt generation including BiRefNet, Florence2Tagger, and image manipulation tools. (Description by CC)"
         },
         {
-            "author": "itom0717",
-            "title": "ComfyUI-Prompt-Selector",
-            "reference": "https://github.com/itom0717/ComfyUI-Prompt-Selector",
-            "files": [
-                "https://github.com/itom0717/ComfyUI-Prompt-Selector"
-            ],
-            "install_type": "git-clone",
-            "description": "No ComfyUI nodes detected. May not be a ComfyUI custom node repository."
-        },
-        {
             "author": "Echoflare",
             "title": "ComfyUI-Reverse-Proxy-Fix",
             "reference": "https://github.com/Echoflare/ComfyUI-Reverse-Proxy-Fix",
@@ -7834,16 +7824,6 @@
             ],
             "install_type": "git-clone",
             "description": "Basic nodes for time series analysis in ComfyUI. Currently in early development."
-        },
-        {
-            "author": "HuangYuChuh",
-            "title": "ComfyUI-LLMs-Toolkit [WIP]",
-            "reference": "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit",
-            "files": [
-                "https://github.com/HuangYuChuh/ComfyUI-LLMs-Toolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "Enhance your ComfyUI workflows with powerful LLMs! This custom node suite integrates DeepSeek, Qwen, and other leading Chinese LLMs directly into your ComfyUI environment. Create innovative AI-powered applications with a range of useful nodes designed to leverage the advanced capabilities of these LLMs for image generation, understanding, and more.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "comfyuiblog",
