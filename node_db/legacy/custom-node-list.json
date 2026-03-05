@@ -1,6 +1,48 @@
 {
     "custom_nodes": [
         {
+            "author": "MTheUnexpected-1",
+            "title": "ModuSnap-ComfyUI-Manager [REMOVED]",
+            "reference": "https://github.com/MTheUnexpected-1/ModuSnap-ComfyUI-Manager",
+            "files": [
+                "https://github.com/MTheUnexpected-1/ModuSnap-ComfyUI-Manager"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom-node bridge between ComfyUI and Modusnap Engine manager APIs"
+        },
+        {
+            "author": "da2el-ai",
+            "title": "D2 Steps [REMOVED]",
+            "id": "d2steps",
+            "reference": "https://github.com/da2el-ai/ComfyUI-d2-steps",
+            "files": [
+                "https://github.com/da2el-ai/ComfyUI-d2-steps"
+            ],
+            "install_type": "git-clone",
+            "description": "A handy custom node for using Refiner (switching to a different checkpoint midway) When you specify the end of the base checkpoint, you can extract refiner_start which is end + 1. The output is fixed as an INT, so it can be passed to the handy custom node, Anything Everywhere? Since it only outputs a numerical value, it can also be used for other purposes."
+        },
+        {
+            "author": "da2el-ai",
+            "title": "D2 Size Selector [REMOVED]",
+            "id": "size-selector",
+            "reference": "https://github.com/da2el-ai/ComfyUI-d2-size-selector",
+            "files": [
+                "https://github.com/da2el-ai/ComfyUI-d2-size-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a custom node that allows you to easily call up and set image size presets. Settings can be made by editing the included config.yaml. It is almost identical to Comfyroll Studio's CR AspectRatio. I created it because I wanted to easily edit the presets."
+        },
+        {
+            "author": "da2el-ai",
+            "title": "D2 XYPlot Utils [REMOVED]",
+            "reference": "https://github.com/da2el-ai/ComfyUI-d2-xyplot-utils",
+            "files": [
+                "https://github.com/da2el-ai/ComfyUI-d2-xyplot-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for using Prompt S/R in XY Plot\nAlso includes nodes for listing generic parameters like seed and cfg\nEasy to manipulate as elements are separated by line breaks\nDesigned for use with the XY Plot custom node qq-nodes-comfyui, but may work with other custom nodes as well"
+        },
+        {
             "author": "Lavah000",
             "title": "ComfyUI Advanced Generation Pack (AGP) [REMOVED]",
             "reference": "https://github.com/Lavah000/ComfyUI-AdvGenPack",

@@ -1,14 +1,44 @@
 {
     "custom_nodes": [
         {
-            "author": "MTheUnexpected-1",
-            "title": "ModuSnap-ComfyUI-Manager",
-            "reference": "https://github.com/MTheUnexpected-1/ModuSnap-ComfyUI-Manager",
+            "author": "AiSatan",
+            "title": "ComfyUI_CSM [NAME CONFLICT]",
+            "reference": "https://github.com/AiSatan/ComfyUI_CSM",
             "files": [
-                "https://github.com/MTheUnexpected-1/ModuSnap-ComfyUI-Manager"
+                "https://github.com/AiSatan/ComfyUI_CSM"
             ],
             "install_type": "git-clone",
-            "description": "Custom-node bridge between ComfyUI and Modusnap Engine manager APIs"
+            "description": "A ComfyUI node for the CSM model featuring text-to-speech, voice cloning, and automatic model downloading from Hugging Face."
+        },
+        {
+            "author": "unobtuse",
+            "title": "comfyui-topaz-ai-upscale",
+            "reference": "https://github.com/unobtuse/comfyui-topaz-ai-upscale",
+            "files": [
+                "https://github.com/unobtuse/comfyui-topaz-ai-upscale"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for upscaling images using Topaz Photo AI's Autopilot engine via the CLI."
+        },
+        {
+            "author": "unobtuse",
+            "title": "comfyui-topaz-gigapixel",
+            "reference": "https://github.com/unobtuse/comfyui-topaz-gigapixel",
+            "files": [
+                "https://github.com/unobtuse/comfyui-topaz-gigapixel"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for upscaling images using Topaz Gigapixel AI's CLI."
+        },
+        {
+            "author": "mozhaa",
+            "title": "ComfyUI-Latent-Transform",
+            "reference": "https://github.com/mozhaa/ComfyUI-Latent-Transform",
+            "files": [
+                "https://github.com/mozhaa/ComfyUI-Latent-Transform"
+            ],
+            "install_type": "git-clone",
+            "description": "Latent space transformation nodes providing mathematical operations like add, blend, blur, gaussian noise, multiply, sharpen, and wave effects. (Description by CC)"
         },
         {
             "author": "Lumiyumi",
