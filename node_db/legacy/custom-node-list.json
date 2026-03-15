@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "silveroxides",
+            "title": "ComfyUI_Hybrid-Scaled_fp8-Loader [REMOVED]",
+            "reference": "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader",
+            "files": [
+                "https://github.com/silveroxides/ComfyUI_Hybrid-Scaled_fp8-Loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom Loader for scaled_fp8 models with hybrid precision layers."
+        },
+        {
             "author": "AnastasiyaW",
             "title": "ComfyUI-SmartScreenshotCleaner [REMOVED]",
             "reference": "https://github.com/AnastasiyaW/ComfyUI-SmartScreenshotCleaner",
