@@ -141,16 +141,6 @@
             "description": "ComfyUI custom nodes for AudioX/AudioX-MAF video-to-audio generation"
         },
         {
-            "author": "1hew",
-            "title": "ComfyUI-1hewHungryStudio [WIP]",
-            "reference": "https://github.com/1hew/ComfyUI-1hewHungryStudio",
-            "files": [
-                "https://github.com/1hew/ComfyUI-1hewHungryStudio"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes for image cloning and shape drawing operations. (Description by CC)\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "Ahmed791996",
             "title": "SplatViwer_comfyUI",
             "reference": "https://github.com/Ahmed791996/SplatViwer_comfyUI",
@@ -5850,16 +5840,6 @@
             ],
             "install_type": "git-clone",
             "description": "This comfyui node helps save image[w/This nodepack contains a node that can write files to an arbitrary path.]"
-        },
-        {
-            "author": "Oct7",
-            "title": "ComfyUI-LaplaMask",
-            "reference": "https://github.com/Oct7/ComfyUI-LaplaMask",
-            "files": [
-                "https://github.com/Oct7/ComfyUI-LaplaMask"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Blur→Mask"
         },
         {
             "author": "etng",
