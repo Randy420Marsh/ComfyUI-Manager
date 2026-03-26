@@ -1,6 +1,28 @@
 {
     "custom_nodes": [
         {
+            "author": "xXAdonesXx",
+            "title": "NodeGPT",
+            "id": "nodegpt",
+            "reference": "https://github.com/xXAdonesXx/NodeGPT",
+            "reference2": "https://github.com/antonym-git/NodeGPT",
+            "files": [
+                "https://github.com/xXAdonesXx/NodeGPT"
+            ],
+            "install_type": "git-clone",
+            "description": "Implementation of AutoGen inside ComfyUI. This repository is under development, and not everything is functioning correctly yet."
+        },
+        {
+            "author": "basenc",
+            "title": "ComfyUI Environment Variable Node [UNSAFE/REMOVED]",
+            "reference": "https://github.com/basenc/Comfyui-EnvVarNode",
+            "files": [
+                "https://github.com/basenc/Comfyui-EnvVarNode"
+            ],
+            "install_type": "git-clone",
+            "description": "Exposes environment variables inside ComfyUI workflows. Use it to keep API keys and other secrets out of your graph files while still wiring them into nodes that need them.[w/This nodepack has a vulnerability that allows reading arbitrary environment variables.]"
+        },
+        {
             "author": "Bharanidharan",
             "title": "iSeeBetter Node for ComfyUI [REMOVED]",
             "reference": "https://github.com/llikethat/ComfyUI-iseebetter",

@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "xWris3",
+            "title": "jus_multifruit_comfyui",
+            "reference": "https://github.com/xWris3/jus_multifruit_comfyui",
+            "files": [
+                "https://github.com/xWris3/jus_multifruit_comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Collection of custom nodes."
+        },
+        {
             "author": "synthetai",
             "title": "ComfyUI-ToolBox [NAME CONFLICT]",
             "reference": "https://github.com/synthetai/ComfyUI-ToolBox",
@@ -2897,16 +2907,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: ImageScaleToTotalPixelsRound64, ImageBlendLighter, ImageOffset, RGBtoRYGCBM, RYGCBMtoRGB, ExtractImageChannel, MatchRYGCBMColors, TextCommaToWeighted, TextCommaToRandomWeighted, RGBtoLAB, LABtoRGB, ImageMirrorPad, ImageCropBorders, ImageStitcher, ImageScaleToQwen, ..."
-        },
-        {
-            "author": "basenc",
-            "title": "ComfyUI Environment Variable Node [UNSAFE]",
-            "reference": "https://github.com/basenc/Comfyui-EnvVarNode",
-            "files": [
-                "https://github.com/basenc/Comfyui-EnvVarNode"
-            ],
-            "install_type": "git-clone",
-            "description": "Exposes environment variables inside ComfyUI workflows. Use it to keep API keys and other secrets out of your graph files while still wiring them into nodes that need them.[w/This nodepack has a vulnerability that allows reading arbitrary environment variables.]"
         },
         {
             "author": "silveroxides",

@@ -340,9 +340,11 @@
             "ImageBlendAndWhite",
             "ImageBlendText",
             "ImageBlendV1",
+            "ImageGridSplitter",
             "ImageRatioCrop",
+            "Load_Images_Advance",
+            "Load_Images_V1",
             "PD Image Resize_V1",
-            "PDEmptyRatioLatent",
             "PDIMAGE_ImageCombine",
             "PDIMAGE_LongerSize",
             "PDImageConcante",
@@ -350,9 +352,9 @@
             "PDImageResize",
             "PDImageResizeV2",
             "PDImageResizeV3",
-            "PDImageToRatioV1",
             "PDJSON_BatchJsonIncremental",
             "PDJSON_Group",
+            "PDRatioSelector",
             "PDStringConcate",
             "PDStringInput",
             "PDTEXT_SAVE_PATH",
@@ -364,12 +366,11 @@
             "PD_Extract_Image",
             "PD_GetImageRatio",
             "PD_GetImageSize",
+            "PD_ImageCompress",
             "PD_ImageFileTraining",
-            "PD_ImageGroupComposite",
             "PD_ImageListForSort",
             "PD_ImageListForSortWithMetadata",
             "PD_ImageSearch",
-            "PD_ImageSize34Compose",
             "PD_Image_Crop_Location",
             "PD_Image_Rotate_v1",
             "PD_Image_centerCrop",
@@ -377,6 +378,7 @@
             "PD_LoadImageMetadata",
             "PD_LoadImageWithMeta",
             "PD_LoadImagesFromZip",
+            "PD_LoadImagesPath",
             "PD_LoadTextsFromDir",
             "PD_LoadTextsFromZip",
             "PD_MASK_SELECTION",
@@ -401,17 +403,17 @@
             "PD_TextListStringAddWord",
             "PD_TextListUnpack",
             "PD_TxtBatchRename",
+            "PD_UnMultBlackBackground",
+            "PD_ZIP_Packingsave",
             "PD_Zip_Simple",
             "PD_del_word",
             "PD_empty_word",
             "PD_if",
             "PD_image_coversaver",
-            "PD_image_ratio_size",
+            "PD_image_resize_by_ratio",
             "PD_image_to_text_v1",
             "PD_imagesave_path",
             "PD_load_image_v1",
-            "PD_loadimage_path",
-            "PD_loadimage_path advance",
             "PD_name_replacewordorder",
             "PD_number_star",
             "PD_number_start",
@@ -422,7 +424,6 @@
             "PDimage_corp_v2",
             "PDimage_dual_batch_by_list",
             "PDimage_dual_batch_v1",
-            "SimpleResolutionNode",
             "mask_edge_selector"
         ],
         {
@@ -449,7 +450,7 @@
     ],
     "https://github.com/A1rCHAN/ComfyUI_A1rSpace": [
         [
-            "NodeCollector",
+            "ModeCollector",
             "SeedControl",
             "SizeCanvas",
             "WidgetCollector"
@@ -1884,7 +1885,8 @@
     "https://github.com/Enferlain/ComfyUI-extra-schedulers": [
         [
             "BetaSchedulerV2C",
-            "BetaSchedulerV2CRaw"
+            "BetaSchedulerV2CRaw",
+            "BetaSchedulerV3"
         ],
         {
             "title_aux": "ComfyUI-extra-schedulers [WIP]"
@@ -6341,14 +6343,6 @@
             "title_aux": "barakapa-nodes"
         }
     ],
-    "https://github.com/basenc/Comfyui-EnvVarNode": [
-        [
-            "EnvVarNode"
-        ],
-        {
-            "title_aux": "ComfyUI Environment Variable Node [UNSAFE]"
-        }
-    ],
     "https://github.com/basenc/Comfyui-Nodes-basenc": [
         [
             "ChatMessagesCreate",
@@ -7411,6 +7405,8 @@
             "PrimitiveString",
             "PrimitiveStringMultiline",
             "QuadrupleCLIPLoader",
+            "QuiverImageToSVGNode",
+            "QuiverTextToSVGNode",
             "QwenImageDiffsynthControlnet",
             "RandomNoise",
             "RebatchImages",
@@ -12261,6 +12257,7 @@
             "Any Passer Purge [Eclipse]",
             "Any Passer [Eclipse]",
             "Boolean [Eclipse]",
+            "CLIP Loader [Eclipse]",
             "CLIPLoaderGGUF",
             "Checkpoint Loader Small (Pipe) [Eclipse]",
             "Checkpoint Loader Small [Eclipse]",
@@ -12284,6 +12281,8 @@
             "Generation Data (Gated) [Eclipse]",
             "Generation Data [Eclipse]",
             "IF A Else B [Eclipse]",
+            "IO Checkpoint Loader [Eclipse]",
+            "IO Load Image [Eclipse]",
             "Image Comparer [Eclipse]",
             "Image Convert [Eclipse]",
             "Image Resolution [Eclipse]",
@@ -12293,6 +12292,8 @@
             "Keep Calculator [Eclipse]",
             "Load Directory Settings [Eclipse]",
             "Load Image (Metadata Pipe) [Eclipse]",
+            "Load Image (Pipe) [Eclipse]",
+            "Load Image From Folder (Pipe) [Eclipse]",
             "Load Image From Folder [Eclipse]",
             "Load Image from Path (Metadata Pipe) [Eclipse]",
             "Load Image from Path (Metadata) [Eclipse]",
@@ -12301,6 +12302,8 @@
             "Lora Stack apply [Eclipse]",
             "Lora Stack to String [Eclipse]",
             "Merge Strings [Eclipse]",
+            "Model Loader Pipe [Eclipse]",
+            "Model Loader [Eclipse]",
             "Mute / Bypass Repeater [Eclipse]",
             "Node Collector [Eclipse]",
             "None [Eclipse]",
@@ -12312,6 +12315,7 @@
             "Pipe IO Sampler Settings [Eclipse]",
             "Pipe IO Sampler Settings v2 [Eclipse]",
             "Pipe IO Sampler Settings v2.1 [Eclipse]",
+            "Pipe IO Sampler Settings v2.2 [Eclipse]",
             "Pipe Out Checkpoint Loader [Eclipse]",
             "Pipe Out Load Directory Settings [Eclipse]",
             "Pipe Out Load Image (Metadata Pipe) [Eclipse]",
@@ -12341,19 +12345,24 @@
             "Sampler Settings+Seed [Eclipse]",
             "Sampler Settings+Seed v2 [Eclipse]",
             "Save Images [Eclipse]",
+            "Save Images v2 [Eclipse]",
             "Save Prompt [Eclipse]",
             "Seamless Join Video Clips [Eclipse]",
             "Seed 32-bit [Eclipse]",
             "Seed [Eclipse]",
             "Show Any [Eclipse]",
             "Smart Folder [Eclipse]",
+            "Smart Folder v2 [Eclipse]",
             "Smart Loader Basic [Eclipse]",
             "Smart Loader Basic v2 [Eclipse]",
             "Smart Loader Plus [Eclipse]",
             "Smart Loader Plus v2 [Eclipse]",
             "Smart Loader [Eclipse]",
             "Smart Loader v2 [Eclipse]",
+            "Smart Model Loader [Eclipse]",
             "Smart Prompt [Eclipse]",
+            "Smart Sampler Settings [Eclipse]",
+            "Smart Sampler Settings v2 [Eclipse]",
             "Stop [Eclipse]",
             "String Dual [Eclipse]",
             "String Multiline List [Eclipse]",
@@ -12364,6 +12373,7 @@
             "UnetLoaderGGUF",
             "UnetLoaderGGUFAdvanced",
             "Universal Block Swap [Eclipse]",
+            "VAE Loader [Eclipse]",
             "VC-Filename Generator I [Eclipse]",
             "VC-Filename Generator II [Eclipse]",
             "VRAM Cleanup [Eclipse]",
@@ -13090,12 +13100,14 @@
             "IdeographicSentencePad",
             "IdeographicTagPad",
             "ImageBlendByMask",
+            "ImageMatchProperties",
             "Image_Color_Noise",
             "InstructPromptPresets",
             "IntegerRangeRandom",
             "JoinerPadding",
             "LlTokenizerOptions",
             "ModifyMask",
+            "OpticalFlowComposite",
             "SU_LoadImageDirectory",
             "SU_LoadImagePath",
             "SamplingParameters",
@@ -13105,6 +13117,7 @@
             "TextEncodeSystemPrompt",
             "TextEncodeZITSystemPrompt",
             "TextEncodeZImageThinkPrompt",
+            "TextOverlayNode",
             "UnFrakturPad",
             "UnifiedPresets"
         ],
@@ -14527,6 +14540,16 @@
         ],
         {
             "title_aux": "comfyui-wormley-nodes"
+        }
+    ],
+    "https://github.com/xWris3/jus_multifruit_comfyui": [
+        [
+            "DebugPythonTypesToConsole",
+            "IntToString",
+            "StringToInt"
+        ],
+        {
+            "title_aux": "jus_multifruit_comfyui"
         }
     ],
     "https://github.com/xgfone/ComfyUI_FaceToMask": [
