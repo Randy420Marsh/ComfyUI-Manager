@@ -1,6 +1,57 @@
 {
     "custom_nodes": [
         {
+            "author": "lgldlk",
+            "title": "ComfyUI-PSD-Replace [REMOVED]",
+            "reference": "https://github.com/lgldlk/ComfyUI-PSD-Replace",
+            "files": [
+                "https://github.com/lgldlk/ComfyUI-PSD-Replace"
+            ],
+            "install_type": "git-clone",
+            "description": "One click replacement of smart objects or layers in PSD"
+        },
+        {
+            "author": "Rizzlord",
+            "title": "ComfyUI-RizzNodes [REMOVED]",
+            "reference": "https://github.com/Rizzlord/ComfyUI-RizzNodes",
+            "files": [
+                "https://github.com/Rizzlord/ComfyUI-RizzNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "RizzNodes for ComfyUI Welcome to RizzNodes, a collection of custom nodes for ComfyUI designed to streamline various workflows, from loading images and models in batches to dynamic prompt generation and memory management."
+        },
+        {
+            "author": "palant",
+            "title": "Image Resize for ComfyUI [REMOVED]",
+            "id": "image-resize",
+            "reference": "https://github.com/palant/image-resize-comfyui",
+            "files": [
+                "https://github.com/palant/image-resize-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom node provides various tools for resizing images. The goal is resizing without distorting proportions, yet without having to perform any calculations with the size of the original image. If a mask is present, it is resized and modified along with the image."
+        },
+        {
+            "author": "palant",
+            "title": "Integrated Nodes for ComfyUI [REMOVED]",
+            "reference": "https://github.com/palant/integrated-nodes-comfyui",
+            "files": [
+                "https://github.com/palant/integrated-nodes-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "This tool will turn entire workflows or parts of them into single integrated nodes. In a way, it is similar to the Node Templates functionality but hides the inner structure. This is useful if all you want is to reuse and quickly configure a bunch of nodes without caring how they are interconnected."
+        },
+        {
+            "author": "zfkun",
+            "title": "ComfyUI_zfkun [REMOVED]",
+            "reference": "https://github.com/zfkun/ComfyUI_zfkun",
+            "files": [
+                "https://github.com/zfkun/ComfyUI_zfkun"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of nodes for common tools, including text preview, text translation (multi-platform, multi-language), image loader, webcamera capture."
+        },
+        {
             "author": "xXAdonesXx",
             "title": "NodeGPT",
             "id": "nodegpt",
