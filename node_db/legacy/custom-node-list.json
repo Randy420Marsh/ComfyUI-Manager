@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Ada123-a",
+            "title": "ComfyUI-Kandinsky [REMOVED]",
+            "reference": "https://github.com/Ada123-a/ComfyUI-Kandinsky",
+            "files": [
+                "https://github.com/Ada123-a/ComfyUI-Kandinsky"
+            ],
+            "install_type": "git-clone",
+            "description": "Kandinsky 2/20B ComfyUI support with FP8/GGUF/blockswap support."
+        },
+        {
             "author": "lgldlk",
             "title": "ComfyUI-PSD-Replace [REMOVED]",
             "reference": "https://github.com/lgldlk/ComfyUI-PSD-Replace",

@@ -2284,22 +2284,6 @@
             "title_aux": "ComfyUI GOAT Nodes"
         }
     ],
-    "https://github.com/Ada123-a/ComfyUI-Kandinsky": [
-        [
-            "EmptyKandinskyV5_Latent",
-            "KandinskyV5_ImageToVideoLatent",
-            "KandinskyV5_Loader",
-            "KandinskyV5_PruneFrames",
-            "KandinskyV5_QwenLoader",
-            "KandinskyV5_Sampler",
-            "KandinskyV5_TextEncode",
-            "KandinskyV5_VAEDecode",
-            "KandinskyV5_VAELoader"
-        ],
-        {
-            "title_aux": "ComfyUI-Kandinsky"
-        }
-    ],
     "https://github.com/AdamNizol/ComfyUI-Anima-Enhancer": [
         [
             "AnimaLayerReplayPatcher"
@@ -2502,6 +2486,8 @@
     "https://github.com/AlbertJBurton/comfyui-jbnodes": [
         [
             "CameraLab",
+            "CropFilmAspectRatio",
+            "FilmAspectRatio",
             "FilmLab",
             "FilterLab",
             "GrayscaleLab",
@@ -53315,6 +53301,7 @@
             "TextList",
             "UTF8Converter",
             "XmilesNanobanana",
+            "XmilesNanobananaPoller",
             "XmilesNanobananaResultParser"
         ],
         {
@@ -56376,8 +56363,6 @@
         [
             "FrameNumberOverlay",
             "LoadVideosFromFolderSimple",
-            "VACEInline",
-            "VisualFrameSelector",
             "WanVACEBatchContext",
             "WanVACEExtend",
             "WanVACEPrep",
