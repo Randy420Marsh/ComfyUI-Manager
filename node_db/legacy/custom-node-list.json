@@ -1,6 +1,38 @@
 {
     "custom_nodes": [
         {
+            "author": "vegaflowltd",
+            "title": "Vega Flow V8.9 — Temporal Stabilisation [REMOVED]",
+            "id": "comfyui-vegaflow",
+            "reference": "https://github.com/vegaflowltd/ComfyUI-VegaFlow",
+            "files": [
+                "https://github.com/vegaflowltd/ComfyUI-VegaFlow"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional temporal stabilisation engine. Eliminates flicker, luminance drift, and frame-to-frame inconsistency in AI-generated and traditional video footage."
+        },
+        {
+            "author": "seanhan19911990-source",
+            "title": "ComfyUI-LTX2-Visual-LoRA [REMOVED",
+            "reference": "https://github.com/seanhan19911990-source/ComfyUI-LTX2-Visual-LoRA",
+            "files": [
+                "https://github.com/seanhan19911990-source/ComfyUI-LTX2-Visual-LoRA"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that filters LTX-2 LoRAs to strip out audio-weight interference, ensuring clean, high-fidelity sound while maintaining visual fine-tuning."
+        },
+        {
+            "author": "chrisgoringe",
+            "title": "Comfy Controller [REMOVED",
+            "id": "cg-comfycontroller",
+            "reference": "https://github.com/chrisgoringe/cg-controller",
+            "files": [
+                "https://github.com/chrisgoringe/cg-controller"
+            ],
+            "install_type": "git-clone",
+            "description": "Quickly and easily build a GUI on top of your workflow. Gather just the nodes that you want to see, with no spaghetti, onto controller panels, leaving your workflow untouched in the background."
+        },
+        {
             "author": "Ada123-a",
             "title": "ComfyUI-Kandinsky [REMOVED]",
             "reference": "https://github.com/Ada123-a/ComfyUI-Kandinsky",

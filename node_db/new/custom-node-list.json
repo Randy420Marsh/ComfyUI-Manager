@@ -1,6 +1,339 @@
 {
     "custom_nodes": [
         {
+            "author": "CRT",
+            "title": "CRT-HeartMuLa",
+            "id": "crt-heartmula",
+            "reference": "https://github.com/PGCRT/CRT-HeartMuLa",
+            "files": [
+                "https://github.com/PGCRT/CRT-HeartMuLa"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for AI music generation using HeartMuLa models."
+        },
+        {
+            "author": "CRT",
+            "title": "ComfyUI-OmniVoice_CRT",
+            "id": "comfyui-omnivoice-crt",
+            "reference": "https://github.com/PGCRT/ComfyUI-OmniVoice_CRT",
+            "files": [
+                "https://github.com/PGCRT/ComfyUI-OmniVoice_CRT"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI wrapper nodes for OmniVoice multilingual zero-shot TTS."
+        },
+        {
+            "author": "CRT",
+            "title": "ComfyUI-QWEN3_TTS",
+            "id": "comfyui-qwen3-tts",
+            "reference": "https://github.com/PGCRT/ComfyUI-QWEN3_TTS",
+            "files": [
+                "https://github.com/PGCRT/ComfyUI-QWEN3_TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Fast and efficient Text-to-Speech nodes for ComfyUI based on Qwen3-TTS."
+        },
+        {
+            "author": "jeremieLouvaert",
+            "title": "ComfyUI-Darkroom",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-Darkroom",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-Darkroom"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional color grading and film emulation suite — 29 nodes: 161 film stocks with real Capture One curve data, Camera Raw tools, Resolve-level grading (LGG, Log Wheels, Hue vs Hue, Color Warper), lens optics with 102 real lens profiles. Zero API costs."
+        },
+        {
+            "author": "jeremieLouvaert",
+            "title": "ComfyUI-Gemini-Direct",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-Gemini-Direct",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-Gemini-Direct"
+            ],
+            "install_type": "git-clone",
+            "description": "Direct Google Gemini image generation for ComfyUI — use your own API key, bypass credits. Supports Gemini 2.0 Flash, 2.5 Flash, 2.5 Pro. Includes Prompt Studio and photographer style transfer."
+        },
+        {
+            "author": "jeremieLouvaert",
+            "title": "ComfyUI-API-Optimizer",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-API-Optimizer",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-API-Optimizer"
+            ],
+            "install_type": "git-clone",
+            "description": "API cost tracking, deterministic caching, and lazy execution bypass for ComfyUI cloud API workflows. Circuit-breaker spending control with persistent ledger."
+        },
+        {
+            "author": "jeremieLouvaert",
+            "title": "ComfyUI-Gemini-Conversation-Canvas",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-Gemini-Conversation-Canvas",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-Gemini-Conversation-Canvas"
+            ],
+            "install_type": "git-clone",
+            "description": "Multi-turn conversational image editing powered by Google Gemini — persistent sessions, edit chaining, and visual gallery with full scene coherence across turns."
+        },
+        {
+            "author": "jeremieLouvaert",
+            "title": "comfyui-wireless-link-simple",
+            "reference": "https://github.com/jeremieLouvaert/comfyui-wireless-link-simple",
+            "files": [
+                "https://github.com/jeremieLouvaert/comfyui-wireless-link-simple"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple wireless data transmission nodes for ComfyUI — send and receive any data type without visible wires using named channels. Inspired by Blackmagic Fusion."
+        },
+        {
+            "author": "jeremieLouvaert",
+            "title": "ComfyUI-Higgsfield-Direct",
+            "reference": "https://github.com/jeremieLouvaert/ComfyUI-Higgsfield-Direct",
+            "files": [
+                "https://github.com/jeremieLouvaert/ComfyUI-Higgsfield-Direct"
+            ],
+            "install_type": "git-clone",
+            "description": "Direct Higgsfield API integration for ComfyUI — multi-model image and video generation with Soul 2.0, Seedream 4, Kling 2.1, Seedance, and more. Use your own API key."
+        },
+        {
+            "author": "Atsushi888",
+            "title": "ComfyUI-MediaPreview",
+            "id": "comfyui-mediapreview",
+            "reference": "https://github.com/Atsushi888/ComfyUI-MediaPreview",
+            "files": [
+                "https://github.com/Atsushi888/ComfyUI-MediaPreview"
+            ],
+            "install_type": "git",
+            "description": "All-in-one media preview node for ComfyUI."
+        },
+        {
+            "author": "kplkasteel",
+            "title": "Image to Prompt (Abacus.AI)",
+            "id": "comfyui-image-to-prompt-abacusai",
+            "reference": "https://github.com/kplkasteel/ComfyUI-Image-to-Prompt-Abacus.AI-",
+            "files": [
+                "https://github.com/kplkasteel/ComfyUI-Image-to-Prompt-Abacus.AI-"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node that converts an input image into a Stable Diffusion-ready prompt using Abacus.AI’s OpenAI-compatible multimodal API (model dropdown fetched from /v1/models; supports route-llm and other available models). Requires an Abacus.AI API key and consumes API credits.",
+            "tags": [
+                "prompt",
+                "image-to-prompt",
+                "vision",
+                "multimodal",
+                "captioning",
+                "stable-diffusion",
+                "abacus-ai",
+                "api"
+            ],
+            "pip": [
+                "openai",
+                "requests",
+                "pillow",
+                "numpy"
+            ]
+        },
+        {
+            "author": "judian17",
+            "title": "ComfyUI-PixelSmile-Conditioning-Interpolation",
+            "reference": "https://github.com/judian17/ComfyUI-PixelSmile-Conditioning-Interpolation",
+            "files": [
+                "https://github.com/judian17/ComfyUI-PixelSmile-Conditioning-Interpolation"
+            ],
+            "install_type": "git-clone",
+            "description": "An unofficial implementation of PixelSmile workflow in ComfyUI that enables fine-grained expression editing using natural language prompts."
+        },
+        {
+            "author": "rTachibana",
+            "title": "Promptcraft",
+            "reference": "https://github.com/rTachibana/comfyui-promptcraft",
+            "files": [
+                "https://github.com/rTachibana/comfyui-promptcraft"
+            ],
+            "install_type": "git-clone",
+            "description": "Dynamic prompt generation with {A|B} variants, __wildcard__ files, and ${var} variables"
+        },
+        {
+            "author": "katsut",
+            "title": "comfyui-alphavae",
+            "reference": "https://github.com/katsut/ComfyUI-AlphaVAE",
+            "files": [
+                "https://github.com/katsut/ComfyUI-AlphaVAE"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for AlphaVAE — native RGBA transparent image generation using FLUX"
+        },
+        {
+            "author": "kayfahaarukku",
+            "title": "ComfyUI-Adaptive-Noise-Scale",
+            "reference": "https://github.com/nawka12/comfyui-adaptive-noise-scale",
+            "files": [
+                "https://github.com/nawka12/comfyui-adaptive-noise-scale"
+            ],
+            "install_type": "git-clone",
+            "description": "Adaptive Noise Scale sampler wrapper for ComfyUI — port of sd-webui-adaptive-noise-scale"
+        },
+        {
+            "author": "rTachibana",
+            "title": "Aspect Ratio Selector",
+            "reference": "https://github.com/rTachibana/comfyUI-aspect-ratio-selector",
+            "files": [
+                "https://github.com/rTachibana/comfyUI-aspect-ratio-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "Select aspect ratio and generate appropriately-sized empty latent for each model"
+        },
+        {
+            "author": "amortegui84",
+            "title": "ComfyUI-Inpaint-CropStitch-NB2",
+            "reference": "https://github.com/amortegui84/comfyui-inpaint-cropstitch-nb2",
+            "files": [
+                "https://github.com/amortegui84/comfyui-inpaint-cropstitch-nb2"
+            ],
+            "install_type": "git-clone",
+            "description": "Fork of ComfyUI-Inpaint-CropAndStitch adapted for Nano Banana 2. Adds NB2 Mask Generator, exact-resolution cropping and feathered alpha compositing in the stitch step."
+        },
+        {
+            "author": "hqrz",
+            "title": "ComfyUI Japanese Romaji Converter",
+            "reference": "https://github.com/hirokazu/ComfyUI-JapaneseRomaji",
+            "files": [
+                "https://github.com/hirokazu/ComfyUI-JapaneseRomaji"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node to convert Japanese text in prompts to Hepburn romaji for LTX-2.3 speech generation"
+        },
+        {
+            "author": "cerridan",
+            "title": "comfyui-resolution-picker",
+            "reference": "https://github.com/cerridan/ComfyUI_ResolutionPicker",
+            "files": [
+                "https://github.com/cerridan/ComfyUI_ResolutionPicker"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node: pick format + resolution from organized dropdown, outputs width/height"
+        },
+        {
+            "author": "pxlpshr",
+            "title": "ComfyUI-SD-CN-Animation",
+            "reference": "https://github.com/pxl-pshr/ComfyUI-SD-CN-Animation",
+            "files": [
+                "https://github.com/pxl-pshr/ComfyUI-SD-CN-Animation"
+            ],
+            "install_type": "git-clone",
+            "description": "Temporally coherent video generation and stylization for ComfyUI using optical flow. Port of SD-CN-Animation to ComfyUI custom nodes."
+        },
+        {
+            "author": "saganaki22",
+            "title": "LongCat AudioDiT TTS",
+            "reference": "https://github.com/Saganaki22/ComfyUI-LongCat-AudioDIT-TTS",
+            "files": [
+                "https://github.com/Saganaki22/ComfyUI-LongCat-AudioDIT-TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for LongCat-AudioDiT TTS - zero-shot and voice cloning diffusion TTS"
+        },
+		{
+			"author": "IMGLAB",
+			"title": "IMGLAB_ComfyUI",
+			"reference": "https://github.com/IMGLAB-net/IMGLAB_ComfyUI",
+			"files": [
+				"https://github.com/IMGLAB-net/IMGLAB_ComfyUI"
+			],
+			"install_type": "git-clone",
+			"description": "IMGLAB custom nodes for ComfyUI"
+		},
+        {
+            "author": "sorryhyun",
+            "title": "Flex Attention",
+            "reference": "https://github.com/sorryhyun/comfyui-flex-attention",
+            "files": [
+                "https://github.com/sorryhyun/comfyui-flex-attention"
+            ],
+            "install_type": "git-clone",
+            "description": "Flex Attention (torch.compile) node for ComfyUI. Uses PyTorch's built-in flex_attention with torch.compile — no extra dependencies, works on any GPU. Falls back to PyTorch SDPA when masks are present."
+        },
+        {
+            "author": "spacewarpstudio",
+            "title": "ComfyUI Override Switch",
+            "reference": "https://github.com/SpaceWarpStudio/ComfyUI-OverrideSwitch",
+            "files": [
+                "https://github.com/SpaceWarpStudio/ComfyUI-OverrideSwitch"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI node: switch between two inputs from an optional boolean condition, with graceful handling when inputs are missing."
+        },
+        {
+            "author": "mmmmmmmmm",
+            "title": "ComfyUI_MaskBatchMerger",
+            "reference": "https://github.com/mmmmmmmmme/ComfyUI_MaskBatchMerger",
+            "files": [
+                "https://github.com/mmmmmmmmme/ComfyUI_MaskBatchMerger"
+            ],
+            "install_type": "git-clone",
+            "description": "A mask merge/edit node that merges masks from a mask batch into one mask as output for future use, using add mode."
+        },
+        {
+            "author": "lil0k",
+            "title": "Camera Movement to Prompt",
+            "reference": "https://github.com/Lil0k/comfyui_camera_movement_to_prompt",
+            "files": [
+                "https://github.com/Lil0k/comfyui_camera_movement_to_prompt"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node that computes relative camera movement between two extrinsics matrices and injects it into a prompt template as JSON."
+        },
+        {
+            "author": "sparknight",
+            "title": "ComfyUI-INT8-Fast-Fork",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-INT8-Fast-Fork",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-INT8-Fast-Fork"
+            ],
+            "install_type": "git-clone",
+            "description": "Fork of node to load models in INT8 for 1.5~2X Speed gains on 30 series cards. Contains additional fixes and performance improvements."
+        },
+        {
+            "author": "love530love",
+            "title": "ComfyUI HealthCheck",
+            "reference": "https://github.com/love530love/ComfyUI-HealthCheck",
+            "files": [
+                "https://github.com/love530love/ComfyUI-HealthCheck"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight health check plugin for ComfyUI that monitors custom node import status and provides colorful summary reports"
+        },
+        {
+            "author": "nekodificador",
+            "title": "NKD Popup Preview",
+            "reference": "https://github.com/Nekodificador/ComfyUI-NKD-Popup-Preview",
+            "files": [
+                "https://github.com/Nekodificador/ComfyUI-NKD-Popup-Preview"
+            ],
+            "install_type": "git-clone",
+            "description": "A floating preview window node for ComfyUI. Ideal for multi-monitor setups."
+        },
+        {
+            "author": "darksidewalker",
+            "description": "DaSiWa Custom Nodes Collection",
+            "id": "dasiwa",
+            "install_type": "git-clone",
+            "reference": "https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes",
+            "files": [
+                "https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes"
+            ],
+            "title": "ComfyUI-DaSiWa-Nodes"
+        },
+        {
+            "author": "Zinigo",
+            "title": "Prompt Builder",
+            "reference": "https://github.com/zinigo-creations/comfyui-prompt-builder",
+            "files": [
+                "https://github.com/zinigo-creations/comfyui-prompt-builder"
+            ],
+            "install_type": "git-clone",
+            "description": "Dropdown-based prompt builder for ComfyUI. Create characters, scenes, and styles without writing prompts. Designed for beginners and fast iteration."
+        },
+
+        {
             "author": "Allan.M",
             "title": "ComfyUI-XPUSYS-Monitor",
             "id": "comfyui-xpusys-monitor",
@@ -371,345 +704,6 @@
             ],
             "install_type": "git-clone",
             "description": "Custom nodes for the Foundation-1 audio model in ComfyUI, providing BPM-aware generation and streamlined audio workflows."
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-Spectrum-Proper",
-            "reference": "https://github.com/xmarre/ComfyUI-Spectrum-Proper",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-Spectrum-Proper"
-            ],
-            "install_type": "git-clone",
-            "description": "Faithful FLUX-focused ComfyUI port of Spectrum spectral feature forecasting."
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-Spectrum-WAN-Proper",
-            "reference": "https://github.com/xmarre/ComfyUI-Spectrum-WAN-Proper",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-Spectrum-WAN-Proper"
-            ],
-            "install_type": "git-clone",
-            "description": "Native ComfyUI WAN Spectrum forecaster nodes"
-        },
-        {
-            "author": "PBandDev",
-            "title": "comfyui-lora-tag-hash-metadata",
-            "reference": "https://github.com/PBandDev/comfyui-lora-tag-hash-metadata",
-            "files": [
-                "https://github.com/PBandDev/comfyui-lora-tag-hash-metadata"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI node that converts <lora:name:weight> tags into Civitai-friendly Name:HASH:Weight metadata strings."
-        },
-        {
-            "author": "IxMxAMAR",
-            "title": "ComfyUI-NanoBanana2",
-            "reference": "https://github.com/IxMxAMAR/ComfyUI-NanoBanana2",
-            "files": [
-                "https://github.com/IxMxAMAR/ComfyUI-NanoBanana2"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node using Google Gemini for prompt refinement and high-fidelity multi-reference image generation."
-        },
-        {
-            "author": "rauldlnx10",
-            "title": "Comfyui-DLN-RTX-Tile-Refiner",
-            "reference": "https://github.com/rauldlnx10/Comfyui-DLN-RTX-Tile-Refiner",
-            "files": [
-                "https://github.com/rauldlnx10/Comfyui-DLN-RTX-Tile-Refiner"
-            ],
-            "install_type": "git-clone",
-            "description": "Added mask area."
-        },
-        {
-            "author": "qornflex",
-            "title": "ComfyUI-QFX-PBRGenerator",
-            "reference": "https://github.com/qornflex/ComfyUI-QFX-PBRGenerator",
-            "files": [
-                "https://github.com/qornflex/ComfyUI-QFX-PBRGenerator"
-            ],
-            "install_type": "git-clone",
-            "description": "Generates PBR textures"
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-Spectrum-SDXL-Proper",
-            "reference": "https://github.com/xmarre/ComfyUI-Spectrum-SDXL-Proper",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-Spectrum-SDXL-Proper"
-            ],
-            "install_type": "git-clone",
-            "description": "Native ComfyUI SDXL Spectrum forecaster node with proper internal U-Net integration"
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-Spectrum-ZImage-Proper",
-            "reference": "https://github.com/xmarre/ComfyUI-Spectrum-ZImage-Proper",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-Spectrum-ZImage-Proper"
-            ],
-            "install_type": "git-clone",
-            "description": "Faithful Z-Image-focused ComfyUI port of Spectrum spectral feature forecasting."
-        },
-        {
-            "author": "augment-lib",
-            "title": "upscale-pro",
-            "reference": "https://github.com/augment-lib/upscale-pro",
-            "files": [
-                "https://github.com/augment-lib/upscale-pro"
-            ],
-            "install_type": "git-clone",
-            "description": "✨ Augment Upscale — Logo and image upscaler for ComfyUI. Upscale logos, icons, and brand assets to high resolution with sharp, clean results. A professional alternative to Magnific AI built directly into your ComfyUI workflow. Supports 2x upscaling via the Augment Studio API with automatic job polling and tensor output. Ideal for logo design, brand asset pipelines, print-ready artwork, and any workflow that needs crisp detail-preserving enlargement. Includes built-in flow control trigger and wait nodes for chaining multi-step pipelines. Get your API key at [a/augmentstudio.app/pricing](https://augmentstudio.app/pricing)"
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-Spectrum-Qwen-Proper",
-            "reference": "https://github.com/xmarre/ComfyUI-Spectrum-Qwen-Proper",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-Spectrum-Qwen-Proper"
-            ],
-            "install_type": "git-clone",
-            "description": "Spectrum-style hidden-state forecasting patcher for native ComfyUI Qwen Image-family models."
-        },
-        {
-            "author": "PBandDev",
-            "title": "comfyui-ping",
-            "reference": "https://github.com/PBandDev/comfyui-ping",
-            "files": [
-                "https://github.com/PBandDev/comfyui-ping"
-            ],
-            "install_type": "git-clone",
-            "description": "Browser-played workflow success and failure audio notifications for ComfyUI"
-        },
-        {
-            "author": "playboy-dongan",
-            "title": "comfyui-pose-redirect-align",
-            "reference": "https://github.com/playboy-dongan/comfyui-pose-redirect-align",
-            "files": [
-                "https://github.com/playboy-dongan/comfyui-pose-redirect-align"
-            ],
-            "install_type": "git-clone",
-            "description": "Align one pose image to another by matching subject scale and head position for ComfyUI."
-        },
-        {
-            "author": "Carasibana",
-            "title": "ComfyUI-SimpleFloatSlider",
-            "reference": "https://github.com/Carasibana/ComfyUI-SimpleFloatSlider",
-            "files": [
-                "https://github.com/Carasibana/ComfyUI-SimpleFloatSlider"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes providing styled draggable float slider widgets"
-        },
-        {
-            "author": "Carasibana",
-            "title": "ComfyUI-ResizeToCanvasSize",
-            "reference": "https://github.com/Carasibana/ComfyUI-ResizeToCanvasSize",
-            "files": [
-                "https://github.com/Carasibana/ComfyUI-ResizeToCanvasSize"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node pack that resizes images to an exact target canvas size with full control over scaling, cropping, and placement."
-        },
-
-        {
-            "author": "Stable Diffusion VN",
-            "title": "SDVN Segment Anything",
-            "id": "SDVNSegment",
-            "reference": "https://github.com/StableDiffusionVN/SDVN_Segment_Anything",
-            "files": [
-                "https://github.com/StableDiffusionVN/SDVN_Segment_Anything"
-            ],
-            "install_type": "git-clone",
-            "description": "A set of nodes developed from the original Segment Anything set, to streamline and fix new library conflicts"
-        },
-        {
-            "author": "huchukato",
-            "title": "ComfyUI-RIFE-TensorRT-Auto",
-            "id": "rife-tensorrt-auto",
-            "reference": "https://github.com/huchukato/ComfyUI-RIFE-TensorRT-Auto",
-            "files": [
-                "https://github.com/huchukato/ComfyUI-RIFE-TensorRT-Auto"
-            ],
-            "install_type": "git-clone",
-            "description": "Ultra fast frame interpolation using Rife TensorRT with fully automatic installation and optimization. Features automatic TensorRT engine building, CUDA toolkit detection, and resolution profiles for optimal performance. 2-4x faster than original RIFE implementation with enhanced stability and memory management.",
-            "category": "video",
-            "tags": ["video", "interpolation", "rife", "tensorrt", "cuda", "performance", "frame", "motion", "automatic", "optimization", "enhanced", "fork", "stable"]
-        },
-        {
-            "author": "huchukato",
-            "title": "ComfyUI-Upscaler-TensorRT-Auto",
-            "id": "upscaler-tensorrt-auto",
-            "reference": "https://github.com/huchukato/ComfyUI-Upscaler-TensorRT-Auto",
-            "files": [
-                "https://github.com/huchukato/ComfyUI-Upscaler-TensorRT-Auto"
-            ],
-            "install_type": "git-clone",
-            "description": "2-4x faster ComfyUI image upscaling using TensorRT with automatic installation and model optimization. Supports popular upscaling models with automatic TensorRT engine building, CUDA toolkit detection, and memory-efficient processing. Enhanced performance and stability over original implementation.",
-            "category": "image",
-            "tags": ["image", "upscale", "tensorrt", "cuda", "performance", "enhancement", "automatic", "optimization", "esrgan", "edsr", "memory", "efficient", "enhanced", "fork", "stable"]
-        },
-        {
-            "author": "huchukato",
-            "title": "ComfyUI-HuggingFace",
-            "id": "huggingface-downloader",
-            "reference": "https://github.com/huchukato/ComfyUI-HuggingFace",
-            "files": [
-                "https://github.com/huchukato/ComfyUI-HuggingFace"
-            ],
-            "install_type": "git-clone",
-            "description": "HuggingFace model downloader for ComfyUI with advanced search and intelligent download system. Search, browse, and download models directly from HuggingFace repository without leaving ComfyUI interface. Features API token support, model type filtering, and migration path from Civicomfy with enhanced stability.",
-            "category": "utility",
-            "tags": ["huggingface", "model", "download", "search", "browse", "api", "repository", "management", "interface", "migration", "civicomfy", "enhanced", "stable"]
-        },
-        {
-            "author": "nestflow",
-            "title": "Booru Taggers for ComfyUI",
-            "id": "boorutagger",
-            "reference": "https://github.com/nestflow/ComfyUI-Booru-Tagger",
-            "files": [
-                "https://github.com/nestflow/ComfyUI-Booru-Tagger"
-            ],
-            "install_type": "git-clone",
-            "description": "An improved and extended node of various Booru taggers (WD taggers, Pixai, Camie, etc.)"
-        },
-        {
-            "author": "senjinthedragon",
-            "title": "ComfyUI Gender Tag Filter",
-            "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
-            "files": [
-            	"https://github.com/senjinthedragon/comfyui-gender-tag-filter"
-            ],
-            "install_type": "git-clone",
-            "category": "utils/tags",
-            "description": "Filters and rewrites gendered vocabulary in Danbooru tags and natural language prompts to fix female-biased output from models like TIPO."
-        },
-        {
-            "author": "ketle-man",
-            "title": "ComfyUI 2D Pose Editor",
-            "id": "comfyui-2dpose-editor",
-            "reference": "https://github.com/ketle-man/comfyui-2dpose-editor",
-            "files": [
-                "https://github.com/ketle-man/comfyui-2dpose-editor"
-            ],
-            "install_type": "git-clone",
-            "description": "Interactive 2D rigging pose editor embedded inside a ComfyUI node. Drag joints to pose a figure, control eye direction, and export as IMAGE."
-        },
-        {
-            "author": "Rimor-dev",
-            "title": "Diana - Interactive Assistant",
-            "reference": "https://github.com/Rimor-dev/ComfyUI-Diana",
-            "files": [
-                "https://github.com/Rimor-dev/ComfyUI-Diana"
-            ],
-            "install_type": "git-clone",
-            "description": "🧝 Interactive assistant that lives in your ComfyUI workspace. Reacts to queue events with animated sprites, voice lines, and text bubbles. Features multiple personalities: Diana (calm), Kitty (cute), Kerrigan (dark). Includes audio toggle, idle timer, and smart error detection."
-        },
-        {
-            "author": "tardigrade1001",
-            "title": "comfyui-mistral-caption",
-            "reference": "https://github.com/tardigrade1001/comfyui-mistral-caption",
-            "files": [
-                "https://github.com/tardigrade1001/comfyui-mistral-caption"
-            ],
-            "install_type": "git-clone",
-            "description": "A custom ComfyUI node that allows interaction with Mistral AI language and vision models directly inside a ComfyUI workflow."
-        },
-        {
-            "author": "tardigrade1001",
-            "title": "send-to-comfyui",
-            "reference": "https://github.com/tardigrade1001/send-to-comfyui",
-            "files": [
-                "https://github.com/tardigrade1001/send-to-comfyui"
-            ],
-            "install_type": "git-clone",
-            "description": "A lightweight browser extension + custom ComfyUI node that creates a seamless Web → ComfyUI pipeline for sending images directly from the browser into your workflows."
-        },
-        {
-            "author": "BISAM20",
-            "title": "ComfyUI-ACES-IO",
-            "id": "comfyui-aces-io",
-            "reference": "https://github.com/BISAM20/ComfyUI-ACES-IO",
-            "files": [
-                "https://github.com/BISAM20/ComfyUI-ACES-IO"
-            ],
-            "install_type": "git-clone",
-            "description": "Professional OpenColorIO / ACES color-management nodes for ComfyUI. Mirrors Nuke's OCIO node set with ACES 2.0, 1.3, and 1.2 support, EXR sequence loading, animated preview, and video export (MP4, WebP, GIF)."
-        },
-        {
-            "author": "Dangocan",
-            "title": "ComfyUI GLM-OCR",
-            "id": "comfyui-glm-ocr",
-            "reference": "https://github.com/Dangocan/comfyui_glm_ocr",
-            "files": [
-                "https://github.com/Dangocan/comfyui_glm_ocr"
-            ],
-            "install_type": "git-clone",
-            "description": "Load and run GLM-OCR (zai-org/GLM-OCR) locally in ComfyUI. Supports text recognition, formula recognition, table extraction, and general image description. Picks up models from any ComfyUI checkpoint directory."
-        },
-        {
-            "author": "George Jiang",
-            "title": "ComfyUI Save Image Without Metadata",
-            "reference": "https://github.com/GeorgeJiang/comfyui-save-image-no-meta",
-            "files": [
-                "https://github.com/GeorgeJiang/comfyui-save-image-no-meta"
-            ],
-            "install_type": "git-clone",
-            "description": "Save images without embedding workflow or prompt metadata"
-        },
-        {
-            "author": "cuzelac",
-            "title": "ComfyUI-CLAHE-Preprocessor",
-            "reference": "https://github.com/cuzelac/ComfyUI-CLAHE-Preprocessor",
-            "files": [
-                "https://github.com/cuzelac/ComfyUI-CLAHE-Preprocessor"
-            ],
-            "install_type": "git-clone",
-            "description": "CLAHE preprocessing node for improving 3D mesh generation with TRELLIS"
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-StableManifoldCompander",
-            "reference": "https://github.com/xmarre/ComfyUI-StableManifoldCompander",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-StableManifoldCompander"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for correcting FLUX.2 high-resolution drift, washout, and crop reintegration artifacts with anchor-guided and affine companding workflows"
-        },
-        {
-            "author": "Premik",
-            "title": "ComfyUI-ImgPatchEditor",
-            "reference": "https://github.com/Premik/ComfyUI-ImgPatchEditor",
-            "files": [
-                "https://github.com/Premik/ComfyUI-ImgPatchEditor"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for patching images using a difference detection algorithm. It detects changes between two images (original and patched), creates a mask of the differences, and merges them back together with configurable blending."
-        },
-        {
-            "author": "xmarre",
-            "title": "ComfyUI-ScaleLockedResidualDiffusion",
-            "reference": "https://github.com/xmarre/ComfyUI-ScaleLockedResidualDiffusion",
-            "files": [
-                "https://github.com/xmarre/ComfyUI-ScaleLockedResidualDiffusion"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI custom node pack implementing Scale-Locked Residual Diffusion for high-resolution composition and anatomy stability."
-        },
-
-        
-
-        {
-            "author": "Rimor-dev",
-            "title": "ComfyUI-any_alarm",
-            "reference": "https://github.com/Rimor-dev/ComfyUI-any_alarm",
-            "files": [
-                "https://github.com/Rimor-dev/ComfyUI-any_alarm"
-            ],
-            "install_type": "git-clone",
-            "description": "A universal signal notifier node for ComfyUI that plays configurable sounds (voice modes, custom audio) whenever it receives any signal such as image, latent, or conditioning. (Description by CC)"
         }
     ]
 }
