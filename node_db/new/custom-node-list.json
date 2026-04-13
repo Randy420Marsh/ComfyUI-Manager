@@ -342,12 +342,13 @@
         {
             "author": "starfieldscreensaver",
             "title": "ComfyUI Batch Blend",
+            "id": "comfyui-batch-blend",
             "reference": "https://github.com/starfieldscreensaver/comfyui-batch-blend",
             "files": [
                 "https://github.com/starfieldscreensaver/comfyui-batch-blend"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI custom node that blends two image batches frame-by-frame using vectorised tensor ops"
+            "description": "Blends two image batches frame-by-frame using vectorised tensor ops. Supports 15 blend modes (normal, add, multiply, screen, overlay, soft light, and more). No loops or workarounds needed — works natively with batches."
         },
         {
             "author": "tennantje",

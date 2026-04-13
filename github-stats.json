@@ -9384,6 +9384,11 @@
         "last_update": "2026-02-14 04:55:06",
         "author_account_age_days": 4344
     },
+    "https://github.com/artyclaw/artyclaw-comfy": {
+        "stars": 0,
+        "last_update": "2026-04-13 11:42:00",
+        "author_account_age_days": 7
+    },
     "https://github.com/asaddi/ComfyUI-YALLM-node": {
         "stars": 6,
         "last_update": "2025-09-25 05:37:51",
@@ -14149,6 +14154,11 @@
         "last_update": "2024-08-27 05:10:12",
         "author_account_age_days": 2521
     },
+    "https://github.com/jtreminio/ComfyUI-ConnectTheDots": {
+        "stars": 20,
+        "last_update": "2026-04-10 23:30:08",
+        "author_account_age_days": 5553
+    },
     "https://github.com/jtrue/ComfyUI-JaRue": {
         "stars": 7,
         "last_update": "2024-06-14 09:01:12",
@@ -14769,6 +14779,11 @@
         "last_update": "2024-05-22 21:25:01",
         "author_account_age_days": 1126
     },
+    "https://github.com/kinorax/comfyui-info-prompt-toolkit": {
+        "stars": 0,
+        "last_update": "2026-04-12 13:02:42",
+        "author_account_age_days": 2465
+    },
     "https://github.com/kishida/comfyui-text-renderer": {
         "stars": 1,
         "last_update": "2026-01-09 06:23:01",
@@ -14823,6 +14838,11 @@
         "stars": 4,
         "last_update": "2026-03-12 07:43:25",
         "author_account_age_days": 1428
+    },
+    "https://github.com/knottttt/comfyui-tinyPNG": {
+        "stars": 0,
+        "last_update": "2026-04-10 08:05:40",
+        "author_account_age_days": 2635
     },
     "https://github.com/knuknX/ComfyUI-Image-Tools": {
         "stars": 3,
@@ -15958,6 +15978,16 @@
         "stars": 0,
         "last_update": "2026-03-23 07:47:55",
         "author_account_age_days": 5199
+    },
+    "https://github.com/magicwang1111/ComfyUI-Nanobanana": {
+        "stars": 0,
+        "last_update": "2026-04-11 08:13:08",
+        "author_account_age_days": 1089
+    },
+    "https://github.com/magicwang1111/Comfyui-Kling-Wrapper": {
+        "stars": 0,
+        "last_update": "2026-04-13 01:58:12",
+        "author_account_age_days": 1089
     },
     "https://github.com/maikgreubel/comfyui-loaddds": {
         "stars": 0,
@@ -19728,6 +19758,11 @@
         "stars": 43,
         "last_update": "2025-03-27 07:52:26",
         "author_account_age_days": 610
+    },
+    "https://github.com/steptonite/seedance2-sjinn-comfyui": {
+        "stars": 1,
+        "last_update": "2026-04-10 23:47:09",
+        "author_account_age_days": 407
     },
     "https://github.com/stevenwg/ComfyUI-VideoGrid": {
         "stars": 0,

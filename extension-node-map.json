@@ -15669,6 +15669,8 @@
             "NLEdit",
             "NLFromModelSpace",
             "NLImageInfoDebug",
+            "NLLinearToLog",
+            "NLLogToLinear",
             "NLOCIOConvert",
             "NLPreview",
             "NLRead",
@@ -27339,6 +27341,34 @@
         ],
         {
             "title_aux": "ComfyUI-Photoreal-Prompt-Builder"
+        }
+    ],
+    "https://github.com/artyclaw/artyclaw-comfy": [
+        [
+            "CheckpointNameStripper",
+            "ClipMergerSettings",
+            "DebugTextSaver",
+            "EscapeSequenceConverter",
+            "FolderFileSelector",
+            "IsNumberNode",
+            "LoadImages",
+            "LoadSidecarPrompt",
+            "LoraTagDuplicator",
+            "LoraWeightBalancer",
+            "ModelMergeRatios",
+            "NearestDivisibleInt",
+            "PromptBlockLoader",
+            "PromptRuleComposer",
+            "RNGLoRAWeightInjector",
+            "RequireStringBeforeImage",
+            "RequireStringBeforeLatent",
+            "SimpleDirLoader",
+            "SimpleFolderParser",
+            "WANLoRASplitter",
+            "WildcardRNG"
+        ],
+        {
+            "title_aux": "ArtyClaw Comfy Nodes"
         }
     ],
     "https://github.com/asaddi/ComfyUI-YALLM-node": [
@@ -43951,6 +43981,31 @@
             "title_aux": "SimpleTiles"
         }
     ],
+    "https://github.com/kinorax/comfyui-info-prompt-toolkit": [
+        [
+            "Aspect Ratio to Size",
+            "Grow Mask",
+            "IPT-AspectRatioToSize",
+            "IPT-GrowMask",
+            "IPT-LoraSelector",
+            "IPT-MaskOverlayComparer",
+            "IPT-PixAITagger",
+            "IPT-PromptTemplate",
+            "IPT-RemoveSmallSoftMaskRegions",
+            "IPT-Sam3PromptToMask",
+            "IPT-SetStringExtra",
+            "Lora Selector",
+            "Mask Overlay Comparer",
+            "PixAI Tagger",
+            "Prompt Template",
+            "Remove Small Soft Mask Regions",
+            "SAM3 Prompt To Mask",
+            "Set String Extra"
+        ],
+        {
+            "title_aux": "ComfyUI-Info-Prompt-Toolkit"
+        }
+    ],
     "https://github.com/kishida/comfyui-text-renderer": [
         [
             "TextRenderNode"
@@ -44130,6 +44185,14 @@
         ],
         {
             "title_aux": "ComfyUI-TextGenerateQwen3Prompt"
+        }
+    ],
+    "https://github.com/knottttt/comfyui-tinyPNG": [
+        [
+            "TinyPNGCompress"
+        ],
+        {
+            "title_aux": "ComfyUI TinyPNG"
         }
     ],
     "https://github.com/knuknX/ComfyUI-Image-Tools": [
@@ -57092,6 +57155,14 @@
             "title_aux": "ComfyUI-StepVideo"
         }
     ],
+    "https://github.com/steptonite/seedance2-sjinn-comfyui": [
+        [
+            "SjinnSeedance2Node"
+        ],
+        {
+            "title_aux": "Seedance 2.0 (Sjinn.ai)"
+        }
+    ],
     "https://github.com/stevenwg/ComfyUI-VideoGrid": [
         [
             "VideosConcateHorizontal:",
@@ -62482,6 +62553,8 @@
             "Y7Nodes_PromptEnhancerFlux",
             "Y7Nodes_PromptEnhancerFlux2",
             "Y7Nodes_QwenVL",
+            "Y7Nodes_ScaleImageBy",
+            "Y7Nodes_ScaleImageToTotalPixels",
             "Y7Nodes_SelectLMSModel",
             "Y7Nodes_ShowAnything",
             "Y7Nodes_T5_TokenCounter",
