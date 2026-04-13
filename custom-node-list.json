@@ -58,6 +58,17 @@
             "install_type": "git-clone",
             "description": "This is a helper extension for ComfyUI that assists with node connections."
         },
+		{
+			"author": "MSXYZ",
+			"title": "ComfyUI-MSXYZ",
+			"id": "comfyui-msxyz",
+			"reference": "https://github.com/MSXYZ-GenAI/comfyui-msxyz",
+			"files": [
+				"https://github.com/MSXYZ-GenAI/comfyui-msxyz"
+			],
+			"install_type": "git-clone",
+			"description": "Video Adaptive Anti-Aliasing post-processing node for ComfyUI to eliminate jagged edges in AI-generated videos and images."
+		},
         {
             "author": "Dr.Lt.Data",
             "title": "WAS Node Suite (Revised)",
