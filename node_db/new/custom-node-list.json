@@ -1,6 +1,39 @@
 {
     "custom_nodes": [
         {
+            "author": "ethanfel",
+            "title": "LoRA Optimizer",
+            "id": "comfyui-lora-optimizer",
+            "reference": "https://github.com/ethanfel/ComfyUI-LoRA-Optimizer",
+            "files": [
+                "https://github.com/ethanfel/ComfyUI-LoRA-Optimizer"
+            ],
+            "install_type": "git-clone",
+            "description": "Auto-optimizer node for combining multiple LoRAs via diff-based merging with TIES conflict resolution"
+        },
+        {
+            "author": "rookiestar28",
+            "title": "ComfyUI-RookieUI",
+            "id": "comfyui-rookieui",
+            "reference": "https://github.com/rookiestar28/ComfyUI-RookieUI",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI-RookieUI"
+            ],
+            "install_type": "git-clone",
+            "description": "The ultimate A1111-style sidebar. Bring the classic UX you know and love into ComfyUI."
+        },
+        {
+            "author": "rookiestar28",
+            "title": "ComfyUI-OpenClaw",
+            "id": "comfyui-openclaw",
+            "reference": "https://github.com/rookiestar28/ComfyUI-OpenClaw",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI-OpenClaw"
+            ],
+            "install_type": "git-clone",
+            "description": "Your own personal AIGC Factory. Any picture. Any reel. The Comfy way. ©️"
+        },
+        {
             "author": "knottttt",
             "title": "ComfyUI TinyPNG",
             "id": "comfyui-tinypng",
