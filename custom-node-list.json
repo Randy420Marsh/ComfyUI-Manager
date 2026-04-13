@@ -37483,16 +37483,6 @@
             "description": "ComfyUI node for color matching between images using color-matcher library"
         },
         {
-            "author": "hw5511",
-            "title": "Woohee HF Upscaler Loader",
-            "reference": "https://github.com/hw5511/comfyui_hf_upscaler_loader",
-            "files": [
-                "https://github.com/hw5511/comfyui_hf_upscaler_loader"
-            ],
-            "install_type": "git-clone",
-            "description": "Load upscale models directly from Hugging Face Hub in ComfyUI"
-        },
-        {
             "author": "edoardocompagnucci",
             "title": "ComfyUI-HSyn9DHPE",
             "reference": "https://github.com/edoardocompagnucci/ComfyUI-HSyn9DHPE",
@@ -44648,6 +44638,16 @@
             "description": "Extension nodes to help bridge StableProjectorz and ComfyUI"
         },
         {
+            "author": "Guillaume-127",
+            "title": "Post Processing PRO",
+            "reference": "https://github.com/Guillaume-127/ConfyUI_Post_Processing_PRO",
+            "files": [
+                "https://github.com/Guillaume-127/ConfyUI_Post_Processing_PRO"
+            ],
+            "install_type": "git-clone",
+            "description": "A professional, high-fidelity post-processing node suite aiming for photorealism. Simulates precise physical analog camera behaviors (Bloom, Optics, Glare, Diffusion)."
+        },
+        {
             "author": "yaofeng",
             "title": "comfyui-agent-adapter",
             "reference": "https://github.com/yaofeng/comfyui-agent-adapter",
@@ -46156,16 +46156,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Guillaume-127",
-            "title": "Post Processing PRO",
-            "reference": "https://github.com/Guillaume-127/ConfyUI_Post_Processing_PRO",
-            "files": [
-                "https://github.com/Guillaume-127/ConfyUI_Post_Processing_PRO"
-            ],
-            "install_type": "git-clone",
-            "description": "A professional, high-fidelity post-processing node suite aiming for photorealism. Simulates precise physical analog camera behaviors (Bloom, Optics, Glare, Diffusion)."
         }
     ]
 }

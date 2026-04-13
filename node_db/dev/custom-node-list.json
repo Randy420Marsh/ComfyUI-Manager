@@ -1825,16 +1825,6 @@
             "description": "ComfyUI custom node that splits multi-line prompts by line, enabling batch image generation with each line triggering one execution and supporting custom prompt boxes. (Description by CC)\nNOTE: The files in the repo are not organized."
         },
         {
-            "author": "rookiestar28",
-            "title": "ComfyUI_Security_Audit",
-            "reference": "https://github.com/rookiestar28/ComfyUI_Security_Audit",
-            "files": [
-                "https://github.com/rookiestar28/ComfyUI_Security_Audit"
-            ],
-            "install_type": "git-clone",
-            "description": "A lightweight, dual-layer security extension for ComfyUI using AST-based static analysis and runtime monitoring to detect malicious code in custom nodes."
-        },
-        {
             "author": "c1660181647-hash",
             "title": "ComfyUI-MM-Visual-Encryption",
             "reference": "https://github.com/c1660181647-hash/ComfyUI-MM-Visual-Encryption",
@@ -6671,16 +6661,6 @@
             ],
             "description": "NODES: Properties, Apply SVG to Image",
             "install_type": "git-clone"
-        },
-        {
-            "author": "Kur0butiMegane",
-            "title": "Comfyui-StringUtils",
-            "reference": "https://github.com/Kur0butiMegane/Comfyui-StringUtils2",
-            "files": [
-                "https://github.com/Kur0butiMegane/Comfyui-StringUtils2"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Normalizer, Splitter, Selector, XML Parser, XML Parser, Make Property, Add XML Tag, Is String Empty, Cond Passthrough, CLIP Passthrough, ClipRegion Passthrough, Scheduler Selector (Impact), Scheduler Selector (Inspire), Save Text, XML to Cutoff"
         },
         {
             "author": "ronaldstg",

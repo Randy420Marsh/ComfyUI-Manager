@@ -1,6 +1,36 @@
 {
     "custom_nodes": [
         {
+            "author": "Kur0butiMegane",
+            "title": "Comfyui-StringUtils [REMOVED]",
+            "reference": "https://github.com/Kur0butiMegane/Comfyui-StringUtils2",
+            "files": [
+                "https://github.com/Kur0butiMegane/Comfyui-StringUtils2"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Normalizer, Splitter, Selector, XML Parser, XML Parser, Make Property, Add XML Tag, Is String Empty, Cond Passthrough, CLIP Passthrough, ClipRegion Passthrough, Scheduler Selector (Impact), Scheduler Selector (Inspire), Save Text, XML to Cutoff"
+        },
+        {
+            "author": "rookiestar28",
+            "title": "ComfyUI_Security_Audit [REMOVED]",
+            "reference": "https://github.com/rookiestar28/ComfyUI_Security_Audit",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI_Security_Audit"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight, dual-layer security extension for ComfyUI using AST-based static analysis and runtime monitoring to detect malicious code in custom nodes."
+        },
+        {
+            "author": "hw5511",
+            "title": "Woohee HF Upscaler Loader [REMOVED]",
+            "reference": "https://github.com/hw5511/comfyui_hf_upscaler_loader",
+            "files": [
+                "https://github.com/hw5511/comfyui_hf_upscaler_loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Load upscale models directly from Hugging Face Hub in ComfyUI"
+        },
+        {
             "author": "arthur",
             "title": "Video Output Bridge [REMOVED]",
             "reference": "https://github.com/arthurtravers/ComfyUI-VideoOutputBridge",

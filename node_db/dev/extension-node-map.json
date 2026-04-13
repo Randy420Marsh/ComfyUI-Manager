@@ -2713,30 +2713,6 @@
             "title_aux": "RK_Comfyui"
         }
     ],
-    "https://github.com/Kur0butiMegane/Comfyui-StringUtils2": [
-        [
-            "AddXMLTag",
-            "CLIPPassThrough",
-            "ClipRegionPassThrough",
-            "CondPassThrough",
-            "ElapsedTime",
-            "GetBeginTime",
-            "GetEndTime",
-            "IsStringEmpty",
-            "MakeProperty",
-            "Normalize",
-            "SaveText",
-            "SchedulerSelectorImpact",
-            "SchedulerSelectorInspire",
-            "Selector",
-            "Split",
-            "XMLParser",
-            "XMLtoCutoff"
-        ],
-        {
-            "title_aux": "Comfyui-StringUtils"
-        }
-    ],
     "https://github.com/KurtHokke/ComfyUI_KurtHokke_Nodes": [
         [
             "AIO_Tuner_Pipe",
@@ -7138,6 +7114,9 @@
             "BriaImageEditNode",
             "BriaRemoveImageBackground",
             "BriaRemoveVideoBackground",
+            "ByteDance2FirstLastFrameNode",
+            "ByteDance2ReferenceNode",
+            "ByteDance2TextToVideoNode",
             "ByteDanceFirstLastFrameNode",
             "ByteDanceImageNode",
             "ByteDanceImageReferenceNode",
@@ -12838,14 +12817,6 @@
         ],
         {
             "title_aux": "comfyui-plus-integrations [WIP]"
-        }
-    ],
-    "https://github.com/rookiestar28/ComfyUI_Security_Audit": [
-        [
-            "ComfyUI_Security_Audit"
-        ],
-        {
-            "title_aux": "ComfyUI_Security_Audit"
         }
     ],
     "https://github.com/rossturk/comfyui-primitive-mesh": [

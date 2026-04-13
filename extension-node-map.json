@@ -2193,6 +2193,7 @@
             "AcademiaSD_Gemini_Node",
             "AcademiaSD_MultiLora",
             "AcademiaSD_Numeric",
+            "AcademiaSD_ResolutionDisplay",
             "AcademiaSD_SaveCaption",
             "IntegerBypasser",
             "LoopCounterToFile",
@@ -32353,6 +32354,9 @@
             "BriaImageEditNode",
             "BriaRemoveImageBackground",
             "BriaRemoveVideoBackground",
+            "ByteDance2FirstLastFrameNode",
+            "ByteDance2ReferenceNode",
+            "ByteDance2TextToVideoNode",
             "ByteDanceFirstLastFrameNode",
             "ByteDanceImageNode",
             "ByteDanceImageReferenceNode",
@@ -33784,6 +33788,7 @@
             "D2 Regex Replace",
             "D2 Regex Switcher",
             "D2 Resize Calculator",
+            "D2 Save Audio Eagle",
             "D2 Save Image",
             "D2 Save Image Eagle",
             "D2 Send File Eagle",
@@ -46029,6 +46034,15 @@
         ],
         {
             "title_aux": "comfyui-mask-util"
+        }
+    ],
+    "https://github.com/longyijdos/ComfyUI-LLM-Prompt-Tagger": [
+        [
+            "OpenAICompatiblePromptConditioning",
+            "OpenAICompatiblePromptPair"
+        ],
+        {
+            "title_aux": "ComfyUI-LLM-Prompt-Tagger"
         }
     ],
     "https://github.com/loockluo/comfyui-whisperx-pro": [

@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Guillaume-127",
+            "title": "Post Processing PRO",
+            "reference": "https://github.com/Guillaume-127/ConfyUI_Post_Processing_PRO",
+            "files": [
+                "https://github.com/Guillaume-127/ConfyUI_Post_Processing_PRO"
+            ],
+            "install_type": "git-clone",
+            "description": "A professional, high-fidelity post-processing node suite aiming for photorealism. Simulates precise physical analog camera behaviors (Bloom, Optics, Glare, Diffusion)."
+        },
+        {
             "author": "ULT7RA",
             "title": "FLUXNATION FLUX.1 Fused Neuromorphic SPIKE Attention & Step Cache Cuda Kernel",
             "id": "fluxnation",
