@@ -45258,16 +45258,6 @@
             "description": "ComfyUI Qwen 3.5 Prompting nodes (captionate image, improve prompt, etc)"
         },
         {
-            "author": "kymeraj",
-            "title": "comfyui-prompt-builder",
-            "reference": "https://github.com/kymeraj/comfyui-prompt-builder",
-            "files": [
-                "https://github.com/kymeraj/comfyui-prompt-builder"
-            ],
-            "install_type": "git-clone",
-            "description": "Compose prompts from multiple toggleable text slots. Combine enabled entries or select one. Dynamic slot visibility with up to 10 text slots in a single node."
-        },
-        {
             "author": "TakkunRed",
             "title": "comfyui_checkpoint_preset_manager",
             "reference": "https://github.com/TakkunRed/comfyui_checkpoint_preset_manager",
