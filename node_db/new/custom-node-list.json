@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "knottttt",
+            "title": "ComfyUI TinyPNG",
+            "id": "comfyui-tinypng",
+            "reference": "https://github.com/knottttt/comfyui-tinyPNG",
+            "files": [
+                "https://github.com/knottttt/comfyui-tinyPNG"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node for compressing images via TinyPNG API."
+        },
+        {
             "author": "steptonite",
             "title": "Seedance 2.0 (Sjinn.ai)",
             "reference": "https://github.com/steptonite/seedance2-sjinn-comfyui",
