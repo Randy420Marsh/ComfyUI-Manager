@@ -34579,17 +34579,6 @@
             "description": "Google Gemini API integration for ComfyUI - Generate images and text using Google's latest AI models. Provides nodes for Gemini API interactions and batch image processing."
         },
         {
-            "author": "magicwang1111",
-            "title": "ComfyUI-Nanobanana",
-            "id": "comfyui-nanobanana",
-            "reference": "https://github.com/magicwang1111/ComfyUI-Nanobanana",
-            "files": [
-                "https://github.com/magicwang1111/ComfyUI-Nanobanana"
-            ],
-            "install_type": "git-clone",
-            "description": "Gemini native generateContent custom nodes for ComfyUI with Nano Banana, Nano Banana 2, and Nano Banana Pro, supporting both Google direct access and Gemini-compatible native relay endpoints."
-        },
-        {
             "author": "Malte0621",
             "title": "HordeAI",
             "reference": "https://github.com/Malte0621/hordeai-comfy",
@@ -45778,6 +45767,17 @@
             "description": "ComfyUI custom nodes for Kling AI image generation, text-to-video, image-to-video, advanced custom elements, motion control, lip sync, text/video to audio, effects, virtual try-on, and image expansion."
         },
         {
+            "author": "magicwang1111",
+            "title": "ComfyUI-Nanobanana",
+            "id": "comfyui-nanobanana",
+            "reference": "https://github.com/magicwang1111/ComfyUI-Nanobanana",
+            "files": [
+                "https://github.com/magicwang1111/ComfyUI-Nanobanana"
+            ],
+            "install_type": "git-clone",
+            "description": "Gemini native generateContent custom nodes for ComfyUI with Nano Banana, Nano Banana 2, and Nano Banana Pro, supporting both Google direct access and Gemini-compatible native relay endpoints."
+        },
+        {
             "author": "artyclaw",
             "title": "ArtyClaw Comfy Nodes",
             "reference": "https://github.com/artyclaw/artyclaw-comfy",
@@ -45797,6 +45797,27 @@
             ],
             "install_type": "git-clone",
             "description": "Connect compatible nodes without scrolling across your graph."
+        },
+        {
+            "author": "kinorax",
+            "title": "ComfyUI-Info-Prompt-Toolkit",
+            "id": "info-prompt-toolkit",
+            "reference": "https://github.com/kinorax/comfyui-info-prompt-toolkit",
+            "files": [
+                "https://github.com/kinorax/comfyui-info-prompt-toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "Civitai-compatible metadata saving, same-name .txt captions, XY Plot, Tiled Sampling, SAM3, Detailer, PixAI Tagger, wildcards, and Dynamic Prompts to simplify ComfyUI wiring, improve reusability, and carry trial results into the next production pass."
+        },
+        {
+            "author": "steptonite",
+            "title": "Seedance 2.0 (Sjinn.ai)",
+            "reference": "https://github.com/steptonite/seedance2-sjinn-comfyui",
+            "files": [
+                "https://github.com/steptonite/seedance2-sjinn-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "Run ByteDance Seedance 2.0 video generation in ComfyUI via Sjinn.ai API. Supports up to 6 image, 3 video and 2 audio references. Outputs native VIDEO plus first frame, last frame and frame batch."
         },
 
 
