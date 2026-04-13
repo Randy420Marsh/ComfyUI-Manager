@@ -23,6 +23,17 @@
             "description": "Building upon the excellent foundation of ComfyUI_TensorRT, this version focuses on full support for the Anima architecture and advanced TensorRT acceleration. It aims to push NVIDIA RTX™ GPU performance to its limits for the next generation of Stable Diffusion workflows."
         },
         {
+            "author": "MSXYZ",
+            "title": "ComfyUI-MSXYZ",
+            "id": "comfyui-msxyz",
+            "reference": "https://github.com/MSXYZ-GenAI/comfyui-msxyz",
+            "files": [
+                "https://github.com/MSXYZ-GenAI/comfyui-msxyz"
+            ],
+            "install_type": "git-clone",
+            "description": "Video Adaptive Anti-Aliasing post-processing node for ComfyUI to eliminate jagged edges in AI-generated videos and images."
+        },
+        {
             "author": "yedp123",
             "title": "ComfyUI-Beginner-Bible",
             "reference": "https://github.com/yedp123/ComfyUI-Beginner-Bible",
