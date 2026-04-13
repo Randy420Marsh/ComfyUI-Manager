@@ -9788,6 +9788,25 @@
             "title_aux": "ComfyUI-PanoCard"
         }
     ],
+    "https://github.com/Guillaume-127/ConfyUI_Post_Processing_PRO": [
+        [
+            "AutoResizeMatchPRO",
+            "BayerDitheringPRO",
+            "ChromaticAberrationPRO",
+            "CinematicAdaptiveSharpeningPRO",
+            "FilmGrainPRO",
+            "HalationPRO",
+            "LateralChromaticAberrationPRO",
+            "LensDistortionPRO",
+            "SensorHeatNoisePRO",
+            "SpecularMicroBloomPRO",
+            "SubsurfaceDiffusionPRO",
+            "VeilingGlarePRO"
+        ],
+        {
+            "title_aux": "Post Processing PRO"
+        }
+    ],
     "https://github.com/Guillaume-Fgt/ComfyUI_StableCascadeLatentRatio": [
         [
             "StableCascadeLatentRatio"
@@ -57342,6 +57361,7 @@
             "NukeExposure",
             "NukeExposureAdvanced",
             "NukeGrade",
+            "NukeKeymix",
             "NukeLevels",
             "NukeMerge",
             "NukeMix",

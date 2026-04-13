@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "Zinigo",
+            "title": "Prompt Builder [NAME CONFLICT]",
+            "reference": "https://github.com/zinigo-creations/comfyui-prompt-builder",
+            "files": [
+                "https://github.com/zinigo-creations/comfyui-prompt-builder"
+            ],
+            "install_type": "git-clone",
+            "description": "Dropdown-based prompt builder for ComfyUI. Create characters, scenes, and styles without writing prompts. Designed for beginners and fast iteration."
+        },
+        {
             "author": "ethanfel",
             "title": "Comfyui-Return-Run-Logic",
             "reference": "https://github.com/ethanfel/Comfyui-Return-Run-Logic",
