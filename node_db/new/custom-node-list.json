@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "jtreminio",
+            "title": "Connect The Dots",
+            "id": "connect-the-dots",
+            "reference": "https://github.com/jtreminio/ComfyUI-ConnectTheDots",
+            "files": [
+                "https://github.com/jtreminio/ComfyUI-ConnectTheDots"
+            ],
+            "install_type": "git-clone",
+            "description": "Connect compatible nodes without scrolling across your graph."
+        },
+        {
             "author": "magicwang1111",
             "title": "Comfyui-Kling-Wrapper",
             "id": "comfyui-kling-wrapper",
