@@ -34,6 +34,17 @@
             "description": "Video Adaptive Anti-Aliasing post-processing node for ComfyUI to eliminate jagged edges in AI-generated videos and images."
         },
         {
+            "author": "longyijdos",
+            "title": "ComfyUI-LLM-Prompt-Tagger",
+            "id": "llm-prompt-tagger",
+            "reference": "https://github.com/longyijdos/ComfyUI-LLM-Prompt-Tagger",
+            "files": [
+                "https://github.com/longyijdos/ComfyUI-LLM-Prompt-Tagger"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes: LLM Prompt Tags, LLM Prompt Conditioning. Generates positive and negative prompts with an OpenAI-compatible chat/completions API and can encode them directly into CLIP conditioning."
+        },
+        {
             "author": "yedp123",
             "title": "ComfyUI-Beginner-Bible",
             "reference": "https://github.com/yedp123/ComfyUI-Beginner-Bible",
