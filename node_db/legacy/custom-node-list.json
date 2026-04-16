@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "Kur0butiMegane",
+            "title": "Comfyui-StringUtils [REMOVED]",
+            "reference": "https://github.com/Kur0butiMegane/Comfyui-StringUtils2",
+            "files": [
+                "https://github.com/Kur0butiMegane/Comfyui-StringUtils2"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Normalizer, Splitter, Selector, XML Parser, XML Parser, Make Property, Add XML Tag, Is String Empty, Cond Passthrough, CLIP Passthrough, ClipRegion Passthrough, Scheduler Selector (Impact), Scheduler Selector (Inspire), Save Text, XML to Cutoff"
+        },
+        {
+            "author": "rookiestar28",
+            "title": "ComfyUI_Security_Audit [REMOVED]",
+            "reference": "https://github.com/rookiestar28/ComfyUI_Security_Audit",
+            "files": [
+                "https://github.com/rookiestar28/ComfyUI_Security_Audit"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight, dual-layer security extension for ComfyUI using AST-based static analysis and runtime monitoring to detect malicious code in custom nodes."
+        },
+        {
+            "author": "hw5511",
+            "title": "Woohee HF Upscaler Loader [REMOVED]",
+            "reference": "https://github.com/hw5511/comfyui_hf_upscaler_loader",
+            "files": [
+                "https://github.com/hw5511/comfyui_hf_upscaler_loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Load upscale models directly from Hugging Face Hub in ComfyUI"
+        },
+        {
+            "author": "arthur",
+            "title": "Video Output Bridge [REMOVED]",
+            "reference": "https://github.com/arthurtravers/ComfyUI-VideoOutputBridge",
+            "files": [
+                "https://github.com/arthurtravers/ComfyUI-VideoOutputBridge"
+            ],
+            "install_type": "git-clone",
+            "description": "Bridge VHS_VideoCombine video outputs to standard image payloads for serverless runners (RunPod, Modal). Enables automatic S3 uploads of MP4/WebP files in worker-comfyui deployments."
+        },
+        {
+            "author": "UmeAiRT",
+            "title": "ComfyUI-UmeAiRT-Sync [REMOVED]",
+            "reference": "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Sync",
+            "files": [
+                "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Sync"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatic workflow synchronizer/loader for UmeAiRT Workflows (Flux, SDXL, WAN, etc.)."
+        },
+        {
+            "author": "UmeAiRT",
+            "title": "UmeAiRT-Toolkit [REMOVED]",
+            "reference": "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Toolkit",
+            "files": [
+                "https://github.com/UmeAiRT/ComfyUI-UmeAiRT-Toolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "A Wireless, Nodes 2.0 Ready, and Aesthetic Toolkit for ComfyUI."
+        },
+        {
+            "author": "sln77",
+            "title": "ComfyUI-Camie-Tagger [REMOVED]",
+            "reference": "https://github.com/sln77/ComfyUI-Camie-Tagger",
+            "files": [
+                "https://github.com/sln77/ComfyUI-Camie-Tagger"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node integration for the Camie tagger v2 model from Hugging Face for image tagging. (Description by CC)"
+        },
+        {
             "author": "vegaflowltd",
             "title": "Vega Flow V8.9 — Temporal Stabilisation [REMOVED]",
             "id": "comfyui-vegaflow",
