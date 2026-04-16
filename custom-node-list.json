@@ -46307,6 +46307,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "yawiii",
+            "title": "Prompt Assistant",
+            "id": "prompt-assistant",
+            "reference": "https://github.com/yawiii/ComfyUI-Prompt-Assistant",
+            "files": [
+                "https://github.com/yawiii/ComfyUI-Prompt-Assistant"
+            ],
+            "install_type": "git-clone",
+            "description": "A versatile prompt utility featuring translation, refinement, expansion, and image/video-to-prompt reverse engineering with one-click access to any online or local LLM."
         }
     ]
 }
