@@ -834,6 +834,8 @@
             "TSRestoreFromCrop",
             "TSWhisper",
             "TS_Animation_Preview",
+            "TS_AudioLoader",
+            "TS_AudioPreview",
             "TS_BGRM_BiRefNet",
             "TS_BatchPromptLoader",
             "TS_Color_Grade",
@@ -870,6 +872,7 @@
             "TS_QwenSafeResize",
             "TS_RTX_Upscaler",
             "TS_ResolutionSelector",
+            "TS_SileroStress",
             "TS_SileroTTS",
             "TS_Smart_Switch",
             "TS_StylePromptSelector",
@@ -1483,9 +1486,88 @@
         ],
         {}
     ],
+    "https://github.com/ComfyUI/CondsUtils": [
+        [
+            "InsertAttnConds",
+            "InsertTEConds",
+            "LoadReduxEmb",
+            "LoadTEConds",
+            "SaveCondsEmb",
+            "SaveReduxEmb"
+        ],
+        {}
+    ],
     "https://github.com/ComfyUI/DiffsynthPause": [
         [
             "nynxz.Patch.ZImageDiffsynthControlnetPause"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/LoHalo": [
+        [
+            "LohaloHighFidelityScaler",
+            "LohaloKernelScalingNode"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/PromptAttention": [
+        [
+            "CLIPTextEncodeAttentionBias"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/ReduxEmbedToolkit": [
+        [
+            "InsertAttnConds",
+            "InsertTEConds",
+            "LoadReduxEmb",
+            "LoadTEConds",
+            "SaveCondsEmb",
+            "SaveReduxEmb"
+        ],
+        {}
+    ],
+    "https://github.com/ComfyUI/SamplingUtils": [
+        [
+            "AdjustedResolutionParameters",
+            "BonusPromptPresets",
+            "CameraShotPresets",
+            "EditOpPresets",
+            "EditTargetPresets",
+            "Frakturpad",
+            "GetJsonKeyValue",
+            "IdeographicLinePad",
+            "IdeographicSentencePad",
+            "IdeographicTagPad",
+            "ImageBlendByMask",
+            "ImageMatchProperties",
+            "Image_Color_Noise",
+            "InstructPromptPresets",
+            "IntegerRangeRandom",
+            "JoinerPadding",
+            "LlTokenizerOptions",
+            "ModifyMask",
+            "OpticalFlowComposite",
+            "PrimitiveRandomInt",
+            "PrimitiveRandomIntRange",
+            "PrimitiveStaticInt",
+            "SU_LoadImageDirectory",
+            "SU_LoadImagePath",
+            "SamplingParameters",
+            "SystemMessagePresets",
+            "TagNormalizeCombine",
+            "TextEncodeFlux2SystemPrompt",
+            "TextEncodeKleinSystemPrompt",
+            "TextEncodeSystemPrompt",
+            "TextEncodeZITSystemPrompt",
+            "TextEncodeZImageThinkPrompt",
+            "TextOverlayNode",
+            "UNETLoaderAsync",
+            "UnFrakturPad",
+            "UnifiedPresets",
+            "VLMSysInstrAdvPresets",
+            "VLMSysInstrPresets",
+            "VLMSysQueryAddPresets"
         ],
         {}
     ],
@@ -1523,14 +1605,6 @@
         ],
         {
             "title_aux": "ComfyUI-VideoStream"
-        }
-    ],
-    "https://github.com/DailyMok/ComfyUI-PromptMixerNode": [
-        [
-            "PromptMixerDaily"
-        ],
-        {
-            "title_aux": "ComfyUI-PromptMixerNode"
         }
     ],
     "https://github.com/DataCTE/ComfyUI-DataVoid-nodes": [
@@ -2399,14 +2473,6 @@
         ],
         {
             "title_aux": "ComfyUI_DeleteModelPassthrough_ExecutionFlowControl [WIP]"
-        }
-    ],
-    "https://github.com/IvanZhd/comfyui-codeformer": [
-        [
-            "RedBeanie_CustomImageInverter"
-        ],
-        {
-            "title_aux": "comfyui-codeformer [WIP]"
         }
     ],
     "https://github.com/JBKing514/map_comfyui": [
@@ -4695,6 +4761,7 @@
             "SVDSampler",
             "SchedulerSelector",
             "SingleConfig",
+            "SleepHost",
             "TorchAOQuantizationConfig",
             "TorchConfig",
             "UnsafeModelSelector",
@@ -4751,8 +4818,6 @@
             "CombineWanPipeline",
             "CombineZImagePipeline",
             "CreateTrajectoryBasedOnKJNodes",
-            "DeepFace_FaceCrop",
-            "DeepFace_Verify",
             "Flux2ControlSampler",
             "Flux2T2ISampler",
             "FunAttention",
@@ -4764,7 +4829,6 @@
             "ImageToCanny",
             "ImageToDepth",
             "ImageToPose",
-            "IterativeUpscaleNode",
             "LoadCogVideoXFunLora",
             "LoadCogVideoXFunModel",
             "LoadFlux2ControlNetInModel",
@@ -4804,42 +4868,48 @@
             "LoadZImageTextEncoderModel",
             "LoadZImageTransformerModel",
             "LoadZImageVAEModel",
-            "MediaPipe_FaceCrop",
-            "MidnightDetailerNode",
-            "MidnightLook_AnyToString",
-            "MidnightLook_CanvasExpand",
-            "MidnightLook_CropDATAToBBOX",
-            "MidnightLook_CropForInpaint",
-            "MidnightLook_DisplayAny",
-            "MidnightLook_ExpandCropMask",
-            "MidnightLook_GrowMaskWithBlur",
-            "MidnightLook_LatentSizePresets",
-            "MidnightLook_LoadImageByURL",
-            "MidnightLook_LoopEnd",
-            "MidnightLook_LoopStart",
-            "MidnightLook_PasteAfterInpaint",
-            "MidnightLook_PreFill",
-            "MidnightLook_QwenGuidance",
-            "MidnightLook_QwenSmartCropPad",
-            "MidnightLook_StringToBBOX",
-            "MidnightLook_URLLoRALoader",
-            "MidnightLook_UploadToR2",
-            "MidnightLook_VRAMClear",
-            "MidnightLook_ZImageCNLoader",
-            "MidnightLook_ZImageCNSampler",
-            "MidnightLook_ZImageInpaintSampler",
-            "MidnightLook_ZImageLoader",
-            "MidnightLook_ZImageOutpaintSampler",
-            "MidnightLook_ZImagePrompt",
-            "MidnightQwen25Load",
-            "MidnightQwen25Run",
+            "MidnightLook-AnyToString",
+            "MidnightLook-CanvasExpand",
+            "MidnightLook-CropDataToBBox",
+            "MidnightLook-CropForInpaint",
+            "MidnightLook-DeepFaceCrop",
+            "MidnightLook-DeepFaceVerify",
+            "MidnightLook-Detailer",
+            "MidnightLook-DisplayAny",
+            "MidnightLook-ExpandCropMask",
+            "MidnightLook-GrowMaskWithBlur",
+            "MidnightLook-ImageCompare",
+            "MidnightLook-IterativeUpscale",
+            "MidnightLook-LatentSizePresets",
+            "MidnightLook-LoadImageByURL",
+            "MidnightLook-LoopEnd",
+            "MidnightLook-LoopStart",
+            "MidnightLook-MediaPipeFaceCrop",
+            "MidnightLook-PasteAfterInpaint",
+            "MidnightLook-PreFill",
+            "MidnightLook-PresetPrompt",
+            "MidnightLook-Qwen25Load",
+            "MidnightLook-Qwen25Run",
+            "MidnightLook-QwenGuidance",
+            "MidnightLook-QwenSmartCropPad",
+            "MidnightLook-SAM2Loader",
+            "MidnightLook-StringToBBox",
+            "MidnightLook-TextBox",
+            "MidnightLook-URLLoRALoader",
+            "MidnightLook-UploadToR2",
+            "MidnightLook-UpscalerProvider",
+            "MidnightLook-VRAMClear",
+            "MidnightLook-ZImageCNLoader",
+            "MidnightLook-ZImageCNSampler",
+            "MidnightLook-ZImageInpaintSampler",
+            "MidnightLook-ZImageLoader",
+            "MidnightLook-ZImageOutpaintSampler",
+            "MidnightLook-ZImagePrompt",
             "PassThroughImage",
             "QwenImageControlSampler",
             "QwenImageEditPlusSampler",
             "QwenImageEditSampler",
             "QwenImageT2VSampler",
-            "SAM2LoaderNode",
-            "SampleUpscalerProviderNode",
             "VideoToCanny",
             "VideoToDepth",
             "VideoToOpenpose",
@@ -7590,6 +7660,8 @@
             "SkipLayerGuidanceDiTSimple",
             "SkipLayerGuidanceSD3",
             "SolidMask",
+            "SoniloTextToMusic",
+            "SoniloVideoToMusic",
             "SplitAudioChannels",
             "SplitImageToTileList",
             "SplitImageWithAlpha",
@@ -10716,6 +10788,7 @@
             "MorseCode",
             "PoseReformer",
             "QueueHandler",
+            "RequestURL",
             "SaveImageAsZip",
             "SaveTextAsZip",
             "StrFormat",
@@ -11810,6 +11883,7 @@
             "LoraToCivitaiUrl",
             "LoraWildcardGenerator",
             "RepeatTextLines",
+            "SDPromptSaverOptimized",
             "SeedStepN",
             "TextSplit3"
         ],
@@ -12391,24 +12465,30 @@
             "Any Multi-Switch [Eclipse]",
             "Any Passer Purge [Eclipse]",
             "Any Passer [Eclipse]",
+            "Audio Passer [Eclipse]",
+            "Basic Pipe Passer [Eclipse]",
             "Boolean [Eclipse]",
             "CLIP Loader [Eclipse]",
             "CLIP Text Encode [Eclipse]",
             "CLIPLoaderGGUF",
             "Checkpoint Loader Small (Pipe) [Eclipse]",
             "Checkpoint Loader Small [Eclipse]",
+            "Clip Passer [Eclipse]",
             "Color Match [Eclipse]",
             "Combine Video Clips [Eclipse]",
             "Concat Pipe Multi [Eclipse]",
+            "Conditioning Passer [Eclipse]",
             "Conditioning Zero Out [Eclipse]",
             "Context Image [Eclipse]",
             "Context Video (WVW) [Eclipse]",
             "Context Video [Eclipse]",
+            "ControlNet Passer [Eclipse]",
             "ControlNet Set Union Types (Flux) [Eclipse]",
             "Convert Primitive [Eclipse]",
             "Convert To Batch [Eclipse]",
             "Convert to List [Eclipse]",
             "Custom Size [Eclipse]",
+            "Detailer Pipe Passer [Eclipse]",
             "Detection to Bboxes [Eclipse]",
             "DualCLIPLoaderGGUF",
             "Fast Bypasser [Eclipse]",
@@ -12426,6 +12506,7 @@
             "Image Comparer [Eclipse]",
             "Image Convert [Eclipse]",
             "Image Crop by Mask [Eclipse]",
+            "Image Passer [Eclipse]",
             "Image Resize [Eclipse]",
             "Image Resolution [Eclipse]",
             "Image Soften [Eclipse]",
@@ -12434,6 +12515,7 @@
             "Integer [Eclipse]",
             "Join [Eclipse]",
             "Keep Calculator [Eclipse]",
+            "Latent Passer [Eclipse]",
             "Load Directory Settings [Eclipse]",
             "Load Image (Metadata Pipe) [Eclipse]",
             "Load Image (Pipe) [Eclipse]",
@@ -12445,10 +12527,13 @@
             "Lora Stack [Eclipse]",
             "Lora Stack apply [Eclipse]",
             "Lora Stack to String [Eclipse]",
+            "Mask Passer [Eclipse]",
             "Merge Strings [Eclipse]",
+            "Mode Bridge [Eclipse]",
             "Mode Relay [Eclipse]",
             "Model Loader Pipe [Eclipse]",
             "Model Loader [Eclipse]",
+            "Model Passer [Eclipse]",
             "Mute / Bypass Repeater [Eclipse]",
             "Node Collector [Eclipse]",
             "None [Eclipse]",
@@ -12462,12 +12547,15 @@
             "Pipe IO Sampler Settings v2.1 [Eclipse]",
             "Pipe IO Sampler Settings v2.2 [Eclipse]",
             "Pipe Out Checkpoint Loader [Eclipse]",
+            "Pipe Out LM Advanced Options [Eclipse]",
+            "Pipe Out LM Advanced Options [SmartLML]",
             "Pipe Out Load Directory Settings [Eclipse]",
             "Pipe Out Load Image (Metadata Pipe) [Eclipse]",
             "Pipe Out Sampler Settings [Eclipse]",
             "Pipe Out Smart Folder [Eclipse]",
             "Pipe Out VC Name Generator [Eclipse]",
             "Pipe Out WanVideo Setup [Eclipse]",
+            "Pipe Passer [Eclipse]",
             "Preview Image (DOM) [Eclipse]",
             "Preview Image [Eclipse]",
             "Preview Mask [Eclipse]",
@@ -12479,6 +12567,7 @@
             "Replace String v2 [Eclipse]",
             "Replace String v3 [Eclipse]",
             "Resolution Scale [Eclipse]",
+            "SEGS Passer [Eclipse]",
             "SEGS Preview [Eclipse]",
             "Sampler Selection [Eclipse]",
             "Sampler Settings NI [Eclipse]",
@@ -12498,8 +12587,14 @@
             "Seed 32-bit [Eclipse]",
             "Seed [Eclipse]",
             "Show Any [Eclipse]",
+            "Smart Detection [Eclipse]",
+            "Smart Detection [SML]",
             "Smart Folder [Eclipse]",
             "Smart Folder v2 [Eclipse]",
+            "Smart LM Loader [Eclipse]",
+            "Smart Language Model Loader v2 [Eclipse]",
+            "Smart Language Model Loader v2 [SmartLML]",
+            "Smart Language Model Loader v3 [SmartLML]",
             "Smart Loader Basic [Eclipse]",
             "Smart Loader Basic v2 [Eclipse]",
             "Smart Loader Plus [Eclipse]",
@@ -12507,6 +12602,7 @@
             "Smart Loader [Eclipse]",
             "Smart Loader v2 [Eclipse]",
             "Smart Model Loader [Eclipse]",
+            "Smart Model Loader [SML]",
             "Smart Prompt [Eclipse]",
             "Smart Prompt v2 [Eclipse]",
             "Smart Sampler Settings [Eclipse]",
@@ -12519,15 +12615,20 @@
             "String Passer [Eclipse]",
             "String [Eclipse]",
             "String from List [Eclipse]",
+            "Tile Assembly [Eclipse]",
+            "Tile Decode & Assembly [Eclipse]",
+            "Tile Split [Eclipse]",
             "TripleCLIPLoaderGGUF",
             "UnetLoaderGGUF",
             "UnetLoaderGGUFAdvanced",
             "Universal Block Swap [Eclipse]",
             "VAE Loader [Eclipse]",
+            "VAE Passer [Eclipse]",
             "VC-Filename Generator I [Eclipse]",
             "VC-Filename Generator II [Eclipse]",
             "VRAM Cleanup [Eclipse]",
             "Video Resolution [Eclipse]",
+            "WAN Model Passer [Eclipse]",
             "WanVideo Setup [Eclipse]",
             "Widget to String [Eclipse]",
             "Wildcard Processor [Eclipse]"
@@ -13158,128 +13259,6 @@
             "title_aux": "ComfyUI-SilentRain"
         }
     ],
-    "https://github.com/silveroxides/ComfyUI_CondsUtils": [
-        [
-            "InsertAttnConds",
-            "InsertTEConds",
-            "LoadReduxEmb",
-            "LoadTEConds",
-            "SaveCondsEmb",
-            "SaveReduxEmb"
-        ],
-        {
-            "title_aux": "WIP Conditioning Toolkit [UNSAFE]"
-        }
-    ],
-    "https://github.com/silveroxides/ComfyUI_LoHalo": [
-        [
-            "LohaloHighFidelityScaler",
-            "LohaloKernelScalingNode"
-        ],
-        {
-            "title_aux": "ComfyUI_LoHalo"
-        }
-    ],
-    "https://github.com/silveroxides/ComfyUI_LogicMath": [
-        [
-            "LogicAND",
-            "LogicIF",
-            "LogicNOT",
-            "LogicOR",
-            "LogicXOR",
-            "MathAbs",
-            "MathAdd",
-            "MathCeil",
-            "MathClamp",
-            "MathCompare",
-            "MathCos",
-            "MathDivide",
-            "MathFloor",
-            "MathMax",
-            "MathMin",
-            "MathModulo",
-            "MathMultiply",
-            "MathNumberConvert",
-            "MathOperation",
-            "MathPower",
-            "MathRound",
-            "MathSin",
-            "MathSqrt",
-            "MathSubtract",
-            "MathTan",
-            "NumberToString",
-            "StringToNumber"
-        ],
-        {
-            "title_aux": "ComfyUI_LogicMath"
-        }
-    ],
-    "https://github.com/silveroxides/ComfyUI_PromptAttention": [
-        [
-            "CLIPTextEncodeAttentionBias"
-        ],
-        {
-            "title_aux": "ComfyUI_PromptAttention [WIP]"
-        }
-    ],
-    "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit": [
-        [
-            "InsertAttnConds",
-            "InsertTEConds",
-            "LoadReduxEmb",
-            "LoadTEConds",
-            "SaveCondsEmb",
-            "SaveReduxEmb"
-        ],
-        {
-            "title_aux": "ComfyUI_ReduxEmbedToolkit"
-        }
-    ],
-    "https://github.com/silveroxides/ComfyUI_SamplingUtils": [
-        [
-            "AdjustedResolutionParameters",
-            "BonusPromptPresets",
-            "CameraShotPresets",
-            "EditOpPresets",
-            "EditTargetPresets",
-            "Frakturpad",
-            "GetJsonKeyValue",
-            "IdeographicLinePad",
-            "IdeographicSentencePad",
-            "IdeographicTagPad",
-            "ImageBlendByMask",
-            "ImageMatchProperties",
-            "Image_Color_Noise",
-            "InstructPromptPresets",
-            "IntegerRangeRandom",
-            "JoinerPadding",
-            "LlTokenizerOptions",
-            "ModifyMask",
-            "OpticalFlowComposite",
-            "PrimitiveRandomInt",
-            "PrimitiveRandomIntRange",
-            "PrimitiveStaticInt",
-            "SU_LoadImageDirectory",
-            "SU_LoadImagePath",
-            "SamplingParameters",
-            "SystemMessagePresets",
-            "TagNormalizeCombine",
-            "TextEncodeFlux2SystemPrompt",
-            "TextEncodeKleinSystemPrompt",
-            "TextEncodeSystemPrompt",
-            "TextEncodeZITSystemPrompt",
-            "TextEncodeZImageThinkPrompt",
-            "TextOverlayNode",
-            "UnFrakturPad",
-            "UnifiedPresets",
-            "VLMSysInstrAdvPresets",
-            "VLMSysInstrPresets",
-            "VLMSysQueryAddPresets"
-        ],
-        {
-            "title_aux": "Sampling Utility Toolkit"
-        }
-    ],
     "https://github.com/simonjaq/ComfyUI-sjnodes": [
         [
             "CrossFadeVideo",
@@ -13467,6 +13446,7 @@
             "ResFinder",
             "SSchlTextEncoder",
             "ShowText",
+            "Switch",
             "TextAppender"
         ],
         {
@@ -15260,6 +15240,21 @@
             "title_aux": "ComfyUI-prompt-library"
         }
     ],
+    "https://github.com/zinigo-creations/comfyui-prompt-builder": [
+        [
+            "ActionNode",
+            "CharacterNode",
+            "CombinePromptNode",
+            "CompositionNode",
+            "EnvironmentNode",
+            "NSFWNode",
+            "PresetCharacterNode",
+            "StylePresetNode"
+        ],
+        {
+            "title_aux": "Prompt Builder [NAME CONFLICT]"
+        }
+    ],
     "https://github.com/zjkhurry/comfyui_MetalFX": [
         [
             "metalFXImg"
@@ -15279,7 +15274,8 @@
     "https://github.com/zopieux/ComfyUI-zopi": [
         [
             "EvalPython",
-            "LoadTensortRTAndCheckpoint"
+            "LoadTensortRTAndCheckpoint",
+            "SizeSelector"
         ],
         {
             "title_aux": "ComfyUI-zopi [UNSAFE]"

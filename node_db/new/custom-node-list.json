@@ -1,6 +1,58 @@
 {
     "custom_nodes": [
         {
+            "author": "OvertliDS",
+            "title": "Overtli Studio Suite",
+            "id": "overtli-studio-suite",
+            "reference": "https://github.com/OvertliDS/overtli-studio-suite",
+            "files": [
+                "https://github.com/OvertliDS/overtli-studio-suite"
+            ],
+            "install_type": "git-clone",
+            "category": "Model/LLM",
+            "description": "Windows-first advanced suite for Pollinations, LM Studio, Copilot CLI, and OpenAI-compatible multi-engine workflows."
+        },
+        {
+            "author": "deluxa",
+            "title": "ComfyUI-DN_PatchVAEAttention",
+            "reference": "https://github.com/0xDELUXA/ComfyUI-DN_PatchVAEAttention",
+            "files": [
+                "https://github.com/0xDELUXA/ComfyUI-DN_PatchVAEAttention"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that patches the attention mechanism inside a VAE's encoder and decoder to use a specific implementation, regardless of what ComfyUI auto-selected at startup."
+        },
+        {
+            "author": "facok",
+            "title": "comfyui-diversityboost",
+            "reference": "https://github.com/facok/ComfyUI-DiversityBoost",
+            "files": [
+                "https://github.com/facok/ComfyUI-DiversityBoost"
+            ],
+            "install_type": "git-clone",
+            "description": "Restore composition diversity for distilled diffusion models. Training-free frequency-domain phase injection."
+        },
+        {
+            "author": "sparknight",
+            "title": "ComfyUI-EnumCombo",
+            "reference": "https://github.com/SparknightLLC/ComfyUI-EnumCombo",
+            "files": [
+                "https://github.com/SparknightLLC/ComfyUI-EnumCombo"
+            ],
+            "install_type": "git-clone",
+            "description": "Workflow-local enumerated values for ComfyUI."
+        },
+        {
+            "author": "vladgohn",
+            "title": "🦄 MurMur",
+            "reference": "https://github.com/vladgohn/ComfyUI-MurMur",
+            "files": [
+                "https://github.com/vladgohn/ComfyUI-MurMur"
+            ],
+            "install_type": "git-clone",
+            "description": "Tiny ComfyUI styling utility for fast node and group coloring with emoji labels for nodes."
+        },
+        {
             "author": "ethanfel",
             "title": "LoRA Optimizer",
             "id": "comfyui-lora-optimizer",
