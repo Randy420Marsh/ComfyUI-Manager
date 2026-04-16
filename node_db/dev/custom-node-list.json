@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "andreszs",
+            "title": "ComfyUI-Lora-Pipeline",
+            "reference": "https://github.com/andreszs/ComfyUI-Lora-Pipeline",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-Lora-Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "Area-based LoRA and conditioning workflow tools for ComfyUI with multi-region control."
+        },
+        {
             "author": "Zinigo",
             "title": "Prompt Builder [NAME CONFLICT]",
             "reference": "https://github.com/zinigo-creations/comfyui-prompt-builder",
@@ -69,16 +79,6 @@
             ],
             "install_type": "git-clone",
             "description": "Shows real-time token count and adds a copy button to CLIPTextEncode nodes in ComfyUI.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "andreszs",
-            "title": "LoRA Pipeline [WIP]",
-            "reference": "https://github.com/andreszs/ComfyUI-Lora-Pipeline",
-            "files": [
-                "https://github.com/andreszs/ComfyUI-Lora-Pipeline"
-            ],
-            "install_type": "git-clone",
-            "description": "Area-based LoRA scheduling and area conditioning wrappers for ComfyUI.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "Lisa-Mays",
