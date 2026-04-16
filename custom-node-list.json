@@ -46255,6 +46255,18 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "OvertliDS",
+            "title": "Overtli Studio Suite",
+            "id": "overtli-studio-suite",
+            "reference": "https://github.com/OvertliDS/overtli-studio-suite",
+            "files": [
+                "https://github.com/OvertliDS/overtli-studio-suite"
+            ],
+            "install_type": "git-clone",
+            "category": "Model/LLM",
+            "description": "Windows-first advanced suite for Pollinations, LM Studio, Copilot CLI, and OpenAI-compatible multi-engine workflows."
         }
     ]
 }
