@@ -45927,6 +45927,16 @@
             "install_type": "git-clone",
             "description": "A versatile prompt utility featuring translation, refinement, expansion, and image/video-to-prompt reverse engineering with one-click access to any online or local LLM."
         },
+        {
+            "author": "Mayo",
+            "title": "Mayo Nodes",
+            "reference": "https://github.com/Pasu2k/comfyui-mayo-nodes",
+            "files": [
+                "https://github.com/Pasu2k/comfyui-mayo-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Mayo's Custom Nodes, including Aspect Ratio Randomizer and Custom Dropdown"
+        },
 
 
 
@@ -46318,16 +46328,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Mayo",
-            "title": "Mayo Nodes",
-            "reference": "https://github.com/Pasu2k/comfyui-mayo-nodes",
-            "files": [
-                "https://github.com/Pasu2k/comfyui-mayo-nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Mayo's Custom Nodes, including Aspect Ratio Randomizer and Custom Dropdown"
         }
     ]
 }
