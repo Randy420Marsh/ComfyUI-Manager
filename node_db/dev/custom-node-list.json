@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "andreszs",
+            "title": "ComfyUI-Lora-Pipeline",
+            "reference": "https://github.com/andreszs/ComfyUI-Lora-Pipeline",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-Lora-Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "Area-based LoRA and conditioning workflow tools for ComfyUI with multi-region control."
+        },
+        {
             "author": "Zinigo",
             "title": "Prompt Builder [NAME CONFLICT]",
             "reference": "https://github.com/zinigo-creations/comfyui-prompt-builder",
@@ -69,16 +79,6 @@
             ],
             "install_type": "git-clone",
             "description": "Shows real-time token count and adds a copy button to CLIPTextEncode nodes in ComfyUI.\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "andreszs",
-            "title": "LoRA Pipeline [WIP]",
-            "reference": "https://github.com/andreszs/ComfyUI-Lora-Pipeline",
-            "files": [
-                "https://github.com/andreszs/ComfyUI-Lora-Pipeline"
-            ],
-            "install_type": "git-clone",
-            "description": "Area-based LoRA scheduling and area conditioning wrappers for ComfyUI.\nNOTE: The files in the repo are not organized."
         },
         {
             "author": "Lisa-Mays",
@@ -732,16 +732,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI nodes for GLM image generation, image-to-image translation, and flexible input handling. (Description by CC)"
-        },
-        {
-            "author": "DailyMok",
-            "title": "ComfyUI-PromptMixerNode",
-            "reference": "https://github.com/DailyMok/ComfyUI-PromptMixerNode",
-            "files": [
-                "https://github.com/DailyMok/ComfyUI-PromptMixerNode"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom node for prompt mixing with PromptMixerDaily node. (Description by CC)"
         },
         {
             "author": "shin131002",
@@ -2136,16 +2126,6 @@
             "description": "Custom ComfyUI nodes for preset latent image generation including EmptyLatentImagePresetsAIO, FLUX, QWEN, and SD1.5 variants. (Description by CC)"
         },
         {
-            "author": "silveroxides",
-            "title": "ComfyUI_LoHalo",
-            "reference": "https://github.com/silveroxides/ComfyUI_LoHalo",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_LoHalo"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI upscaling node package with Lohalo high-fidelity scaling and kernel-based image enhancement capabilities. (Description by CC)"
-        },
-        {
             "author": "jorin91",
             "title": "ComfyUI-JSG-Utils [UNSAFE]",
             "reference": "https://github.com/jorin91/ComfyUI-JSG-Utils",
@@ -2699,16 +2679,6 @@
             "description": "ComfyUI custom nodes and utilities for workflow building, type conversions, checkpoint/pipe loaders and file utilities.[w/This nodepack includes an endpoint that access files from arbitrary paths.]"
         },
         {
-            "author": "silveroxides",
-            "title": "ComfyUI_LogicMath",
-            "reference": "https://github.com/silveroxides/ComfyUI_LogicMath",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_LogicMath"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node for with some basic logic and math nodes based on pull request [a/comfyanonymous/ComfyUI#8024](https://github.com/comfyanonymous/ComfyUI/pull/8024)"
-        },
-        {
             "author": "lyra-ai",
             "title": "lyra-nodes",
             "reference": "https://github.com/lyra-ai/lyra-nodes",
@@ -2949,16 +2919,6 @@
             "description": "NODES: Morpheus · Batch Images + crop image, Morpheus · NanoBanana Mask, Morpheus · Image Editing Prompt, ...\nNOTE: The files in the repo are not organized."
         },
         {
-            "author": "silveroxides",
-            "title": "ComfyUI_PromptAttention [WIP]",
-            "reference": "https://github.com/silveroxides/ComfyUI_PromptAttention",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_PromptAttention"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Text Encode with Attention Bias"
-        },
-        {
             "author": "cedarconnor",
             "title": "ComfyUI Motion Transfer Pack [WIP]",
             "reference": "https://github.com/cedarconnor/ComfyUI_MotionTransfer",
@@ -3047,16 +3007,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: ImageScaleToTotalPixelsRound64, ImageBlendLighter, ImageOffset, RGBtoRYGCBM, RYGCBMtoRGB, ExtractImageChannel, MatchRYGCBMColors, TextCommaToWeighted, TextCommaToRandomWeighted, RGBtoLAB, LABtoRGB, ImageMirrorPad, ImageCropBorders, ImageStitcher, ImageScaleToQwen, ..."
-        },
-        {
-            "author": "silveroxides",
-            "title": "Sampling Utility Toolkit",
-            "reference": "https://github.com/silveroxides/ComfyUI_SamplingUtils",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_SamplingUtils"
-            ],
-            "install_type": "git-clone",
-            "description": "Utilities making it easy to set up inference parameters."
         },
         {
             "author": "henjicc",
@@ -3197,16 +3147,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: Concatenate Sigmas Node, Splice Sigmas At %"
-        },
-        {
-            "author": "silveroxides",
-            "title": "WIP Conditioning Toolkit [UNSAFE]",
-            "reference": "https://github.com/silveroxides/ComfyUI_CondsUtils",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_CondsUtils"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for modifying, saving and loading of various conditionings.[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
         },
         {
             "author": "ThuckMaBaws",
@@ -4981,16 +4921,6 @@
             "description": "Package that adds nodes to retrieve the system date and time.\nNOTE: The files in the repo are not organized."
         },
         {
-            "author": "rodpl",
-            "title": "comfyui-asset-manager",
-            "reference": "https://github.com/rodpl/comfyui-asset-manager",
-            "files": [
-                  "https://github.com/rodpl/comfyui-asset-manager"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Asset Manager for managing assets in ComfyUI"
-        },
-        {
             "author": "blepping",
             "title": "ComfyUI 'dum' samplers [WIP]",
             "reference": "https://github.com/blepping/comfyui_dum_samplers",
@@ -6711,16 +6641,6 @@
             ],
             "install_type": "git-clone",
             "description": "ComfyUI implementation of the partfield nvidea segmentation models\nNOTE: The files in the repo are not organized."
-        },
-        {
-            "author": "silveroxides",
-            "title": "ComfyUI_ReduxEmbedToolkit",
-            "reference": "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit",
-            "files": [
-                "https://github.com/silveroxides/ComfyUI_ReduxEmbedToolkit"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for managing, saving and loading of Redux/Style based embeddings."
         },
         {
             "author": "StaffsGull",
@@ -11382,16 +11302,6 @@
             ],
             "install_type": "git-clone",
             "description": "Nodes: Node Jumper. Various quality of life testing nodes"
-        },
-        {
-            "author": "IvanZhd",
-            "title": "comfyui-codeformer [WIP]",
-            "reference": "https://github.com/IvanZhd/comfyui-codeformer",
-            "files": [
-                "https://github.com/IvanZhd/comfyui-codeformer"
-            ],
-            "install_type": "git-clone",
-            "description": "Nodes:Image Inverter"
         },
         {
             "author": "romeobuilderotti",
