@@ -2649,16 +2649,6 @@
             "description": "NODES: Amor's Image WebpSaver, Amor's Image Resizer, Amor's Text Translator, Amor's CogView Image Generator, ..."
         },
         {
-            "author": "Solarish",
-            "title": "fyUI-MidnightLook [WIP]",
-            "reference": "https://github.com/Solarish/ComfyUI-MidnightLook",
-            "files": [
-                "https://github.com/Solarish/ComfyUI-MidnightLook"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom node for MidnightLook.com\nNOTE: The files in the repo are not organized."
-        },
-        {
             "author": "hujuying",
             "title": "ComfyUI-QwenVL3-image-Plus [WIP]",
             "reference": "https://github.com/hujuying/ComfyUI-QwenVL3-image-Plus",
