@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Solarish",
+            "title": "fyUI-MidnightLook [REMOVED]",
+            "reference": "https://github.com/Solarish/ComfyUI-MidnightLook",
+            "files": [
+                "https://github.com/Solarish/ComfyUI-MidnightLook"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node for MidnightLook.com\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "pdale-boop",
+            "title": "Network Guardian [REMOVED]",
+            "reference": "https://github.com/pdale-boop/Comfyui-Network-Guardian",
+            "files": [
+                "https://github.com/pdale-boop/Comfyui-Network-Guardian"
+            ],
+            "install_type": "git-clone",
+            "description": "Protects ComfyUI workflows from network interruptions with automatic retry and fallback"
+        },
+        {
             "author": "rodpl",
             "title": "comfyui-asset-manager [INCOMPLETE]",
             "reference": "https://github.com/rodpl/comfyui-asset-manager",
