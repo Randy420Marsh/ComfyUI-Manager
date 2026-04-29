@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "qlikpetersen",
+            "title": "ComfyUI-AI_Tools [UNSAFE] [REMOVED]",
+            "reference": "https://github.com/qlikpetersen/ComfyUI-AI_Tools",
+            "files": [
+                "https://github.com/qlikpetersen/ComfyUI-AI_Tools"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: DoLogin, HttpRequest, Json2String, String2Json, CreateListString, CreateListJSON, Query_OpenAI, Image_Attachment, JSON_Attachment, String_Attachment, RunPython\n[w/This nodepack contains a node with a vulnerability that allows arbitrary code execution.]"
+        },
+        {
+            "author": "AiSatan",
+            "title": "ComfyUI_CSM [NAME CONFLICT] [REMOVED]",
+            "reference": "https://github.com/AiSatan/ComfyUI_CSM",
+            "files": [
+                "https://github.com/AiSatan/ComfyUI_CSM"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for the CSM model featuring text-to-speech, voice cloning, and automatic model downloading from Hugging Face."
+        },
+        {
+            "author": "shiertier",
+            "title": "ComfyUI-TeaCache-Lumina [REMOVED]",
+            "reference": "https://github.com/shiertier/ComfyUI-TeaCache-lumina2",
+            "files": [
+                "https://github.com/shiertier/ComfyUI-TeaCache-lumina2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Node Implementation: TeaCache Acceleration Specifically Designed for the Lumina Model"
+        },
+        {
+            "author": "Daniel Lewis",
+            "title": "ComfyUI-TTS [REMOVED]",
+            "reference": "https://github.com/daniel-lewis-ab/ComfyUI-TTS",
+            "files": [
+                "https://github.com/daniel-lewis-ab/ComfyUI-TTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Text To Speech (TTS) for ComfyUI"
+        },
+        {
+            "author": "Daniel Lewis",
+            "title": "ComfyUI-Llama [REMOVED]",
+            "reference": "https://github.com/daniel-lewis-ab/ComfyUI-Llama",
+            "files": [
+                "https://github.com/daniel-lewis-ab/ComfyUI-Llama"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a set of nodes to interact with llama-cpp-python"
+        },
+        {
             "author": "Solarish",
             "title": "fyUI-MidnightLook [REMOVED]",
             "reference": "https://github.com/Solarish/ComfyUI-MidnightLook",

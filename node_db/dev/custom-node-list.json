@@ -381,16 +381,6 @@
             "description": "A ComfyUI node implementing SMC-CFG (Sliding Mode Control CFG) that replaces standard linear CFG with a nonlinear sliding mode controller for stable guidance at any CFG scale. NOT WORKING - Work in progress. (Description by CC)"
         },
         {
-            "author": "AiSatan",
-            "title": "ComfyUI_CSM [NAME CONFLICT]",
-            "reference": "https://github.com/AiSatan/ComfyUI_CSM",
-            "files": [
-                "https://github.com/AiSatan/ComfyUI_CSM"
-            ],
-            "install_type": "git-clone",
-            "description": "A ComfyUI node for the CSM model featuring text-to-speech, voice cloning, and automatic model downloading from Hugging Face."
-        },
-        {
             "author": "unobtuse",
             "title": "comfyui-topaz-ai-upscale",
             "reference": "https://github.com/unobtuse/comfyui-topaz-ai-upscale",
@@ -6231,16 +6221,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: TelegramSend, TelegramReply"
-        },
-        {
-            "author": "qlikpetersen",
-            "title": "ComfyUI-AI_Tools [UNSAFE]",
-            "reference": "https://github.com/qlikpetersen/ComfyUI-AI_Tools",
-            "files": [
-                "https://github.com/qlikpetersen/ComfyUI-AI_Tools"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: DoLogin, HttpRequest, Json2String, String2Json, CreateListString, CreateListJSON, Query_OpenAI, Image_Attachment, JSON_Attachment, String_Attachment, RunPython\n[w/This nodepack contains a node with a vulnerability that allows arbitrary code execution.]"
         },
         {
             "author": "MuAIGC",
