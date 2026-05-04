@@ -7135,6 +7135,9 @@
             "BoyoPairedSaver",
             "BoyoPromptInjector",
             "BoyoPromptLoop",
+            "BoyoPromptRelayEncode",
+            "BoyoPromptRelayEncodeTimeline",
+            "BoyoPromptRelayLoraGate",
             "BoyoQwenVLGrounding",
             "BoyoResolutionCalc",
             "BoyoSaver",
@@ -15873,6 +15876,7 @@
             "NLConstantColor",
             "NLContextDebug",
             "NLEdit",
+            "NLFitFrame",
             "NLFromModelSpace",
             "NLImageInfoDebug",
             "NLLTXVImgToVideoInplaceAtIndex",
@@ -16849,9 +16853,13 @@
             "CRTPostProcess",
             "CRT_AddSettingsAndPrompt",
             "CRT_AudioTranscript",
+            "CRT_AudioTranscriptPipeOut",
             "CRT_DynamicPromptScheduler",
             "CRT_FileBatchPromptScheduler",
             "CRT_ImageLoaderCrawlBatch",
+            "CRT_IsolateInput",
+            "CRT_IsolateInputCLIPSeg",
+            "CRT_IsolateOutput",
             "CRT_KSamplerBatch",
             "CRT_KSamplerBatchAdvanced",
             "CRT_LTX23AutoDownload",
@@ -40652,7 +40660,7 @@
     "https://github.com/ialhabbal/OcclusionMask": [
         [
             "BatchLoadImages",
-            "ImageOcclusion"
+            "OcclusionMask"
         ],
         {
             "title_aux": "OcclusionMask"
@@ -49156,6 +49164,8 @@
             "ExecutionGateControl",
             "FrameAccumulator",
             "FrameContextFit",
+            "FreeVRAMIfLoaded",
+            "FreeVRAMUnlessLoaded",
             "ImageExists",
             "ImageFallback",
             "ImageModeRouter",
@@ -60097,6 +60107,7 @@
     ],
     "https://github.com/ussoewwin/ComfyUI-NunchakuFluxLoraStacker": [
         [
+            "ColorFilter",
             "FastGroupsBypasserV2",
             "FluxLoraMultiLoader",
             "LoadImageUssoewwin",
@@ -60645,6 +60656,7 @@
             "VRGDG_CreateFinalVideo",
             "VRGDG_CreateFinalVideo_SRT",
             "VRGDG_CreateSilentAudio",
+            "VRGDG_CyclingTextPicker",
             "VRGDG_DisplayIndex",
             "VRGDG_DurationIndexFloat",
             "VRGDG_Extract_Frame_Number",
