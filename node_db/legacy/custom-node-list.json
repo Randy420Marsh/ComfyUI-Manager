@@ -1,6 +1,56 @@
 {
     "custom_nodes": [
         {
+            "author": "Suzu008",
+            "title": "ComfyUI-ImageCritic [REMOVED]",
+            "reference": "https://github.com/Suzu008/ComfyUI-ImageCritic",
+            "files": [
+                "https://github.com/Suzu008/ComfyUI-ImageCritic"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for image analysis and evaluation. (Description by CC)"
+        },
+        {
+            "author": "LucianoCirino",
+            "title": "ComfyUI-invAIder-Nodes [REMOVED]",
+            "reference": "https://github.com/LucianoCirino/ComfyUI-invAIder-Nodes",
+            "files": [
+                "https://github.com/LucianoCirino/ComfyUI-invAIder-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes I've created for my own personal workflows. Use at your own discretion.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "lordwedggie",
+            "title": "xcpNodes [WIP] [REMOVED]",
+            "reference": "https://github.com/lordwedggie/xcpNodes",
+            "files": [
+                "https://github.com/lordwedggie/xcpNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Slider nodes based on Smirnov75's codes [a/https://github.com/Smirnov75/ComfyUI-mxToolkit](https://github.com/Smirnov75/ComfyUI-mxToolkit)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "fya16838",
+            "title": "Comfyui-Xiufu [REMOVED]",
+            "reference": "https://github.com/fya16838/Comfyui-Xiufu",
+            "files": [
+                "https://github.com/fya16838/Comfyui-Xiufu"
+            ],
+            "install_type": "git-clone",
+            "description": "Fix ComfyUI models and nodes after importing workflows from others. (Description by CC)"
+        },
+        {
+            "author": "daveand",
+            "title": "ComfyUI-daveand-nodes [REMOVED]",
+            "reference": "https://github.com/daveand/ComfyUI-daveand-nodes",
+            "files": [
+                "https://github.com/daveand/ComfyUI-daveand-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "ModelConfigSelector node for managing checkpoint configurations with manual override support and batch sampler parameters. (Description by CC)"
+        },
+        {
             "author": "PozzettiAndrea",
             "title": "ComfyUI-MeshCraft [REMOVED]",
             "reference": "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft",
