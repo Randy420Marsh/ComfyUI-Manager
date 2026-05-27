@@ -1,6 +1,106 @@
 {
     "custom_nodes": [
         {
+            "author": "HuajunPeng1982",
+            "title": "comfyui-grsai-storyboard",
+            "reference": "https://github.com/HuajunPeng1982/comfyui-grsai-storyboard",
+            "files": [
+                "https://github.com/HuajunPeng1982/comfyui-grsai-storyboard"
+            ],
+            "install_type": "git-clone",
+            "description": "Storyboard generation node for ComfyUI using AI-assisted visual narrative planning. (Description by CC)"
+        },
+        {
+            "author": "Arch666Angel",
+            "title": "ComfyUI-Geometry-Nodes [WIP]",
+            "reference": "https://github.com/Arch666Angel/ComfyUI-Geometry-Nodes",
+            "files": [
+                "https://github.com/Arch666Angel/ComfyUI-Geometry-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Geometric mask generation and manipulation nodes providing color selection, pattern painting, and procedural layer features. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "alldaygameover",
+            "title": "ComfyUI-PanonramaViewer [WIP]",
+            "reference": "https://github.com/alldaygameover/ComfyUI-PanonramaViewer",
+            "files": [
+                "https://github.com/alldaygameover/ComfyUI-PanonramaViewer"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple custom node package for ComfyUI that renders a perspective camera view from an equirectangular 360 panorama image.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "Sen-sou",
+            "title": "Comfyui-Anima-Regional-Conditioning [WIP]",
+            "reference": "https://github.com/Sen-sou/Comfyui-Anima-Regional-Conditioning",
+            "files": [
+                "https://github.com/Sen-sou/Comfyui-Anima-Regional-Conditioning"
+            ],
+            "install_type": "git-clone",
+            "description": "Regional conditioning custom nodes for Anima models in ComfyUI.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "GitHug",
+            "title": "ComfyQueue",
+            "reference": "https://github.com/GitHug/ComfyQueue",
+            "files": [
+                "https://github.com/GitHug/ComfyQueue"
+            ],
+            "install_type": "git-clone",
+            "description": "Sequential prompt queue node for ComfyUI — serves multiline prompts one at a time."
+        },
+        {
+            "author": "duycao2506",
+            "title": "ComfyUI-Local-PiperTTS [WIP]",
+            "reference": "https://github.com/duycao2506/ComfyUI-Local-PiperTTS",
+            "files": [
+                "https://github.com/duycao2506/ComfyUI-Local-PiperTTS"
+            ],
+            "install_type": "git-clone",
+            "description": "Convert text-to-speech inside ComfyUI using Piper TTS engine with support for multiple voices via Onnx models.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "n0va39",
+            "title": "ComfyUI-LatentSpectralExpand [WIP]",
+            "reference": "https://github.com/n0va39/ComfyUI-LatentSpectralExpand",
+            "files": [
+                "https://github.com/n0va39/ComfyUI-LatentSpectralExpand"
+            ],
+            "install_type": "git-clone",
+            "description": "Experimental implementation of latent spectral expansion and high-frequency noise injection techniques from the SPEED paper, enabling frequency-domain upscaling with progressive noise injection in ComfyUI. (Description by CC)\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "BlackSnowSkill",
+            "title": "ComfyUI-BSS_ModelMixSampler [WIP]",
+            "reference": "https://github.com/BlackSnowSkill/ComfyUI-BSS_ModelMixSampler",
+            "files": [
+                "https://github.com/BlackSnowSkill/ComfyUI-BSS_ModelMixSampler"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced custom node for chaining and alternating denoising steps between two models with identical latent architecture within a single generation process.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "UnlimitedEditing",
+            "title": "comfyui-turntable-render",
+            "reference": "https://github.com/UnlimitedEditing/comfyui-turntable-render",
+            "files": [
+                "https://github.com/UnlimitedEditing/comfyui-turntable-render"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI node for turntable rendering workflows. (Description by CC)"
+        },
+        {
+            "author": "IAmAshishNegi",
+            "title": "comfyui_tensor_parallel_v3",
+            "reference": "https://github.com/IAmAshishNegi/comfyui_tensor_parallel_v3",
+            "files": [
+                "https://github.com/IAmAshishNegi/comfyui_tensor_parallel_v3"
+            ],
+            "install_type": "git-clone",
+            "description": "Tensor parallelization node for ComfyUI optimization. (Description by CC)"
+        },
+        {
             "author": "aidengit7",
             "title": "ComfyUI_WanVaceTiledSampler",
             "reference": "https://github.com/aidengit7/ComfyUI_WanVaceTiledSampler",
@@ -2313,16 +2413,6 @@
             "description": "A collection of custom nodes for ComfyUI[w/This nodepack contains a node that has a vulnerability allowing write to arbitrary file paths.]"
         },
         {
-            "author": "devzeroLL",
-            "title": "comfyui-lxj-Node",
-            "reference": "https://github.com/devzeroLL/comfyui-lxj-Node",
-            "files": [
-                "https://github.com/devzeroLL/comfyui-lxj-Node"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: lxj_ImageBatch14, lxj_TextBatch14"
-        },
-        {
             "author": "hgh086",
             "title": "Comfyui-HghImage",
             "reference": "https://github.com/hgh086/Comfyui-HghImage",
@@ -3301,16 +3391,6 @@
             ],
             "install_type": "git-clone",
             "description": "NODES: LoadImageFromRemote"
-        },
-        {
-            "author": "zhupeter010903",
-            "title": "ComfyUI-prompt-library",
-            "reference": "https://github.com/zhupeter010903/ComfyUI-prompt-library",
-            "files": [
-                "https://github.com/zhupeter010903/ComfyUI-prompt-library"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES: Grouped Prompt Node, ..."
         },
         {
             "author": "basenc",

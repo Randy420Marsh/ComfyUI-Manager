@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "zhupeter010903",
+            "title": "ComfyUI-prompt-library [REMOVED]",
+            "reference": "https://github.com/zhupeter010903/ComfyUI-prompt-library",
+            "files": [
+                "https://github.com/zhupeter010903/ComfyUI-prompt-library"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: Grouped Prompt Node, ..."
+        },
+        {
+            "author": "meshmesh-io",
+            "title": "mm-comfyui-loopback [REMOVED]",
+            "id": "mm-loopback",
+            "reference": "https://github.com/meshmesh-io/mm-comfyui-loopback",
+            "files": [
+                "https://github.com/meshmesh-io/mm-comfyui-loopback"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes:Loop, LoopStart, LoopEnd, LoopStart_SEGIMAGE, LoopEnd_SEGIMAGE"
+        },
+        {
+            "author": "devzeroLL",
+            "title": "comfyui-lxj-Node [REMOVED]",
+            "reference": "https://github.com/devzeroLL/comfyui-lxj-Node",
+            "files": [
+                "https://github.com/devzeroLL/comfyui-lxj-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: lxj_ImageBatch14, lxj_TextBatch14"
+        },
+        {
             "author": "Suzu008",
             "title": "ComfyUI-ImageCritic [REMOVED]",
             "reference": "https://github.com/Suzu008/ComfyUI-ImageCritic",
