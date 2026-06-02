@@ -1,6 +1,26 @@
 {
     "custom_nodes": [
         {
+            "author": "Yang Li",
+            "title": "comfyui-audio-silence-trim",
+            "reference": "https://github.com/gaoqi125/comfyui-audio-silence-trim",
+            "files": [
+                "https://github.com/gaoqi125/comfyui-audio-silence-trim"
+            ],
+            "install_type": "git-clone",
+            "description": "A small ComfyUI custom node for shortening long silent sections in AUDIO inputs."
+        },
+        {
+            "author": "akashzeno",
+            "title": "ComfyUI-ColoredNoiseDiffusionSampling",
+            "reference": "https://github.com/akashzeno/ComfyUI-ColoredNoiseDiffusionSampling",
+            "files": [
+                "https://github.com/akashzeno/ComfyUI-ColoredNoiseDiffusionSampling"
+            ],
+            "install_type": "git-clone",
+            "description": "Colored (frequency-shaped) noise diffusion sampling for ComfyUI: parametric + faithful gamma-matrix modes."
+        },
+        {
             "author": "millerlight",
             "title": "Key-Value KV-Tools for ComfyUI",
             "reference": "https://github.com/millerlight/ComfyUI-KVTools",
