@@ -859,7 +859,6 @@
             "TS_Film_Emulation",
             "TS_FloatSlider",
             "TS_Frame_Interpolation",
-            "TS_Free_Video_Memory",
             "TS_GetImageMegapixels",
             "TS_GetImageSizeSide",
             "TS_ImageBatchCut",
@@ -2814,6 +2813,15 @@
             "title_aux": "comfy-consistency-vae"
         }
     ],
+    "https://github.com/JosDigby/ComfyUI-DigbyTools": [
+        [
+            "DigbyKeyframer",
+            "DigbyLTXVLatentPrep"
+        ],
+        {
+            "title_aux": "ComfyUI-DigbyTools"
+        }
+    ],
     "https://github.com/JosDigby/ComfyUI-DigbyWan": [
         [
             "DigbyLoopClose",
@@ -3000,6 +3008,17 @@
         ],
         {
             "title_aux": "RK_Comfyui"
+        }
+    ],
+    "https://github.com/Krystal-0/ComfyUI-KrystalNodes": [
+        [
+            "CLIPFallback",
+            "IsAnimaModel",
+            "MultiImagePreview",
+            "VAEFallback"
+        ],
+        {
+            "title_aux": "[WIP] ComfyUI KrystalNodes"
         }
     ],
     "https://github.com/KurtHokke/ComfyUI_KurtHokke_Nodes": [
@@ -3659,6 +3678,14 @@
         ],
         {
             "title_aux": "ComfyUI-SimpleMarkdown [UNSAFE]"
+        }
+    ],
+    "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet": [
+        [
+            "BiRefNet_Node"
+        ],
+        {
+            "title_aux": "ComfyUI-BiRefNet [NAME CONFLICT]"
         }
     ],
     "https://github.com/Momediada97/ComfyUI-ImageIfNotBlack": [
@@ -5470,6 +5497,14 @@
             "title_aux": "ComfyUI-Tawbaware [WIP]"
         }
     ],
+    "https://github.com/TechnoWarrior2/comfyui-live-preview": [
+        [
+            "AlexLivePreview"
+        ],
+        {
+            "title_aux": "comfyui-live-preview [WIP]"
+        }
+    ],
     "https://github.com/Temult/TWanSigmaSampler": [
         [
             "TWanVideoSigmaSampler"
@@ -6148,6 +6183,7 @@
             "ConditioningApplyOperation",
             "Dilation Module (Bending)",
             "Erosion Module (Bending)",
+            "Fourier Amplify Module (Bending)",
             "Gradient Module (Bending)",
             "HSpace Bending",
             "InteractiveBendingWebUI",
@@ -6162,6 +6198,7 @@
             "LoRA Bending",
             "LoRA Bending (list)",
             "Model Bending",
+            "Model Bending (SD Blocks)",
             "Model Bending (SD Layers)",
             "Model Inspector",
             "Model VAE Bending",
@@ -7175,6 +7212,15 @@
             "title_aux": "comfyui-mc [WIP]"
         }
     ],
+    "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2": [
+        [
+            "WanMoveSVI_FLF_Decode",
+            "WanMoveSVI_FLF_v2"
+        ],
+        {
+            "title_aux": "ComfyUI-WanMoveSVI_FLF_v2"
+        }
+    ],
     "https://github.com/broumbroum/comfyui-time-system": [
         [
             "DayTimeNode",
@@ -7549,6 +7595,9 @@
             "BriaImageEditNode",
             "BriaRemoveImageBackground",
             "BriaRemoveVideoBackground",
+            "BriaTransparentVideoBackground",
+            "BriaVideoGreenScreen",
+            "BriaVideoReplaceBackground",
             "ByteDance2FirstLastFrameNode",
             "ByteDance2ReferenceNode",
             "ByteDance2TextToVideoNode",
@@ -7564,6 +7613,7 @@
             "ByteDanceTextToVideoNode",
             "CFGGuider",
             "CFGNorm",
+            "CFGOverride",
             "CFGZeroStar",
             "CLIPAttentionMultiply",
             "CLIPLoader",
@@ -7622,6 +7672,7 @@
             "ConvertStringToComboNode",
             "CosmosImageToVideoLatent",
             "CosmosPredict2ImageToVideoLatent",
+            "CreateCameraInfo",
             "CreateList",
             "CreateVideo",
             "CropByBBoxes",
@@ -7636,6 +7687,7 @@
             "DrawBBoxes",
             "DualCFGGuider",
             "DualCLIPLoader",
+            "DualModelGuider",
             "EasyCache",
             "ElevenLabsAudioIsolation",
             "ElevenLabsInstantVoiceClone",
@@ -7667,11 +7719,13 @@
             "ExponentialScheduler",
             "ExtendIntermediateSigmas",
             "FeatherMask",
+            "File3DToSplat",
             "FlipSigmas",
             "Flux2ImageNode",
             "Flux2ProImageNode",
             "Flux2Scheduler",
             "FluxDisableGuidance",
+            "FluxEraseNode",
             "FluxGuidance",
             "FluxKVCache",
             "FluxKontextImageScale",
@@ -7680,6 +7734,7 @@
             "FluxProExpandNode",
             "FluxProFillNode",
             "FluxProUltraImageNode",
+            "FluxVTONode",
             "FrameInterpolate",
             "FrameInterpolationModelLoader",
             "FreSca",
@@ -7698,6 +7753,7 @@
             "GenerateTracks",
             "GetICLoRAParameters",
             "GetImageSize",
+            "GetSplatCount",
             "GetVideoComponents",
             "GrokImageEditNode",
             "GrokImageEditNodeV2",
@@ -7724,9 +7780,11 @@
             "HunyuanVideo15SuperResolution",
             "HyperTile",
             "HypernetworkLoader",
+            "Ideogram4Scheduler",
             "IdeogramV1",
             "IdeogramV2",
             "IdeogramV3",
+            "IdeogramV4",
             "ImageAddNoise",
             "ImageBatch",
             "ImageBlend",
@@ -7881,6 +7939,7 @@
             "MediaPipeFaceLandmarker",
             "MediaPipeFaceMask",
             "MediaPipeFaceMeshVisualize",
+            "MergeSplat",
             "MeshyAnimateModelNode",
             "MeshyImageToModelNode",
             "MeshyMultiImageToModelNode",
@@ -7998,6 +8057,7 @@
             "RegexMatch",
             "RegexReplace",
             "RemoveBackground",
+            "RenderSplat",
             "RenormCFG",
             "RepeatImageBatch",
             "RepeatLatentBatch",
@@ -8083,6 +8143,8 @@
             "SolidMask",
             "SoniloTextToMusic",
             "SoniloVideoToMusic",
+            "SplatToFile3D",
+            "SplatToMesh",
             "SplitAudioChannels",
             "SplitImageToTileList",
             "SplitImageWithAlpha",
@@ -8188,6 +8250,7 @@
             "TopazVideoEnhanceV2",
             "TorchCompileModel",
             "TrainLoraNode",
+            "TransformSplat",
             "TrimAudioDuration",
             "TrimVideoLatent",
             "TripleCLIPLoader",
@@ -8200,6 +8263,9 @@
             "TripoRefineNode",
             "TripoRetargetNode",
             "TripoRigNode",
+            "TripoSplatConditioning",
+            "TripoSplatPreprocessImage",
+            "TripoSplatSamplingPreview",
             "TripoTextToModelNode",
             "TripoTextureNode",
             "UNETLoader",
@@ -8213,6 +8279,7 @@
             "VAEDecodeAudioTiled",
             "VAEDecodeHunyuan3D",
             "VAEDecodeTiled",
+            "VAEDecodeTripoSplat",
             "VAEEncode",
             "VAEEncodeAudio",
             "VAEEncodeForInpaint",
@@ -9124,6 +9191,15 @@
         ],
         {
             "title_aux": "ComfyUI_html [UNSAFE]"
+        }
+    ],
+    "https://github.com/florestefano1975/ComfyUI-Prompt-Library": [
+        [
+            "PromptLibraryNode",
+            "PromptLibraryRandomNode"
+        ],
+        {
+            "title_aux": "ComfyUI-Prompt-Library [NAME CONFLICT]"
         }
     ],
     "https://github.com/flowtyone/comfyui-flowty-lcm": [
@@ -10362,6 +10438,15 @@
         ],
         {
             "title_aux": "comfyui_iphone_look [WIP]"
+        }
+    ],
+    "https://github.com/ivanravinovitch/AutoCropByColor": [
+        [
+            "AutoCropByColor",
+            "ScaleImageToMegapixels"
+        ],
+        {
+            "title_aux": "AutoCropByColor"
         }
     ],
     "https://github.com/j-pyxal/ComfyUI-Lattice-Manim": [
@@ -12504,6 +12589,7 @@
             "GenerationDataGet",
             "GenerationDataMaxSize",
             "GenerationDataSet",
+            "ImageGridNode",
             "ListCount",
             "ListGet",
             "ListSet",
@@ -12520,7 +12606,7 @@
             "SaveMultipleImages",
             "SwitchAny",
             "SwitchNode",
-            "Test"
+            "TestNode"
         ],
         {
             "title_aux": "ComfyUI-NTX-support-nodes [WIP]"
@@ -13342,8 +13428,10 @@
             "Fast Muter [Eclipse]",
             "Float Passer [Eclipse]",
             "Float [Eclipse]",
+            "Folder Path [Eclipse]",
             "Generation Data (Gated) [Eclipse]",
             "Generation Data [Eclipse]",
+            "Get First Image [Eclipse]",
             "Get Last Image [Eclipse]",
             "IF A Else B Fallback [Eclipse]",
             "IF A Else B [Eclipse]",
@@ -13351,6 +13439,7 @@
             "IO Load Image [Eclipse]",
             "Image Align Size [Eclipse]",
             "Image Batch Extend With Overlap [Eclipse]",
+            "Image Batch Strip [Eclipse]",
             "Image Comparer [Eclipse]",
             "Image Convert [Eclipse]",
             "Image Crop by Mask [Eclipse]",
@@ -14152,12 +14241,20 @@
     ],
     "https://github.com/simonjaq/ComfyUI-sjnodes": [
         [
+            "AudioStackWithVolume",
             "CrossFadeVideo",
+            "FixedLengthAudioSequencer",
             "InpaintCropImprovedGPU",
             "InpaintStitchImprovedGPU",
+            "JsonArrayExtractor",
+            "LoadImageFromPath",
             "LoadStitcherFromFile",
             "LogCRec709Convert",
+            "PadAudioToLength",
+            "SJAlwaysChanged",
+            "SJPathListDirLive",
             "SaveStitcherToFile",
+            "SmartVideoTrim",
             "SmoothTemporalMask",
             "WanVideoVACEExtend"
         ],
@@ -14167,6 +14264,7 @@
     ],
     "https://github.com/simonri/ComfyUI-SimonNodes": [
         [
+            "SR_CLIPTextEncodeCached",
             "SR_ImageResize",
             "SR_RIFE",
             "SR_Seed",
@@ -16142,23 +16240,8 @@
     ],
     "https://github.com/zhuanvi/ComfyUI-ZVNodes": [
         [
-            "ApimartDownloadSavedTaskImageZV",
-            "ApimartDownloadSavedTaskVideoZV",
-            "ApimartImage2VideoSubmitZV",
-            "ApimartNanoBananaProImageSubmitZV",
-            "ApimartRemixByTaskIdSubmitZV",
-            "ApimartRemixVideoSubmitZV",
-            "ApimartSeedream40ImageSubmitZV",
-            "ApimartSeedream45ImageSubmitZV",
-            "ApimartText2VideoSubmitZV",
             "BBOXFormatConverterZV",
-            "GrsaiLoadImageFromPathNodeZV",
-            "GrsaiNanoBananaGeminiNodeZV",
-            "GrsaiNanoBananaNodeZV",
-            "GrsaiResultNodeZV",
-            "GrsaiSoraCreateCharacterNodeZV",
-            "GrsaiSoraUploadCharacterNodeZV",
-            "GrsaiSoraVideoNodeZV",
+            "FFmpegImageSlideShowZV",
             "ImageCounterNodeZV",
             "JoinListZV",
             "JsonListIndexerZV",
@@ -16173,6 +16256,9 @@
             "LoadImageFromUrlZV",
             "LoadTxtFromDirZV",
             "LoadVideoFromDirZV",
+            "MangaCleanerInferenceZV",
+            "MangaCleanerModelLoaderZV",
+            "MangaCleanerPostProcessZV",
             "MultiLineConditionalZV",
             "MultiLineOperationZV",
             "PatternFillNodeZV",
@@ -16183,16 +16269,14 @@
             "SaveTxtToPathZV",
             "SaveVideoToPathZV",
             "StringToPathZV",
+            "SubFolderScannerZV",
             "TriangleCharacterLayoutZV",
             "TxtCounterNodeZV",
             "UniversalBBOXToMaskZV",
-            "Veo31Image2VideoSubmitZV",
             "VideoCounterNodeZV",
             "VideoGeneratorFFmpegZV",
             "VideoSceneDetectorZV",
-            "VideoSpeedZV",
-            "doubaoI2INodeZV",
-            "doubaoT2INodeZV"
+            "VideoSpeedZV"
         ],
         {
             "title_aux": "ComfyUI-ZVNodes [WIP]"

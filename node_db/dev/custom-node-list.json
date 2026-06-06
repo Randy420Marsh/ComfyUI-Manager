@@ -1,6 +1,86 @@
 {
     "custom_nodes": [
         {
+            "author": "7akoro",
+            "title": "comfyui-prompt-enhancer [NAME CONFLICT]",
+            "reference": "https://github.com/7akoro/comfyui-prompt-enhancer",
+            "files": [
+                "https://github.com/7akoro/comfyui-prompt-enhancer"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI extension for efficient prompt editing with weight adjustment, tag movement, auto-completion, and more."
+        },
+        {
+            "author": "kongsheng",
+            "title": "ComfyUI-GeminiImage [NAME CONFLICT]",
+            "reference": "https://github.com/kongsheng/ComfyUI-GeminiImage",
+            "files": [
+                "https://github.com/kongsheng/ComfyUI-GeminiImage"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for Gemini image generation service supporting text-to-image and image-to-image with Gemini 2.0 models."
+        },
+        {
+            "author": "MohammadAboulEla",
+            "title": "ComfyUI-BiRefNet [NAME CONFLICT]",
+            "reference": "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet",
+            "files": [
+                "https://github.com/MohammadAboulEla/ComfyUI-BiRefNet"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node for background removal using the BiRefNet model."
+        },
+        {
+            "author": "florestefano1975",
+            "title": "ComfyUI-Prompt-Library [NAME CONFLICT]",
+            "reference": "https://github.com/florestefano1975/ComfyUI-Prompt-Library",
+            "files": [
+                "https://github.com/florestefano1975/ComfyUI-Prompt-Library"
+            ],
+            "install_type": "git-clone",
+            "description": "A fully-featured prompt manager for ComfyUI with categories, search, tags, and a random prompt node for automatic prompt variation."
+        },
+        {
+            "author": "JosDigby",
+            "title": "ComfyUI-DigbyTools",
+            "reference": "https://github.com/JosDigby/ComfyUI-DigbyTools",
+            "files": [
+                "https://github.com/JosDigby/ComfyUI-DigbyTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node pack with Keyframer and LTX VAE Latent prep nodes for keyframe animation workflows. (Description by CC)"
+        },
+        {
+            "author": "ivanravinovitch",
+            "title": "AutoCropByColor",
+            "reference": "https://github.com/ivanravinovitch/AutoCropByColor",
+            "files": [
+                "https://github.com/ivanravinovitch/AutoCropByColor"
+            ],
+            "install_type": "git-clone",
+            "description": "Utility nodes for automatic image cropping by color and scaling to megapixel dimensions. (Description by CC)"
+        },
+        {
+            "author": "brbbbq",
+            "title": "ComfyUI-WanMoveSVI_FLF_v2",
+            "reference": "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2",
+            "files": [
+                "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node implementing WAN-Move Sparse Video Interpolation with frame latency features (FLF v2). (Description by CC)"
+        },
+        {
+            "author": "krystal",
+            "title": "[WIP] ComfyUI KrystalNodes",
+            "reference": "https://github.com/Krystal-0/ComfyUI-KrystalNodes",
+            "files": [
+                "https://github.com/Krystal-0/ComfyUI-KrystalNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A small pack of utility nodes including CLIP/VAE fallbacks, Anima model detection, and multi image preview.\nNOTE: The files in the repo are not organized."
+        },
+        {
             "author": "TechnoWarrior2",
             "title": "comfyui-live-preview [WIP]",
             "reference": "https://github.com/TechnoWarrior2/comfyui-live-preview",
