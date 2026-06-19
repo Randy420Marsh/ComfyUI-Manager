@@ -361,9 +361,13 @@
             "PDImageResizeV3",
             "PDJSON_BatchJsonIncremental",
             "PDJSON_Group",
+            "PDRatioImageSelector",
             "PDRatioSelector",
+            "PDSelectorSumT3",
             "PDStringConcate",
             "PDStringInput",
+            "PDStringSelector",
+            "PDStringToRatioCombo",
             "PDTEXT_SAVE_PATH",
             "PD_AitoolkitTrainingRedux",
             "PD_BatchCropBlackBorder",
@@ -648,14 +652,6 @@
             "nickname": "ComfyUI Text Tools",
             "title": "ComfyUI APZmedia Text Tools",
             "title_aux": "comfyui-textools [WIP]"
-        }
-    ],
-    "https://github.com/Aero-Ex/comfyui_diffswap": [
-        [
-            "DiffSwapNode"
-        ],
-        {
-            "title_aux": "comfyui_diffswap"
         }
     ],
     "https://github.com/Agnuxo1/silicon-comfyui-node": [
@@ -3013,7 +3009,9 @@
     "https://github.com/Krystal-0/ComfyUI-KrystalNodes": [
         [
             "CLIPFallback",
+            "CharacterPresets",
             "IsAnimaModel",
+            "LivePreview",
             "MultiImagePreview",
             "VAEFallback"
         ],
@@ -3428,7 +3426,6 @@
             "MpiBboxToMask",
             "MpiBoolean",
             "MpiBooleanCompare",
-            "MpiChoiceSelector",
             "MpiClearVram",
             "MpiCombo",
             "MpiCombo1",
@@ -3451,6 +3448,7 @@
             "MpiFromCheckpoint",
             "MpiGetImageAtIndex",
             "MpiGridDimensions",
+            "MpiHasAudio",
             "MpiHasOptions",
             "MpiIfElse",
             "MpiIfElseInverted",
@@ -3472,7 +3470,6 @@
             "MpiMultiTextX4",
             "MpiMultiTextX5",
             "MpiNormalizeValue",
-            "MpiPresetSelector",
             "MpiPromptBridge",
             "MpiPromptChainSelector",
             "MpiPromptList",
@@ -3496,6 +3493,7 @@
             "MpiTextListJoin",
             "MpiTextListReplace",
             "MpiToChekPoint",
+            "MpiUpscaleModelScale",
             "MpiWanFrames",
             "MpiWanSeconds"
         ],
@@ -4641,7 +4639,8 @@
             "List Video Path \ud83d\udc24",
             "Peaks Weights Generator \ud83d\udc24",
             "Save Image (JPEG) \ud83d\udc24",
-            "easy loadImageBase64"
+            "easy loadImageBase64",
+            "grokImage"
         ],
         {
             "title_aux": "Comfy UI Robe Nodes [UNSAFE]"
@@ -4805,14 +4804,6 @@
         ],
         {
             "title_aux": "ComfyUI-MS-Nodes [WIP]"
-        }
-    ],
-    "https://github.com/Sakura-nee/ComfyUI_Save2Discord": [
-        [
-            "SendToWebhook"
-        ],
-        {
-            "title_aux": "ComfyUI_Save2Discord"
         }
     ],
     "https://github.com/SanDiegoDude/ComfyUI-HiDream-Sampler": [
@@ -5125,7 +5116,6 @@
             "QuantoQuantizationConfig",
             "SDNQQuantizationConfig",
             "SDSampler",
-            "SDSamplerPrompt",
             "SDUpscaleSampler",
             "SVDSampler",
             "SingleConfig",
@@ -5300,6 +5290,8 @@
             "SDVN Int Slider",
             "SDVN Join Parameter",
             "SDVN KSampler",
+            "SDVN LTXAVTextEncoder Download",
+            "SDVN LatentUpscaleModel Download",
             "SDVN Load Checkpoint",
             "SDVN Load Checkpoint Filter",
             "SDVN Load Google Sheet",
@@ -5716,17 +5708,6 @@
         ],
         {
             "title_aux": "comfyui-turntable-render"
-        }
-    ],
-    "https://github.com/V-woodpecker-V/comfyui-stiffy-nodes": [
-        [
-            "StiffyComboNode",
-            "StiffyComplexPresetNode",
-            "StiffyDecoderNode",
-            "StiffySimplePresetNode"
-        ],
-        {
-            "title_aux": "comfyui-stiffy-nodes"
         }
     ],
     "https://github.com/VectorASD/ComfyUI-VectorASD": [
@@ -7215,6 +7196,9 @@
     "https://github.com/brbbbq/ComfyUI-WanMoveSVI_FLF_v2": [
         [
             "WanMoveSVI_FLF_Decode",
+            "WanMoveSVI_FLF_Encode",
+            "WanMoveSVI_FLF_Stitch",
+            "WanMoveSVI_FLF_Visualize",
             "WanMoveSVI_FLF_v2"
         ],
         {
@@ -7410,7 +7394,14 @@
     "https://github.com/charlierz/comfyui-charlierz": [
         [
             "BackgroundColor",
-            "ScaleDimensions"
+            "EstimateTextTokens",
+            "LlamaCppChat",
+            "LlamaCppVisionChat",
+            "PromptHelper",
+            "PromptHelperFillApply",
+            "PromptHelperFillRequest",
+            "ScaleDimensions",
+            "WildcardProcessor"
         ],
         {
             "title_aux": "comfyui-charlierz"
@@ -7591,6 +7582,7 @@
             "BatchMasksNode",
             "BeebleSwitchXImageEdit",
             "BeebleSwitchXVideoEdit",
+            "BerniniConditioning",
             "BetaSamplingScheduler",
             "BriaImageEditNode",
             "BriaRemoveImageBackground",
@@ -7679,6 +7671,10 @@
             "CropMask",
             "CurveEditor",
             "CustomCombo",
+            "DA3GeometryToMesh",
+            "DA3GeometryToPointCloud",
+            "DA3Inference",
+            "DA3Render",
             "DCTestNode",
             "DiffControlNetLoader",
             "DifferentialDiffusion",
@@ -7750,6 +7746,7 @@
             "GeminiNanoBanana2",
             "GeminiNanoBanana2V2",
             "GeminiNode",
+            "GeminiNodeV2",
             "GenerateTracks",
             "GetICLoRAParameters",
             "GetImageSize",
@@ -7897,6 +7894,7 @@
             "Load3D",
             "LoadAudio",
             "LoadBackgroundRemovalModel",
+            "LoadDA3Model",
             "LoadImage",
             "LoadImageDataSetFromFolder",
             "LoadImageMask",
@@ -7923,6 +7921,13 @@
             "LumaImageNode",
             "LumaImageNode2",
             "LumaImageToVideoNode",
+            "LumaRay32ExtendVideoNode",
+            "LumaRay32ImageToVideoNode",
+            "LumaRay32KeyframeNode",
+            "LumaRay32KeyframesToVideoNode",
+            "LumaRay32TextToVideoNode",
+            "LumaRay32VideoEditNode",
+            "LumaRay32VideoReframeNode",
             "LumaReferenceNode",
             "LumaVideoNode",
             "MagnificImageRelightNode",
@@ -8020,7 +8025,9 @@
             "Preview3DAdvanced",
             "PreviewAny",
             "PreviewAudio",
+            "PreviewGaussianSplat",
             "PreviewImage",
+            "PreviewPointCloud",
             "PrimitiveBoolean",
             "PrimitiveBoundingBox",
             "PrimitiveFloat",
@@ -8077,6 +8084,9 @@
             "Rodin3D_Regular",
             "Rodin3D_Sketch",
             "Rodin3D_Smooth",
+            "RunwayAleph2KeyframeNode",
+            "RunwayAleph2PromptImageNode",
+            "RunwayAleph2VideoToVideoNode",
             "RunwayFirstLastFrameNode",
             "RunwayImageToVideoNodeGen3a",
             "RunwayImageToVideoNodeGen4",
@@ -8085,6 +8095,7 @@
             "SAM3_TrackPreview",
             "SAM3_TrackToMask",
             "SAM3_VideoTrack",
+            "SCAIL2ColoredMask",
             "SDPoseDrawKeypoints",
             "SDPoseFaceBBoxes",
             "SDPoseKeypointExtractor",
@@ -8114,6 +8125,7 @@
             "SaveAnimatedPNG",
             "SaveAnimatedWEBP",
             "SaveAudio",
+            "SaveAudioAdvanced",
             "SaveAudioMP3",
             "SaveAudioOpus",
             "SaveGLB",
@@ -8237,6 +8249,7 @@
             "TestWhileLoopOpen",
             "TextEncodeAceStepAudio",
             "TextEncodeAceStepAudio1.5",
+            "TextEncodeBooguEdit",
             "TextEncodeHunyuanVideo_ImageToVideo",
             "TextEncodeQwenImageEdit",
             "TextEncodeQwenImageEditPlus",
@@ -8256,6 +8269,7 @@
             "TripleCLIPLoader",
             "TripoConversionNode",
             "TripoImageToModelNode",
+            "TripoImportModelNode",
             "TripoMultiviewToModelNode",
             "TripoP1ImageToModelNode",
             "TripoP1MultiviewToModelNode",
@@ -11470,9 +11484,17 @@
     ],
     "https://github.com/lfelipegg/lfgg_custom_nodes_comfyui": [
         [
+            "Example",
+            "LfggImageBatchSelect",
             "LfggImageResolutionByRatio",
             "LfggLatentSizeByRatio",
-            "LfggPixelBudgetLatentSize"
+            "LfggLoraLoaderByPath",
+            "LfggModelNameFromModel",
+            "LfggPixelBudgetLatentSize",
+            "LfggPromptLibrary",
+            "LfggPromptWildcard",
+            "LfggSaveImageDynamic",
+            "vue-basic"
         ],
         {
             "title_aux": "lfgg_custom_nodes_comfyui [WIP]"
@@ -12575,13 +12597,16 @@
             "ApplyLoraStack",
             "AutogrowNode",
             "CLIPTextEncodeWithCutoff",
+            "CheckNotNull",
             "CollectModelNtxdata",
+            "ComplexPrompt",
             "ConvertLoraStackToString",
             "ConvertLoraStringToStack",
             "CreateImageLatent",
             "DictGet",
             "DictSet",
             "DictSetMulti",
+            "DictSetMultipleStrings",
             "DownloadModelsList",
             "DynamicComboNode",
             "DynamicTwinNode",
@@ -12590,6 +12615,7 @@
             "GenerationDataMaxSize",
             "GenerationDataSet",
             "ImageGridNode",
+            "IsNull",
             "ListCount",
             "ListGet",
             "ListSet",
@@ -12597,13 +12623,16 @@
             "LoadCharacterInfo",
             "LoadCheckpointInfo",
             "LoadCustomVae",
+            "LoadPrompt",
             "LoraStack",
             "MergeLoraStacks",
             "PipeBase",
+            "PipeCustom",
             "PromptChainer",
             "ReplaceTextParameters",
             "RerouteBase",
             "SaveMultipleImages",
+            "SavePrompt",
             "SwitchAny",
             "SwitchNode",
             "TestNode"
@@ -12759,11 +12788,13 @@
             "ImageFormatConverter",
             "ImagesToPdf",
             "ImpactWildcardProcessorSeed",
+            "ImpactWildcardProcessorTitle",
             "LoRATagPowerLoaderExtended",
             "LoRATextDualInput",
             "LoraToCivitaiUrl",
             "LoraWildcardGenerator",
             "LoraWildcardGeneratorV2",
+            "LoraWildcardGeneratorV3",
             "RepeatTextLines",
             "SDPromptSaverWithCompression",
             "SeedStepN",
@@ -13389,12 +13420,16 @@
             "Add Watermark Image [Eclipse]",
             "Any Dual-Switch Purge [Eclipse]",
             "Any Dual-Switch [Eclipse]",
+            "Any Multi-Switch Lazy Purge [Eclipse]",
+            "Any Multi-Switch Lazy [Eclipse]",
             "Any Multi-Switch Purge [Eclipse]",
             "Any Multi-Switch [Eclipse]",
             "Any Passer Purge [Eclipse]",
             "Any Passer [Eclipse]",
             "Audio Passer [Eclipse]",
             "Basic Pipe Passer [Eclipse]",
+            "Batch Interleave [Eclipse]",
+            "Batch Slice [Eclipse]",
             "Boolean Passer [Eclipse]",
             "Boolean [Eclipse]",
             "CLIP Loader [Eclipse]",
@@ -13436,6 +13471,7 @@
             "IF A Else B Fallback [Eclipse]",
             "IF A Else B [Eclipse]",
             "IO Checkpoint Loader [Eclipse]",
+            "IO Checkpoint Loader v2 [Eclipse]",
             "IO Load Image [Eclipse]",
             "Image Align Size [Eclipse]",
             "Image Batch Extend With Overlap [Eclipse]",
@@ -13448,6 +13484,7 @@
             "Image Rescale [Eclipse]",
             "Image Resize [Eclipse]",
             "Image Resolution [Eclipse]",
+            "Image Selector [Eclipse]",
             "Image Soften [Eclipse]",
             "Image Upscale With Model [Eclipse]",
             "Image with FX [Eclipse]",
@@ -13459,6 +13496,7 @@
             "Keep Calculator [Eclipse]",
             "Latent Passer [Eclipse]",
             "Load Audio [Eclipse]",
+            "Load Batch From Folder [Eclipse]",
             "Load Directory Settings [Eclipse]",
             "Load Image (Metadata Pipe) [Eclipse]",
             "Load Image (Pipe) [Eclipse]",
@@ -13553,6 +13591,7 @@
             "Smart Loader v2 [Eclipse]",
             "Smart Model Loader [Eclipse]",
             "Smart Model Loader [SML]",
+            "Smart Model Loader v2 [Eclipse]",
             "Smart Prompt [Eclipse]",
             "Smart Prompt v2 [Eclipse]",
             "Smart Sampler Settings [Eclipse]",
@@ -13573,11 +13612,13 @@
             "UnetLoaderGGUF",
             "UnetLoaderGGUFAdvanced",
             "Universal Block Swap [Eclipse]",
+            "VAE Loader Video+Audio [Eclipse]",
             "VAE Loader [Eclipse]",
             "VAE Passer [Eclipse]",
             "VC-Filename Generator I [Eclipse]",
             "VC-Filename Generator II [Eclipse]",
             "VRAM Cleanup [Eclipse]",
+            "Video Frame Consistency [Eclipse]",
             "Video Resolution [Eclipse]",
             "WAN Model Passer [Eclipse]",
             "WanVideo Setup [Eclipse]",
@@ -14451,6 +14492,7 @@
             "InputText",
             "OneMScale",
             "ResFinder",
+            "SDXLResFinder",
             "SSchlTextEncoder",
             "ShowText",
             "Switch",
@@ -14505,6 +14547,7 @@
             "JsonPromptToTextPromptConverter",
             "JsonSerializeObject",
             "LlamaCppTextGenerator",
+            "LlamaPresetLoader",
             "Logger",
             "LoraLoaderExtended",
             "LoraLoaderExtendedBatch",
@@ -16252,6 +16295,7 @@
             "JsonReaderZV",
             "JsonToSrtConverterZV",
             "LineNumberGeneratorZV",
+            "LoadAudioFromDirZV",
             "LoadImageFromDirZV",
             "LoadImageFromUrlZV",
             "LoadTxtFromDirZV",
@@ -16321,7 +16365,9 @@
     "https://github.com/zyquon/ComfyUI-Stash": [
         [
             "StashImage",
-            "StashNode"
+            "StashNode",
+            "VRFaceRectify",
+            "VRFaceUnrectify"
         ],
         {
             "title_aux": "ComfyUI Stash"
