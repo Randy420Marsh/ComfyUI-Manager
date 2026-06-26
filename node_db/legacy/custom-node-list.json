@@ -1,6 +1,37 @@
 {
     "custom_nodes": [
         {
+            "author": "jp0215",
+            "title": "comfyUI_padding-resize_node [REMOVED]",
+            "reference": "https://github.com/jp0215/comfyUI_padding-resize_node",
+            "files": [
+                "https://raw.githubusercontent.com/jp0215/comfyUI_padding-resize_node/main/PaddingNode.py",
+                "https://raw.githubusercontent.com/jp0215/comfyUI_padding-resize_node/main/ResizeNode.py"
+            ],
+            "install_type": "copy",
+            "description": "Padding image to 8x: input image and mask, if the side length is not an integer multiple of 8, expand the side length to the smallest multiple of 8 greater than the original side length. Output padding image and mask. Resize to the origin: input the generated image and the original image, crop the generated image to the size of the original image, output the cropped image."
+        },
+        {
+            "author": "bnwa",
+            "title": "Comfy Combos [REMOVED]",
+            "reference": "https://github.com/bnwa/comfy_combos",
+            "files": [
+                "https://github.com/bnwa/comfy_combos"
+            ],
+            "install_type": "git-clone",
+            "description": "Dropdown selectors for ComfyUI"
+        },
+        {
+            "author": "wzyfromhust",
+            "title": "ComfyUI_SAM2UltraV2 [REMOVED]",
+            "reference": "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2",
+            "files": [
+                "https://github.com/wzyfromhust/ComfyUI_SAM2UltraV2"
+            ],
+            "install_type": "git-clone",
+            "description": "A fully modular and high-performance implementation of SAM2 (Segment Anything Model 2) for ComfyUI with dual-prompt support, negative point sampling, and upper body segmentation."
+        },
+        {
             "author": "dandancow874",
             "title": "ComfyUI-LMStudio-Controller [REMOVED]",
             "reference": "https://github.com/dandancow874/ComfyUI-LMStudio-Controller",
