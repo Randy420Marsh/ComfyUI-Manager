@@ -1,6 +1,107 @@
 {
     "custom_nodes": [
         {
+            "author": "aimoviestudio",
+            "title": "ComfyUI Iterator Nodes",
+            "reference": "https://github.com/AIMovieStudio/comfyui-iterator",
+            "files": [
+                "https://github.com/AIMovieStudio/comfyui-iterator"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI nodes for iterating over files (images, text) in directories."
+        },
+        {
+            "author": "nova452",
+            "title": "ComfyUI-Conditioning-Rebalance",
+            "reference": "https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance",
+            "files": [
+                "https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance"
+            ],
+            "install_type": "git-clone",
+            "description": "Conditioning optimizer nodes with per layer weighting that offers IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model."
+        },
+        {
+            "author": "niknah",
+            "title": "MiniT2I",
+            "reference": "https://github.com/niknah/MiniT2I-ComfyUI",
+            "files": [
+                "https://github.com/niknah/MiniT2I-ComfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "MiniT2i for ComfyUI"
+        },
+        {
+            "author": "bradsec",
+            "title": "ComfyUI_LLMSetRole",
+            "reference": "https://github.com/bradsec/ComfyUI_LLMSetRole",
+            "files": [
+                "https://github.com/bradsec/ComfyUI_LLMSetRole"
+            ],
+            "install_type": "git-clone",
+            "description": "Pick an LLM role (system prompt) from a dropdown and output it as a STRING for an LLM node's system_prompt. Modes: fixed, increment, or random over a start..end slice, with index/seed control_after_generate to step roles across a batch. Roles are plain Markdown files in roles/; add a .md file and restart to add a role. Node name: Set Role. Located under Add Node > LLM."
+        },
+        {
+            "author": "nynxz",
+            "title": "ComfyUI JoyAI",
+            "reference": "https://github.com/Nynxz/ComfyUI-JoyAI",
+            "files": [
+                "https://github.com/Nynxz/ComfyUI-JoyAI"
+            ],
+            "install_type": "git-clone",
+            "description": "JoyAI-Image-Edit (16B MMDiT + Qwen3-VL-8B) instruction image editing for ComfyUI."
+        },
+        {
+            "author": "kwokkakiu233",
+            "title": "LoRA Txt Loader",
+            "reference": "https://github.com/kwokkakiu233/comfyui-lora-txt-loader",
+            "files": [
+                "https://github.com/kwokkakiu233/comfyui-lora-txt-loader"
+            ],
+            "install_type": "git-clone",
+            "description": "Automatically loads trigger words from a .txt file with the same name as the LoRA. Supports offline use and custom-trained models."
+        },
+        {
+            "author": "verias",
+            "title": "ComfyUI Body Decal",
+            "reference": "https://github.com/verias/comfyui-body-decal",
+            "files": [
+                "https://github.com/verias/comfyui-body-decal"
+            ],
+            "install_type": "git-clone",
+            "description": "Pose-aware decal placement, projection, masking, displacement, and compositing tools for ComfyUI."
+        },
+        {
+            "author": "DemonGatanjieu",
+            "title": "Anomalous Model Browser",
+            "reference": "https://github.com/DemonGatanjieu/Anomalous_Model_Browser",
+            "files": [
+                "https://github.com/DemonGatanjieu/Anomalous_Model_Browser"
+            ],
+            "install_type": "git-clone",
+            "description": "Auto-injects model hashes and auto-fixes missing nodes or renamed models paths when sharing workflows.",
+            "nodename_pattern": ".*"
+        },
+        {
+            "author": "Pikselkroken",
+            "title": "ComfyUI-PixlStash",
+            "reference": "https://github.com/Pikselkroken/ComfyUI-PixlStash",
+            "files": [
+                "https://github.com/Pikselkroken/ComfyUI-PixlStash"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes for loading and saving images to a PixlStash vault."
+        },
+        {
+            "author": "SencneS",
+            "title": "Excel Styles Loader",
+            "reference": "https://github.com/SencneS/ComfyUI-ExcelStylesLoader",
+            "files": [
+                "https://github.com/SencneS/ComfyUI-ExcelStylesLoader"
+            ],
+            "install_type": "git-clone",
+            "description": "A dynamic ComfyUI custom node that reads prompts from individual sheets/tabs within a local Excel (.xlsx) workbook."
+        },
+        {
             "author": "smthemex",
             "title": "Nine_Image_Compare",
             "reference": "https://github.com/smthemex/Nine_Image_Compare",
